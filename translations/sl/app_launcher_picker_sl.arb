@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "launcherNoneHelp": "Še nobene. Izberite aplikacije, ki jih ponuja zaganjalnik.",
+  "launcherNone": "Še nobene",
+  "launcherListFailed": "Seznama aplikacij ni bilo mogoče pridobiti",
+  "launcherListError": "Seznama aplikacij ni bilo mogoče pridobiti: {error}",
+  "launcherListingFailed": "pridobivanje seznama ni uspelo",
+  "launcherEmpty": "Ni najdenih aplikacij, ki jih je mogoče zagnati."
+}

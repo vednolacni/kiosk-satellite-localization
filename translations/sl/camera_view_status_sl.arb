@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "cameraViewerTitle": "Pogled kamer",
+  "cameraViewerConnecting": "Povezovanje …",
+  "cameraViewerReconnecting": "Vnovično povezovanje …",
+  "cameraViewerTrying": "Poskus s protokolom {transport} …",
+  "cameraViewerCannotDecode": "Ta naprava ne podpira dekodiranja kodeka {codec}",
+  "cameraViewerCannotPlay": "Ta naprava ne more predvajati pretokov {transport}",
+  "cameraViewerCannotDecodeStream": "Ta naprava ne more dekodirati tega pretoka",
+  "cameraViewerHaRetry": "Home Assistant ni dosegljiv. Nov poskus čez {seconds} s",
+  "cameraViewerServerRetry": "Strežnik kamer ni dosegljiv. Nov poskus čez {seconds} s",
+  "cameraViewerConnectionRetry": "Povezava ni uspela. Nov poskus čez {seconds} s",
+  "cameraViewerStartRetry": "Strežnik kamer ni mogel zagnati tega pretoka. Nov poskus …",
+  "cameraViewerStartDelayedRetry": "Strežnik kamer ni mogel zagnati tega pretoka. Nov poskus čez {seconds} s",
+  "cameraViewerMissingRetry": "Pretoka ni na strežniku kamer. Nov poskus čez {seconds} s",
+  "cameraViewerLoginRetry": "Strežnik kamer je zavrnil prijavo. Nov poskus čez {seconds} s",
+  "cameraViewerMissing": "Pretoka ni na strežniku Go2RTC"
+}

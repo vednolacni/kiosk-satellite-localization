@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "dlnaCannotDecode": "Ta naprava ne more dekodirati tega videoposnetka.",
+  "dlnaCannotRead": "Te datoteke ni bilo mogoče prebrati.",
+  "dlnaCannotPlay": "Te vsebine ni bilo mogoče predvajati.",
+  "dlnaSeeLogs": "Za podrobnosti glejte dnevnike aplikacije",
+  "dlnaLoading": "Nalaganje vsebine",
+  "dlnaImageFailed": "Te slike ni bilo mogoče prikazati.",
+  "dlnaStop": "Ustavi predvajanje"
+}

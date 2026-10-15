@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "androidServiceChannelHelp": "Prikazano, medtem ko storitev Kiosk Satellite ohranja aplikacijo v delovanju, tudi ko je zaslon izklopljen ali je odprta druga aplikacija.",
+  "androidServiceListening": "posluša aktivacijsko besedo",
+  "androidServiceRtspAudio": "zvok mikrofona RTSP je omogočen",
+  "androidServiceEsphome": "deluje kot strežnik ESPHome",
+  "androidServiceBluetooth": "posreduje naprave Bluetooth",
+  "androidServiceCamera": "spremlja kamero",
+  "androidServiceLocation": "sporoča lokacijo",
+  "androidServiceRemote": "omogoča oddaljeno skrbništvo",
+  "androidServiceKiosk": "varuje kioskni način",
+  "androidServiceSessions": "ohranja povezavo s sistemom Home Assistant"
+}

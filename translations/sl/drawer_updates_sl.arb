@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "drawerVersion": "Različica {version}",
+  "drawerUpdateAvailable": "Na voljo je posodobitev",
+  "drawerUpdateInstall": "Različica {version} · dotaknite se za namestitev",
+  "drawerUpdateChecking": "Preverjanje posodobitev …",
+  "drawerUpdateCurrent": "Posodobljeno",
+  "drawerUpdateCurrentHelp": "Uporabljate najnovejšo različico.",
+  "drawerUpdateCheckFailed": "Preverjanje posodobitev ni uspelo",
+  "drawerUpdateOffline": "Ali je naprava povezana z internetom?",
+  "drawerUpdateTo": "Posodobi na različico {version}",
+  "drawerUpdateInstructions": "Prenos se začne, ko se dotaknete gumba »Posodobi«. Android vas bo prosil za potrditev namestitve.",
+  "drawerUpdateRelaunch": "Brez dovoljenja »Prikaz čez druge aplikacije« se aplikacija po posodobitvi ne more znova odpreti.",
+  "drawerUpdate": "Posodobi",
+  "drawerUpdateDownloading": "Prenašanje posodobitve",
+  "drawerUpdateStarting": "Pripravljanje …",
+  "drawerUpdateFailed": "Posodobitev ni uspela",
+  "drawerUpdates": "Posodobitve",
+  "drawerNoReleaseNotes": "Ni opomb ob izdaji."
+}

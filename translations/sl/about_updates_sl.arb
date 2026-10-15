@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "aboutCheckNow": "Preveri posodobitve zdaj",
+  "aboutChecking": "Preverjanje …",
+  "aboutCheckFailed": "Preverjanje posodobitev ni uspelo. Ali naprava lahko doseže GitHub?",
+  "aboutOverlayMissing": "Manjka dovoljenje »Prikaz čez druge aplikacije«",
+  "aboutOverlayHelp": "Brez njega se aplikacija po posodobitvi ne more znova odpreti. Zaslon za odobritev se prikaže na tablici.",
+  "aboutDownloadProgress": "Prenašanje … {percent} %",
+  "aboutDownloadFailed": "Posodobitev ni uspela: {error}",
+  "aboutAlreadyCurrent": "Že posodobljeno",
+  "aboutInstallHelp": "Prenos poteka na tablici; namestitev morate potrditi na zaslonu tablice."
+}

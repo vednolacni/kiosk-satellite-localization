@@ -1,0 +1,5 @@
+{
+  "@@locale": "sl",
+  "launcherErrorAndroidOnly": "seznam aplikacij je na voljo samo v Androidu",
+  "launcherErrorListDetail": "seznama aplikacij ni bilo mogoče pridobiti: {error}"
+}
