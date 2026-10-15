@@ -1,0 +1,23 @@
+{
+  "@@locale": "sl",
+  "settingAnnouncementsEnabledTitle": "Omogoči razglase",
+  "settingAnnouncementsEnabledDescription": "Predvaja razglase, ki jih Home Assistant pošlje z dejanjem announce.",
+  "esphomeTtsSection": "Pretvorba besedila v govor",
+  "settingAnnouncementsTtsEngineTitle": "Mehanizem za pretvorbo besedila v govor",
+  "settingAnnouncementsTtsEngineDescription": "Entiteta Home Assistant za pretvorbo besedila v govor, ki izgovarja razglase.",
+  "settingAnnouncementsTtsLanguageTitle": "Jezik",
+  "settingAnnouncementsTtsLanguageDescription": "Jezik, v katerem se izgovarjajo razglasi.",
+  "settingAnnouncementsTtsVoiceTitle": "Glas",
+  "settingAnnouncementsTtsVoiceDescription": "Glas, ki izgovarja razglase.",
+  "esphomeTtsFirst": "Prvi razpoložljivi",
+  "esphomeTtsDefault": "Privzeto",
+  "settingAnnouncementsChimeTitle": "Najprej zvočni signal",
+  "settingAnnouncementsChimeDescription": "Pred razglasom predvaja zvočni signal.",
+  "settingAnnouncementsChimeFileTitle": "Zvok signala",
+  "settingAnnouncementsChimeFileDescription": "Predvaja se enako glasno kot razglas.",
+  "esphomeAnnouncements": "Razglasi",
+  "esphomeAnnouncementsHelp": "Izgovorjeni razglasi iz sistema Home Assistant",
+  "esphomeChime": "Zvočni signal",
+  "esphomeTtsUnavailable": "Home Assistant ni dosegljiv",
+  "esphomeTtsNoVoices": "Ni glasov za izbiro"
+}

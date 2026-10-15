@@ -14,7 +14,7 @@
   "pluginErrorManifestFile": "Neveljaven manifest kiosk-satellite-plugin.json",
   "pluginErrorIdVersion": "Neveljaven ID ali različica vtičnika",
   "pluginErrorChecksumFilename": "Neveljavna zgoščena vrednost izdaje ali ime datoteke paketa",
-  "pluginErrorGithubDigest": "Zgoščena vrednost izdaje se mora ujemati z izvlečkom SHA-256 datoteke izdaje na GitHubu",
+  "pluginErrorGithubDigest": "Zgoščena vrednost izdaje se mora ujemati z izvlečkom SHA-256 datoteke izdaje v storitvi GitHub",
   "pluginErrorTagRevision": "GitHub ni vrnil revizije oznake izdaje",
   "pluginErrorTrustAuthor": "Potrdite, da zaupate avtorju vtičnika",
   "pluginErrorPreviewExpired": "Ta predogled je potekel. Pred namestitvijo znova odprite predogled repozitorija.",
