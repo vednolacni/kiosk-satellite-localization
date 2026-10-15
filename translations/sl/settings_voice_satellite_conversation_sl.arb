@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingVoiceShowCommandTitle": "Pokaži, kaj ste rekli",
+  "settingVoiceShowCommandDescription": "Vaš ukaz nad odgovorom.",
+  "settingVoiceShowAnswerTitle": "Pokaži odgovor",
+  "settingVoiceShowAnswerDescription": "Odgovor med izgovarjanjem.",
+  "settingVoiceShowToolsTitle": "Pokaži uporabo orodij",
+  "settingVoiceShowToolsDescription": "Vrstica za vsako dejanje, ki ga izvede pomočnik.",
+  "settingVoiceHideSentimentTagsTitle": "Skrij oznake razpoloženja",
+  "settingVoiceHideSentimentTagsDescription": "Izpusti oznake, kot je [happy], ki jih dodajajo nekateri pomočniki.",
+  "settingVoiceAnswerLingerTitle": "Ohrani odgovor na zaslonu",
+  "settingVoiceAnswerLingerDescription": "Potem ko je odgovor izgovorjen.",
+  "settingVoiceResultsLingerTitle": "Ohrani rezultate na zaslonu",
+  "settingVoiceResultsLingerDescription": "Slike, vreme in drugi rezultati. Pri 0 ostanejo, dokler jih ne zaprete.",
+  "settingVoiceAnnouncementLingerTitle": "Čas prikaza razglasa",
+  "settingVoiceAnnouncementLingerDescription": "Potem ko je razglas izgovorjen."
+}
