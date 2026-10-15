@@ -1,0 +1,23 @@
+{
+  "@@locale": "sl",
+  "setupRemoteHeading": "Oddaljeno skrbništvo",
+  "setupTitle": "Nastavite\nKiosk Satellite",
+  "setupWelcomeLead": "To tablico spremenite v kiosk za Home Assistant. Nastavitev traja nekaj minut, ta čarovnik pa vas vodi skozi njo.",
+  "setupDeviceName": "Ime naprave",
+  "setupDeviceNameHelp": "Ime tega kioska v sistemu Home Assistant, v oddaljenem skrbništvu in v omrežju. Kadar koli ga lahko spremenite pod Nastavitve, Naprava.",
+  "setupEnableRemote": "Omogoči oddaljeno skrbništvo",
+  "setupEnableRemoteHelp": "Po nastavitvi upravljajte ta kiosk še naprej iz spletnega brskalnika, kjer je lepljenje dostopnega žetona Home Assistant veliko lažje.",
+  "setupRemotePassword": "Geslo za oddaljeno skrbništvo",
+  "setupRestoreHeading": "Obnovitev varnostne kopije",
+  "setupRestore": "Obnovi iz konfiguracijske datoteke",
+  "setupRestoreHelp": "Uvozite konfiguracijo, izvoženo iz aplikacije Kiosk Satellite, in preskočite preostanek tega čarovnika. Prenesejo se nastavitve, nadzorna plošča in prijava.",
+  "setupServicePermissions": "Priporočena dovoljenja za storitev",
+  "setupPasswordShort": "Geslo je prekratko",
+  "setupPasswordMinimum": "Uporabite vsaj 4 znake.",
+  "setupRemoteAddress": "To nastavitev lahko nadaljujete na daljavo v spletnem brskalniku na naslovu {address}, ne glede na to, ali je zgornje stikalo vklopljeno.",
+  "remoteWelcomeTitle": "Dobrodošli v aplikaciji Kiosk Satellite",
+  "remoteWelcomePassword": "Ta tablica čaka na nastavitev. Najprej to oddaljeno skrbništvo zaščitite z geslom.",
+  "remoteWelcomeReady": "Ta tablica čaka na nastavitev. Geslo za oddaljeno skrbništvo je že nastavljeno; če ga želite spremeniti, tukaj vnesite novo.",
+  "remoteInitialPassword": "Skrbniško geslo (vsaj 4 znaki)",
+  "remoteNewPassword": "Novo skrbniško geslo (pustite prazno, da ohranite trenutno)"
+}

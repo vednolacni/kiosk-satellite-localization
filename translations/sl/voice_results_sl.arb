@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "voiceFinancialOpen": "Otvoritev: {value}",
+  "voiceFinancialHigh": "Najvišja: {value}",
+  "voiceFinancialLow": "Najnižja: {value}",
+  "voiceFinancialHigh24h": "Najvišja (24 h): {value}",
+  "voiceFinancialLow24h": "Najnižja (24 h): {value}",
+  "voiceFinancialMarketCap": "Tržna kap.: {value}"
+}

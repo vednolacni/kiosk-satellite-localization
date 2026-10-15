@@ -1,0 +1,6 @@
+{
+  "@@locale": "sl",
+  "setupServiceHelp": "Ohranja aplikacijo dejavno, ko je zaslon izklopljen ali je v ospredju druga aplikacija, da povezava s sistemom Home Assistant in druge funkcije, kot sta zaznavanje gibanja in posrednik Bluetooth, ostanejo dejavne. Spodnja dovoljenja so neobvezna, a priporočena: vsako ji pomaga delovati tudi pri izklopljenem zaslonu.",
+  "setupBatteryMissing": "Android lahko aplikacijo pri izklopljenem zaslonu začasno ustavi in s tem prekine povezavo s sistemom Home Assistant.",
+  "setupOverlayMissing": "Brez tega storitev po zrušitvi ne more znova zagnati kioska."
+}

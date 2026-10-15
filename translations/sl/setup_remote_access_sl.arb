@@ -1,0 +1,8 @@
+{
+  "@@locale": "sl",
+  "setupPasswordFirst": "Najprej nastavite skrbniško geslo",
+  "setupPasswordBeforeImport": "Zgoraj vnesite skrbniško geslo (vsaj 4 znaki), nato uvozite varnostno kopijo.",
+  "setupPasswordFailed": "Gesla ni bilo mogoče nastaviti",
+  "setupPasswordExists": "Geslo je že nastavljeno",
+  "setupPasswordExistsHelp": "Za nadaljevanje se prijavite z geslom, nastavljenim na tablici. Vnovično nalaganje …"
+}
