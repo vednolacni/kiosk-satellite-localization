@@ -742,3 +742,12 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Regenerate | Ustvari znova | B09 | |
 | N fast taps, holding the last | N hitrih dotikov, zadnji pridržan | B09 | |
 | PIN (v stavku) | koda PIN | B09 | brez sklanjanja kratice »PIN-a« |
+| Duck volume | Zmanjšaj glasnost | B10 | |
+| Compact / Large with controls | Kompaktno / Veliko s kontrolniki | B10 | |
+| Layout mode: Vertical / Horizontal / Album art only | Način postavitve: Navpično / Vodoravno / Samo naslovnica | B10 | |
+| Override (nastavitev) | Preglasi | B10 | |
+| Auth token | Žeton za preverjanje pristnosti | B10 | |
+| Fallback to X | Nadomestno uporabi X | B10 | |
+| Last view / Chosen view | Zadnji pogled / Izbrani pogled | B10 | |
+| sample rate / bit depth | frekvenca vzorčenja / bitna globina | B10 | |
+| Remote-only | samo na daljavo | B10 | |

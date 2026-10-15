@@ -124,3 +124,6 @@ settings_home_assistant_optimizations	haThreshold	preoblikovano zaradi števila	
 settings_home_assistant_optimizations	haWatching	preoblikovano zaradi števila	»Watching {count} entities on this view.«
 settings_home_assistant_optimizations	settingDisableSuspendDescription	drugo	[D13] ime nastavitve v HA (»Suspend background connections«) prevedeno; preveri ime v slovenskem HA
 settings_home_assistant_setup	settingHaTokenDescription	drugo	[D13] pot v HA prevedena (Profile → Security)
+settings_media_player_general	mediaLocalOffline	placeholder v sklonu	»predvajalnik {player}«
+settings_media_player_music_assistant	mediaUnreachable	placeholder v sklonu	»Gostitelj {host}«
+settings_media_player_music_assistant	settingSendspinMaTokenDescription	drugo	pot v vmesniku Music Assistant (Settings, Users) prevedena kot pri D13

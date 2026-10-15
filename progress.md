@@ -29,3 +29,4 @@
 | B07 | 10 datotek, 270 sporočil (settings_device_remote_administration do settings_esphome_announcements) | `d52f499` | OK, check.py 0 težav | popravek GitHub sklona v plugins_repository_errors |
 | B08 | 14 datotek, 223 sporočil (settings_esphome_bluetooth do settings_home_assistant_rotation) | `ea5c999` | OK, check.py 0 težav | ime HA nastavitve (D13) označeno |
 | B09 | 12 datotek, 218 sporočil (settings_home_assistant_setup do settings_kiosk_permissions) | `ff29b9e` | OK, check.py 0 težav | pot v HA (D13) označena |
+| B10 | 11 datotek, 171 sporočil (settings_lockdown_general do settings_media_player_sendspin) | `9a50012` | OK, check.py 0 težav | pot v vmesniku Music Assistant prevedena (O) |
