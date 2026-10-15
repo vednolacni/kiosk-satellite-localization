@@ -36,3 +36,13 @@
 | B14 | 10 datotek, 302 sporočil (settings_voice_satellite_appearance do settings_voice_satellite_tester) | `e72436c` | OK, check.py 0 težav | pot v HA (D13) in stran »Home Assistant Setup« označeni |
 | B15 | 10 datotek, 214 sporočil (settings_voice_satellite_timers do setup_permissions) | `d229103` | OK, check.py 0 težav | pot v HA za dolgotrajne žetone (D13) označena |
 | B16 | 10 datotek, 116 sporočil (setup_qr_scanner do voice_timers) | `103da45` | OK, check.py 0 težav | zadnja serija; finančni izrazi označeni |
+
+Faza 2 končana 2026-10-15: 3951/3951 sporočil v 198 datotekah, 187 zastavic (negotovo 38, preoblikovano zaradi števila 65, placeholder v sklonu 36, drugo 48).
+
+## Faza 3: preverjanje (2026-10-15)
+- `tools/verify.py` (neodvisen od check.py): 3951 sporočil, 0 napak, 33 upravičenih opozoril (angleški `...` proti `…`, pika zunaj »…«, imena in kratice enake angleščini).
+- `tools/terms.py` in primerjava enakih angleških nizov: brez sklanjanja imen izdelkov in brez zavrnjenih različic; poenotena »Not available on this device.« in »Search settings« (commit `a142109`).
+- `git fetch upstream`: upstream/main ostaja `ed3d5e0`. `catalog.py validate --base-ref ed3d5e0 --head-ref a142109`: `sl: new language; 0 missing; 0 source changes need review`, izhod 0. `catalog.py validate`: izhod 0.
+- Avtorji commitov upstream/main..sl: samo vednolacni; Co-Authored-By: 0; spremenjene datoteke: samo `translations/sl/*_sl.arb` (198).
+- `sl-review.xlsx` (`tools/review_xlsx.py`): veja `sl-review` (commit `5918dbd`) in poslana uporabniku.
+- PR znotraj forka `sl` → `main`: glej spodaj.
