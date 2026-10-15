@@ -703,3 +703,12 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | display groups | skupine prikaza | B04 | |
 | boolean / numeric / RGB hex color | logična / številska / šestnajstiška barva RGB | B04 | |
 | WARNING: | OPOZORILO: | B04 | |
+| Let alarms take over | Prikaži alarme na ohranjevalniku | B05 | |
+| Snooze length / Sunrise length / Ease in over | Trajanje dremeža / Trajanje sončnega vzhoda / Trajanje povečevanja glasnosti | B05 | |
+| Return after (seconds) | Vrnitev po (v sekundah) | B05 | vzorec za oznake »(seconds)« |
+| Log access | Dostop do dnevnikov | B05 | |
+| encoder / listener | kodirnik / poslušalnik | B05 | |
+| Still / Live (posnetek zaslona) | Statično / V živo | B05 | |
+| Temp | Temp. | B05 | |
+| Running - N features | Deluje (funkcije: N) | B05 | vezaj zamenjan z oklepajem |
+| grant dialog | pogovorno okno za odobritev | B05 | |

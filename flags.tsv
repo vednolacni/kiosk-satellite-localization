@@ -78,3 +78,17 @@ remote_connection	remoteUpdatedHelp	preoblikovano zaradi števila	»in {seconds}
 remote_overview_attention	overviewOutdatedMany	preoblikovano zaradi števila	»{count} followers run another release«
 remote_overview_attention	overviewSyncWaiting	negotovo	{version} je lahko tudi »ta izdaja« (overviewThisRelease), zato dvopičje
 remote_overview_attention	overviewThisRelease	negotovo	verjetno se vstavi v overviewSyncWaiting kot {version}
+remote_overview_health	overviewFilterDisabled	preoblikovano zaradi števila	»view uses {count} entities«
+remote_overview_health	overviewNativeUnavailable	placeholder v sklonu	»za mehanizem {engine}«
+remote_overview_health	overviewRunningMany	preoblikovano zaradi števila	»Running - {count} features«; vezaj zamenjan z oklepajem
+remote_overview_health	overviewRunningOne	drugo	»Running - 1 feature«: vezaj zamenjan z oklepajem
+remote_overview_health	overviewWatchingMany	preoblikovano zaradi števila	»Watching {count} entities«
+remote_overview_screen	overviewTaken	negotovo	{age} je verjetno relativni čas (»pravkar«, »pred 2 min«)
+screensaver_playback_notices	screensaverFolderEmpty	placeholder v sklonu	»v mapi {folder}«
+screensaver_playback_notices	screensaverFolderUnreadable	placeholder v sklonu	»mape {folder}«
+settings_camera_snapshot	cameraDaysAgo	preoblikovano zaradi števila	
+settings_camera_snapshot	cameraHoursAgo	preoblikovano zaradi števila	
+settings_camera_snapshot	cameraMinutesAgo	preoblikovano zaradi števila	
+settings_camera_snapshot	cameraSecondsAgo	preoblikovano zaradi števila	
+settings_camera_status	cameraViewers	preoblikovano zaradi števila	»{count} connected viewers«
+settings_camera_streaming	cameraRejectedCount	preoblikovano zaradi števila	»{count} camera sizes are excluded«

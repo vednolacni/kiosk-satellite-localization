@@ -24,3 +24,4 @@
 | B02 | 15 datotek, 347 sporočil (entity_picker do gesture_outcomes) | glej `git log sl` | OK, check.py 0 težav | 4 negotova mesta v floti (N) |
 | B03 | 15 datotek, 231 sporočil (gesture_trigger_editor do plugins_actions) | `a0eb483` | OK, check.py 0 težav | zvočne oznake Hi-Res in kHz enake angleščini (O) |
 | B04 | 14 datotek, 254 sporočil (plugins_general do remote_overview_controls) | `b31e358` | OK, check.py 0 težav | »asset« = sredstvo (N); »this release« v sestavi (N) |
+| B05 | 14 datotek, 255 sporočil (remote_overview_health do settings_camera_streaming) | `4a68f59` | OK, check.py 0 težav | relativni časi in štetja preoblikovani (S) |
