@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "settingFacePreviewTitle": "Pokaži predogled kamere",
+  "settingFacePreviewDescription": "Ko obraz zbudi kiosk, za nekaj sekund v kotu zaslona prikaže majhen okrogel predogled kamere v živo.",
+  "settingFacePreviewSecondsTitle": "Trajanje predogleda",
+  "settingFacePreviewSecondsDescription": "Kako dolgo predogled ostane na zaslonu.",
+  "settingFacePreviewScaleTitle": "Velikost predogleda",
+  "settingFacePreviewScaleDescription": "Prilagodi velikost predogleda, da se bolje prilega vašemu zaslonu.",
+  "settingFacePreviewPositionTitle": "Položaj predogleda",
+  "settingFacePreviewPositionDescription": "V katerem kotu je predogled.",
+  "screensaverDetectionPreviewSection": "Predogled kamere"
+}

@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "settingMediaVolumeTitle": "Glasnost medijev",
+  "settingMediaVolumeDescription": "Glasba in video se predvajata s tem deležem glavne glasnosti. Glasnost predvajalnika Sendspin v strežniku Music Assistant premakne ta drsnik.",
+  "settingAssistantVolumeTitle": "Glasnost pomočnika",
+  "settingAssistantVolumeDescription": "Glasovni odgovori in zvočni signali se predvajajo s tem deležem glavne glasnosti, neodvisno od glasnosti medijev.",
+  "settingIntercomVolumeTitle": "Glasnost interkoma",
+  "settingIntercomVolumeDescription": "Glas drugega kioska in razglasi se predvajajo s tem deležem glavne glasnosti.",
+  "screenAudioVolume": "Glasnost zvoka",
+  "screenAudioMasterVolume": "Glavna glasnost",
+  "screenAudioMasterHelp": "Glasnost naprave. Glasnosti medijev, interkoma in pomočnika so podrejene njej."
+}

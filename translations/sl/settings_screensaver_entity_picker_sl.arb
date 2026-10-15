@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "screensaverOverlayEntity": "Entiteta",
+  "screensaverOverlayNotSet": "Ni nastavljeno",
+  "screensaverOverlayName": "Ime",
+  "screensaverOverlayNameHelp": "Pustite prazno, da se uporabi ime iz sistema Home Assistant.",
+  "screensaverOverlayValue": "Prikazana vrednost",
+  "screensaverOverlayState": "Stanje",
+  "screensaverOverlayEntityRequired": "Izberite entiteto.",
+  "screensaverOverlaySearching": "Iskanje …",
+  "screensaverOverlayUnreachable": "Home Assistant ni dosegljiv",
+  "screensaverOverlayNoAnswer": "Naprava se ni odzvala."
+}
