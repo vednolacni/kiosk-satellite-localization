@@ -32,3 +32,4 @@
 | B10 | 11 datotek, 171 sporočil (settings_lockdown_general do settings_media_player_sendspin) | `9a50012` | OK, check.py 0 težav | pot v vmesniku Music Assistant prevedena (O) |
 | B11 | 12 datotek, 280 sporočil (settings_media_player_sonos do settings_screensaver_face_preview) | `41a3cd4` | OK, check.py 0 težav | ime Android nastavitve in »luč zaslona« označena |
 | B12 | 12 datotek, 285 sporočil (settings_screensaver_general do settings_screensaver_media_home_assistant) | `3502541` | OK, check.py 0 težav | oblika datuma LLLL-MM-DD (N) |
+| B13 | 13 datotek, 277 sporočil (settings_screensaver_media_local do settings_search_extras) | `724fedb` | OK, check.py 0 težav | pot v aplikaciji in »Občuti se kot« označena |

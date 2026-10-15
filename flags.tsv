@@ -143,3 +143,17 @@ settings_screensaver_immich_source	screensaverMediaItems	preoblikovano zaradi š
 settings_screensaver_media_camera	screensaverMediaCameras	preoblikovano zaradi števila	»{count} cameras«
 settings_screensaver_media_camera	screensaverMediaOneCamera	negotovo	predvidoma samo za {count} = 1
 settings_screensaver_media_gallery	screensaverMediaSelected	preoblikovano zaradi števila	»{count} selected«
+settings_screensaver_motion_detection	settingMotionEntityDescription	negotovo	occupancy = zasedenost (razred senzorja v HA), presence = prisotnost; drugje je Occupancy kot oznaka prevedeno »Prisotnost«
+settings_screensaver_person_detection	screensaverDetectionClear	negotovo	Clear kot stanje senzorja osebe (nikogar ni)
+settings_screensaver_person_detection	screensaverDetectionHoursAgo	preoblikovano zaradi števila	okrajšana enota
+settings_screensaver_person_detection	screensaverDetectionLastHeartbeat	drugo	{ago} je npr. »pred 5 s«, zato dvopičje namesto »Last heartbeat {ago}«
+settings_screensaver_person_detection	screensaverDetectionMinutesAgo	preoblikovano zaradi števila	okrajšana enota
+settings_screensaver_person_detection	screensaverDetectionSecondsAgo	preoblikovano zaradi števila	okrajšana enota namesto sklona po številu
+settings_screensaver_schedule	screensaverScreenOffNever	negotovo	»Screen off never« kot možnost v urniku
+settings_screensaver_schedule	screensaverSummaryMotionOn	drugo	vzorec »X: vklopljeno/izklopljeno« za vse povzetke urnika, da se pridevnik ne ujema s spolom
+settings_screensaver_weather_mood	screensaverWeatherMoodSelectEntity	drugo	pot v aplikaciji prevedena z imeni slovenskih strani
+settings_screensaver_widget_editor	screensaverOverlayClockNote	drugo	Digital Clock je slog ohranjevalnika z uro (»Digitalna ura«), Camera Streams je način
+settings_screensaver_widget_weather	screensaverOverlayFeelsLike	negotovo	oznaka stikala »Feels like«; glosar spremenjen iz »Občutek«
+settings_screensaver_widget_weather	screensaverWeatherFeelsLikeValue	negotovo	vrstica pod temperaturo; mora se ujemati z oznako v screensaverOverlayFeelsLikeOnlyHelp
+settings_search_extras	searchHaProxy	negotovo	»Serve a plain-http Home Assistant through a secure proxy« preoblikovano z vidika uporabnika
+settings_search_extras	searchMasterVolume	negotovo	»faders scale under« razumljeno kot: drsnika delujeta kot delež glavne glasnosti

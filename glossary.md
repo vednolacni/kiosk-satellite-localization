@@ -612,7 +612,7 @@ Oznaka *Android* ali *HA* pomeni izraz, ki ga uporabniki poznajo iz slovenskega 
 | Fog / Hail / Lightning / Lightning and rain | Megla / Toča / Strele / Strele in dež | |
 | Wind / Wind and clouds / Exceptional weather | Veter / Veter in oblaki / Izjemno vreme | |
 | Day / Night / Dawn/Dusk | Dan / Noč / Zora/mrak | |
-| Feels like / Forecast / Humidity / Wind speed / Visibility | Občutek / Napoved / Vlažnost / Hitrost vetra / Vidljivost | |
+| Feels like / Forecast / Humidity / Wind speed / Visibility | Občutena temperatura / Napoved / Vlažnost / Hitrost vetra / Vidljivost | B13: »Feels like {temperature}« = »Občuti se kot {temperature}« |
 | apparent temperature | občutena temperatura | |
 | font family / font weight | pisava / debelina pisave | |
 | Light / Regular / Medium / Bold / Black (debelina) | Tanka / Navadna / Srednja / Krepka / Najkrepkejša | |
@@ -764,3 +764,14 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | YYYY-MM-DD | LLLL-MM-DD | B12 | negotovo |
 | Anyone / No one / Any | Kdor koli / Nihče / Katera koli | B12 | |
 | Timeframe | Časovno obdobje | B12 | |
+| Feels like (oznaka) / Feels like {temperature} | Občutena temperatura / Občuti se kot {temperature} | B13 | **sprememba**: prej »Občutek« |
+| occupancy sensor (razred HA) | senzor zasedenosti | B13 | oznaka Occupancy na strani osebe ostane »Prisotnost« |
+| Clear (stanje senzorja) | Ni zaznano | B13 | |
+| Lightning flashes | Bliskanje | B13 | |
+| Background opacity | Neprosojnost ozadja | B13 | |
+| Time of day | Del dneva | B13 | |
+| Screen off never | Brez izklopa zaslona | B13 | |
+| Summary »X on / X off« | X: vklopljeno / X: izklopljeno | B13 | vzorec brez ujemanja v spolu |
+| Show titles (vremenska vrstica) | Pokaži nazive | B13 | |
+| grant (samostalnik) | dovoljenje | B13 | |
+| fader | drsnik | B13 | |
