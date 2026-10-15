@@ -775,3 +775,12 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Show titles (vremenska vrstica) | Pokaži nazive | B13 | |
 | grant (samostalnik) | dovoljenje | B13 | |
 | fader | drsnik | B13 | |
+| relay (omrežni) | posredovalni strežnik | B14 | proxy ostane »posrednik« |
+| bearer token | žeton Bearer | B14 | |
+| Reasoning: Minimal / Low / Medium / High / Extra high | Minimalna / Nizka / Srednja / Visoka / Zelo visoka | B14 | pridevniki k »stopnja« |
+| Home Assistant Setup (stran v aplikaciji, v besedilu) | nastavitve Home Assistant | B14 | **negotovo** |
+| Settings, Devices & services (HA, v besedilu) | Nastavitve, Naprave in storitve | B14 | [D13] |
+| uninstall from HACS | odstranite prek HACS | B14 | »Odmesti« ostane za aplikacije Android |
+| Migration steps (Save the settings …) | samostalniki: Shranjevanje nastavitev … | B14 | |
+| Run from the dashboard again | Vrni izvajanje na nadzorno ploščo | B14 | |
+| Learn more about + povezava | Več informacij: + povezava | B14 | |

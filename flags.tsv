@@ -157,3 +157,19 @@ settings_screensaver_widget_weather	screensaverOverlayFeelsLike	negotovo	oznaka 
 settings_screensaver_widget_weather	screensaverWeatherFeelsLikeValue	negotovo	vrstica pod temperaturo; mora se ujemati z oznako v screensaverOverlayFeelsLikeOnlyHelp
 settings_search_extras	searchHaProxy	negotovo	»Serve a plain-http Home Assistant through a secure proxy« preoblikovano z vidika uporabnika
 settings_search_extras	searchMasterVolume	negotovo	»faders scale under« razumljeno kot: drsnika delujeta kot delež glavne glasnosti
+settings_voice_satellite_appearance	voicePreviewAnswer	drugo	72° (Fahrenheit) prilagojeno na 22 °C, kot predlaga opis
+settings_voice_satellite_assistant	settingVoiceFollowupDelayTitle	negotovo	follow-up = nadaljevanje pogovora (v glosarju negotovo)
+settings_voice_satellite_assistant	voicePreferred	negotovo	možnost izbire cevovoda (prednostni cevovod v HA)
+settings_voice_satellite_general	voiceHaAddHint	drugo	[D13] pot v HA prevedena (Settings, Devices & services)
+settings_voice_satellite_general	voiceHaSelectsReloadHint	negotovo	»Assistant and Wake word selects« opisano kot izbiri, ne z imeni entitet; [D13] pot v HA prevedena
+settings_voice_satellite_migration	voiceCheckEsphomeBad	drugo	[D13] pot v HA prevedena (Settings, Devices & services)
+settings_voice_satellite_migration	voiceCheckHaBad	negotovo	»Home Assistant Setup« (stran v aplikaciji) = nastavitve Home Assistant
+settings_voice_satellite_migration	voiceMigrationStillPoint	placeholder v sklonu	»na satelit {satellite}«
+settings_voice_satellite_migration	voiceStepSave	drugo	koraki selitve kot samostalniki (Shranjevanje, Ustavitev, Začetek …), ker so prikazani kot potek
+settings_voice_satellite_realtime	settingVoiceRealtimeGeminiSearchTitle	drugo	enako angleščini, ime orodja Google
+settings_voice_satellite_realtime	settingVoiceRealtimeModelTitle	drugo	enako angleščini
+settings_voice_satellite_realtime	voiceRealtimeOption	drugo	enako angleščini [D15]
+settings_voice_satellite_setup	voiceLearnMore	negotovo	za besedilom sledi povezava voiceGithub; »Learn more about « preoblikovano v »Več informacij: «
+settings_voice_satellite_setup	voiceValidate	negotovo	»Home Assistant Setup« (stran v aplikaciji) = nastavitve Home Assistant
+settings_voice_satellite_tester	voiceLogConfidence	negotovo	conf = confidence, okrajšano »zaup.« (zaupanje)
+settings_voice_satellite_tester	voiceLogDistance	negotovo	ed = edit distance, okrajšano »razd.« (urejevalna razdalja)
