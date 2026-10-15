@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "settingLocationEnabledTitle": "Sporočaj lokacijo",
+  "settingLocationEnabledDescription": "Prebere položaj GPS in ga sistemu Home Assistant posreduje kot senzorje zemljepisne širine, dolžine, natančnosti, nadmorske višine in hitrosti. Vklop ali izklop znova registrira napravo ESPHome.",
+  "settingLocationIntervalTitle": "Interval posodabljanja",
+  "settingLocationIntervalDescription": "Sekunde med odčitki položaja.",
+  "esphomeGps": "Senzor GPS",
+  "esphomeGpsHelp": "Podatke senzorja GPS izpostavi sistemu Home Assistant",
+  "esphomeLocationOff": "Izklopljeno.",
+  "esphomeLocationWaiting": "Čakanje na prvo določitev položaja. Hladni zagon pod odprtim nebom lahko traja nekaj minut.",
+  "esphomeCoordinates": "Zadnje koordinate",
+  "esphomeLocationDenied": "Dovoljenje za lokacijo ni odobreno.",
+  "esphomeLocationAbsent": "Ni sprejemnika GPS.",
+  "esphomeLocationError": "GPS ni na voljo: {error}",
+  "esphomeLocationUnsupported": "Ni na voljo v tej napravi: nima sprejemnika GPS."
+}

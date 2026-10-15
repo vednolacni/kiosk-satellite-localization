@@ -1,0 +1,23 @@
+{
+  "@@locale": "sl",
+  "esphomeIdentityBthome": "Senzor BTHome",
+  "esphomeIdentityXiaomi": "Senzor Xiaomi",
+  "esphomeIdentityQingping": "Senzor Qingping",
+  "esphomeIdentityGoogleNest": "Naprava Google/Nest",
+  "esphomeIdentityEddystone": "Oddajnik Eddystone",
+  "esphomeIdentityGoogleFastPair": "Naprava Google Fast Pair",
+  "esphomeIdentityAppleFindMy": "Naprava Apple Find My",
+  "esphomeIdentityExposure": "Obvestilo o izpostavljenosti (telefon)",
+  "esphomeIdentityAugustYale": "Ključavnica August/Yale",
+  "esphomeIdentityAmazon": "Naprava Amazon",
+  "esphomeIdentityTile": "Sledilnik Tile",
+  "esphomeIdentityInput": "Vhodna naprava (daljinec/tipkovnica)",
+  "esphomeIdentityHeartRate": "Senzor srčnega utripa",
+  "esphomeIdentityEnvironmental": "Okoljski senzor",
+  "esphomeIdentityApple": "Naprava Apple",
+  "esphomeIdentityWindows": "Računalnik Windows",
+  "esphomeIdentitySamsung": "Naprava Samsung",
+  "esphomeIdentityGoogle": "Naprava Google",
+  "esphomeIdentityUnknown": "Neznana naprava",
+  "esphomeIdentityVendor": "Naprava {vendor}"
+}

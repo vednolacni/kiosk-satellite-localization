@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "esphomeNearby": "Naprave v bližini",
+  "esphomeNearbySearch": "Naprave Bluetooth, ki jih ta kiosk zazna, z imeni, kjer so znana.",
+  "esphomeNearbyEmpty": "Še nič ni zaznano.",
+  "esphomeNearbyWaiting": "Še nič ni zaznano. Naprave se prikažejo tukaj, ko posrednik začne iskati.",
+  "esphomeRotating": "(spremenljiv naslov)",
+  "esphomeNearbyCount": "Prikazanih je prvih {count} od {total}.",
+  "esphomeSlots": "Največje število hkrati povezanih naprav prek tega posrednika: {count}. Home Assistant nadaljnje naprave usmeri prek drugih posrednikov.",
+  "esphomeSecondsAgo": "pred {count} s",
+  "esphomeMinutesAgo": "pred {count} min",
+  "esphomeHoursAgo": "pred {count} h"
+}

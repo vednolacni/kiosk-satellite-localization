@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "esphomeLocation": "Lokacija",
+  "esphomeLocationSearch": "Dovoljenje za lokacijo, ki ga potrebujejo senzorji lokacije.",
+  "esphomeBluetoothSearch": "Dovoljenje »Naprave v bližini«, ki ga posrednik Bluetooth potrebuje za iskanje.",
+  "esphomeLocationMissing": "Brez tega sprejemnika GPS ni mogoče brati in senzorji lokacije ostanejo neznani.",
+  "esphomeLocationServicesOff": "Lokacija je v nastavitvah naprave izklopljena, zato sprejemnik ne posreduje ničesar.",
+  "esphomeLocationGranted": "Senzorji lokacije lahko berejo sprejemnik GPS.",
+  "esphomeBluetoothGranted": "Posrednik lahko išče naprave Bluetooth v bližini.",
+  "esphomeBluetoothMissing": "Brez tega posrednik ne more iskati naprav.",
+  "esphomeBluetoothLocationMissing": "Android rezultate iskanja naprav Bluetooth, vključno z oddajniki, posreduje samo, če je lokacija odobrena. Posrednik nikoli ne bere položaja naprave.",
+  "esphomeBluetoothLocationOff": "Lokacija je v nastavitvah naprave izklopljena, zato iskanje naprav Bluetooth ne najde ničesar.",
+  "esphomeBluetoothBeacons": "Iskanje naprav Bluetooth lahko zazna oddajnike.",
+  "esphomeSent": "Poslano",
+  "esphomeNotsaved": "Ni shranjeno"
+}
