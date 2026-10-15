@@ -606,7 +606,7 @@ Oznaka *Android* ali *HA* pomeni izraz, ki ga uporabniki poznajo iz slovenskega 
 | Rings in {duration} | Zazvoni čez {duration} | |
 | Ease in the volume | Postopno povečaj glasnost | |
 | Silence after | Utišaj po | |
-| Phrase | Besedna zveza | |
+| Phrase | Besedilo | glej razdelek 18 |
 | Clear / Partly cloudy / Cloudy | Jasno / Delno oblačno / Oblačno | |
 | Rain / Heavy rain / Snow / Snow and rain | Dež / Močan dež / Sneg / Sneg z dežjem | |
 | Fog / Hail / Lightning / Lightning and rain | Megla / Toča / Strele / Strele in dež | |
@@ -676,3 +676,14 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Could not list the apps | Seznama aplikacij ni bilo mogoče pridobiti | B01 | |
 | Retrying… | Nov poskus … | B01 | |
 | camera server | strežnik kamer | B01 | |
+| Add by IP | Dodaj prek IP | B02 | |
+| Up one folder | Nadrejena mapa | B02 | |
+| (kiosk) identity | identiteta (kioska) | B02 | |
+| Joined the fleet / Left the fleet | Kiosk se je pridružil floti / Ni več v floti | B02 | brez preteklika s placeholderjem |
+| {name} copy | {name} (kopija) | B02 | |
+| renderer workarounds | nastavitve upodabljalnika | B02 | |
+| None travel (poverilnice) | Nobena se ne prenese | B02 | |
+| Looks good. | Videti je v redu. | B02 | |
+| in view (kamera, roka) | v kadru | B02 | |
+| Snooze the alarm (kretnja) | Dremež alarma | B02 | |
+| build (različica brez funkcije) | različica | B02 | v besedilu naravnejše kot »gradnja« |

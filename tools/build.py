@@ -3,7 +3,8 @@
 
 Batch file format:
     # file: <name>            (bundle name without _en.arb)
-    key = value               (\\n in value means a line break)
+    key = value               (\\n in value means a line break;
+                               "..." is a JSON string, for leading/trailing spaces)
     !key FLAG note            (FLAG: N uncertain, S rephrased for numbers,
                                P placeholder with a case noun, O other)
 Existing translations are kept unless the batch overrides them. Keys are
@@ -44,7 +45,10 @@ def parse(path):
         key = key.strip()
         if key in files[current]:
             sys.exit(f"Duplicate key {key} in {current}")
-        files[current][key] = value.replace("\\n", "\n")
+        if len(value) > 1 and value.startswith('"') and value.endswith('"'):
+            files[current][key] = json.loads(value)
+        else:
+            files[current][key] = value.replace("\\n", "\n")
     return files, flags
 
 

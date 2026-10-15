@@ -22,3 +22,32 @@ dashboard_picker	dashboardPickerPageCount	preoblikovano zaradi števila	»{count
 dashboard_picker	dashboardPickerSelected	preoblikovano zaradi števila	»{count} selected«
 dashboard_picker	dashboardPickerViewCount	preoblikovano zaradi števila	»{count} views«
 drawer_menu	drawerPluginAction	drugo	enako angleščini; samo placeholderja
+entity_picker	entityPickerShowing	preoblikovano zaradi števila	»Showing {count} of {max}«
+esphome_entity_picker	esphomeExcludedCount	preoblikovano zaradi števila	»{count} excluded«
+file_manager	filesDeleteTitle	placeholder v sklonu	»datoteko {name}«
+file_manager	filesUploadedCount	preoblikovano zaradi števila	»{count} files uploaded«
+fleet_general	fleetLearnWhichSettingsSyncAndWhichDoNotIn	drugo	stavek se nadaljuje s povezavo »Dokumentacija za upravljanje flote«; preoblikovano, da povezava ostane v imenovalniku; končni presledek ohranjen
+fleet_invitations	fleetFollowsName	placeholder v sklonu	»kiosku {name}«
+fleet_invitations	fleetRemoveName	placeholder v sklonu	»kiosk {name}«
+fleet_profiles	fleetBlackScreens	negotovo	pomen v kontekstu profila ni jasen (morda kategorija nastavitev za črn zaslon)
+fleet_profiles	fleetCountSettingsLeftOut	preoblikovano zaradi števila	»{count} settings left out«
+fleet_profiles	fleetDeleteName	placeholder v sklonu	»profil {name}«
+fleet_profiles	fleetSyncToName	negotovo	ni jasno, ali je {name} kiosk ali profil; dodan »s kioskom«
+fleet_status	fleetCountDaysAgo	preoblikovano zaradi števila	»days« kot okrajšava d
+fleet_status	fleetCountHAgo	preoblikovano zaradi števila	
+fleet_status	fleetCountMinAgo	preoblikovano zaradi števila	
+fleet_status	fleetNameLeadsTheseSettingsAChangeHereIsReplaced	placeholder v sklonu	»Kiosk {name}«
+fleet_status	fleetNameStopsPushingSettingsHereEverythingStaysAsIt	placeholder v sklonu	»Kiosk {name}«, sedanjik namesto prihodnjika zaradi spola
+fleet_status	fleetSyncedTime	negotovo	{time} je verjetno relativni čas (»pravkar«, »pred 2 min«)
+fleet_status	fleetWithTheNames	negotovo	ni jasno, kaj vstavi {names} (morda »the dashboard« ali imena poverilnic)
+gesture_actions	gestureCameraShow	placeholder v sklonu	»pogled {name}«
+gesture_descriptions	gestureCall	placeholder v sklonu	»kiosk {value}«
+gesture_descriptions	gestureDescribeClaps	preoblikovano zaradi števila	
+gesture_descriptions	gestureDescribeCornerHold	preoblikovano zaradi števila	
+gesture_descriptions	gestureDescribeCornerTaps	preoblikovano zaradi števila	{corner} je npr. »zgoraj levo«
+gesture_descriptions	gestureDescribeFingerDouble	preoblikovano zaradi števila	
+gesture_descriptions	gestureDescribeFingerHold	preoblikovano zaradi števila	
+gesture_descriptions	gestureDescribeFingerTap	preoblikovano zaradi števila	
+gesture_descriptions	gestureDescribeFingers	preoblikovano zaradi števila	
+gesture_descriptions	gestureGoTo	placeholder v sklonu	»pogled {value}«
+gesture_hand_tester	gestureHandsCount	preoblikovano zaradi števila	»{count} hands in view«

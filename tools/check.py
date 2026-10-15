@@ -102,9 +102,8 @@ def main():
                     issues.append("spaced hyphen used as dash")
                 if re.search(r"[\d}]%", sl):
                     issues.append("percent without space")
-                if sl != sl.strip():
-                    if not (en.startswith(" ") and sl.startswith(" ")) and not (en.endswith(" ") and sl.endswith(" ")):
-                        issues.append("leading/trailing space")
+                if (en[:1].isspace(), en[-1:].isspace()) != (sl[:1].isspace(), sl[-1:].isspace()):
+                    issues.append("leading/trailing space differs from English")
             if issues:
                 problems += 1
                 print(f"{name}.{key}: {'; '.join(issues)}\n    EN: {en!r}\n    SL: {sl!r}")
