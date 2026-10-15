@@ -712,3 +712,10 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Temp | Temp. | B05 | |
 | Running - N features | Deluje (funkcije: N) | B05 | vezaj zamenjan z oklepajem |
 | grant dialog | pogovorno okno za odobritev | B05 | |
+| Foreground app sensor | senzor aplikacije v ospredju | B06 | |
+| Friendly name | prikazno ime | B06 | |
+| Not offered (dovoljenje) | Ni ponujeno | B06 | |
+| GPU | grafični procesor | B06 | |
+| ongoing notification | stalno obvestilo | B06 | |
+| (missing) | (manjka) | B06 | |
+| Prefer X over Y | Daj prednost X pred Y | B06 | |

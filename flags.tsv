@@ -92,3 +92,12 @@ settings_camera_snapshot	cameraMinutesAgo	preoblikovano zaradi števila
 settings_camera_snapshot	cameraSecondsAgo	preoblikovano zaradi števila	
 settings_camera_status	cameraViewers	preoblikovano zaradi števila	»{count} connected viewers«
 settings_camera_streaming	cameraRejectedCount	preoblikovano zaradi števila	»{count} camera sizes are excluded«
+settings_camera_streams_errors	cameraStreamsConnectFailed	placeholder v sklonu	»s strežnikom {server}«
+settings_camera_streams_imports	cameraStreamsImportCounts	preoblikovano zaradi števila	»{added} added, {missing} missing.«
+settings_camera_streams_playback	cameraStreamsSeconds	drugo	enako angleščini; enota s je enaka
+settings_camera_streams_views	cameraStreamsDeleteNamed	placeholder v sklonu	{name} je lahko strežnik, kamera ali pogled, zato v narekovajih brez samostalnika
+settings_camera_streams_views	cameraStreamsManyCameras	preoblikovano zaradi števila	»{count} Cameras«
+settings_camera_streams_views	cameraStreamsOneCamera	negotovo	predvidoma samo za {count} = 1
+settings_device_configuration	deviceAppliedReload	preoblikovano zaradi števila	»Applied {count} settings.«
+settings_device_configuration	deviceAppliedSettings	preoblikovano zaradi števila	»Applied {count} settings.«
+settings_device_configuration	deviceRestoreStorageHelp	drugo	vezaj kot pomišljaj v izvirniku zamenjan s podpičjem

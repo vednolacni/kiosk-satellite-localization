@@ -25,3 +25,4 @@
 | B03 | 15 datotek, 231 sporočil (gesture_trigger_editor do plugins_actions) | `a0eb483` | OK, check.py 0 težav | zvočne oznake Hi-Res in kHz enake angleščini (O) |
 | B04 | 14 datotek, 254 sporočil (plugins_general do remote_overview_controls) | `b31e358` | OK, check.py 0 težav | »asset« = sredstvo (N); »this release« v sestavi (N) |
 | B05 | 14 datotek, 255 sporočil (remote_overview_health do settings_camera_streaming) | `4a68f59` | OK, check.py 0 težav | relativni časi in štetja preoblikovani (S) |
+| B06 | 11 datotek, 278 sporočil (settings_camera_streams_errors do settings_device_permissions) | `eed489c` | OK, check.py 0 težav | tehnični identifikatorji v napakah pretokov ostanejo (baseUrl, serverId …) |
