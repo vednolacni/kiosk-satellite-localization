@@ -784,3 +784,14 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Migration steps (Save the settings …) | samostalniki: Shranjevanje nastavitev … | B14 | |
 | Run from the dashboard again | Vrni izvajanje na nadzorno ploščo | B14 | |
 | Learn more about + povezava | Več informacij: + povezava | B14 | |
+| inference (aktivacijska beseda) | prepoznavanje | B15 | |
+| voice turn | glasovna izmenjava | B15 | |
+| embedding window | okno vdelav | B15 | negotovo |
+| pull to refresh (stikalo) | osvežitev s potegom navzdol | B15 | dopolni »Povleci za osvežitev« |
+| URL Filter | Filter URL | B15 | |
+| Wildcard / Regular expression | Nadomestni znaki / Regularni izraz | B15 | |
+| Block / Allow only | Blokiraj / Dovoli samo | B15 | |
+| dashboard rotation pages | strani v menjavanju pogledov nadzorne plošče | B15 | |
+| Long-lived access tokens (HA meni) | Dolgotrajni dostopni žetoni | B15 | [D13] |
+| Scan the QR code (gumb) | Preberi kodo QR | B15 | navodilo ostane »Preberite kodo QR« |
+| instance (HA) | namestitev | B15 | |

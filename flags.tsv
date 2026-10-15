@@ -173,3 +173,11 @@ settings_voice_satellite_setup	voiceLearnMore	negotovo	za besedilom sledi poveza
 settings_voice_satellite_setup	voiceValidate	negotovo	»Home Assistant Setup« (stran v aplikaciji) = nastavitve Home Assistant
 settings_voice_satellite_tester	voiceLogConfidence	negotovo	conf = confidence, okrajšano »zaup.« (zaupanje)
 settings_voice_satellite_tester	voiceLogDistance	negotovo	ed = edit distance, okrajšano »razd.« (urejevalna razdalja)
+settings_voice_satellite_wake_word	settingVoiceStopWordDescription	negotovo	beseda za ustavitev je angleški model »stop«, zato ostane nespremenjena
+settings_voice_satellite_wake_word	voiceCacheCount	preoblikovano zaradi števila	»Cleared {count}« z dvopičjem
+settings_voice_satellite_wake_word	voiceModelNoModelFile	placeholder v sklonu	»za model {name}«
+settings_voice_satellite_wake_word	voiceModelOwwWindow	negotovo	embedding window = okno vdelav
+settings_voice_satellite_wake_word	voiceWakeWordResumeTimeoutSecondsDescription	negotovo	voice turn = glasovna izmenjava; self-heal = samopopravljanje
+settings_web_browsing_url_filter	urlFilterTitle	negotovo	ime strani in vrstice; »Filter URL« brez sklanjanja kratice
+settings_web_browsing_url_filter	urlFilterTypeWildcard	negotovo	Wildcard = nadomestni znaki (vzorec z *)
+setup_connect	setupConnectLead	drugo	[D13] pot v HA prevedena (Profile → Security → Long-lived access tokens), enako v setupInvalidTokenHelp in setupEnterTokenHelp
