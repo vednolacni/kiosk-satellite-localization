@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "logsEntries": "Vnosi: {count}",
+  "logsCopyLog": "Kopiraj dnevnik",
+  "logsShareLog": "Deli dnevnik",
+  "logsCopied": "Kopirano",
+  "logsCopyFailed": "Kopiranje ni uspelo",
+  "logsOnClipboard": "Dnevnik je v odložišču.",
+  "logsConsoleOnClipboard": "Dnevnik konzole je v odložišču."
+}

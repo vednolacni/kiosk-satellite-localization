@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "logsWebConsole": "Spletna konzola",
+  "logsDock": "Zasidraj nad trenutno stranjo",
+  "logsNoOutput": "Konzola še nima izpisa",
+  "logsShareSubject": "Dnevnik konzole Kiosk Satellite",
+  "logsInput": "Zaženi JavaScript na strani",
+  "logsInputHistory": "Zaženi JavaScript na strani (Enter za zagon, puščici gor in dol za zgodovino)",
+  "logsRun": "Zaženi",
+  "logsEvaluationFailed": "izvajanje ni uspelo",
+  "logsDeviceUnreachable": "naprava ni dosegljiva"
+}

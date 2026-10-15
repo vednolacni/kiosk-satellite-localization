@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "logsSystemLog": "Sistemski dnevnik Androida za to aplikacijo (tukaj so zabeležene zrušitve)",
+  "logsErrors": "Napake in zrušitve",
+  "logsWarnings": "Opozorila",
+  "logsInfo": "Informacije in razhroščevanje",
+  "logsNoMatches": "Ni ujemajočih se vrstic. Za prikaz celotnega dnevnika zgoraj omogočite več vrst.",
+  "logsUnavailable": "logcat ni na voljo",
+  "logsReadFailed": "Dnevnika logcat ni bilo mogoče prebrati: {error}",
+  "logsUnknown": "neznano"
+}

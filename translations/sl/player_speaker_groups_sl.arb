@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "mediaGroupLead": "Vodi skupino",
+  "mediaGroupReadFailed": "Skupine ni bilo mogoče prebrati.",
+  "mediaGroupEmpty": "Ni drugih predvajalnikov za združevanje.",
+  "mediaSpeakerSelection": "Izbira zvočnika"
+}

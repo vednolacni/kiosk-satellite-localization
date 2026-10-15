@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "pluginActions": "Dejanja",
+  "pluginKioskDrawer": "Meni kioska",
+  "pluginToAssignAGestureOpenGesturesAndChooseRun": "Za dodelitev kretnje odprite Kretnje in izberite »Zaženi dejanje vtičnika«.",
+  "pluginShowInKioskDrawer": "Pokaži v meniju kioska",
+  "pluginAlsoAvailableWhileLockedIfTheKioskDrawerIs": "Na voljo tudi med zaklepom, če je meni kioska dovoljen.",
+  "pluginExposeToHomeAssistant": "Izpostavi sistemu Home Assistant",
+  "pluginAddsAButtonToTheKioskEsphomeDeviceRequires": "Napravi ESPHome kioska doda gumb. Zahteva ESPHome in izvorne entitete.",
+  "pluginConfigureName": "Konfiguriraj vtičnik {name}"
+}

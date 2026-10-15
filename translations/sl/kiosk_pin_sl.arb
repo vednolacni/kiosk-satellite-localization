@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "kioskPinTitle": "PIN kioska",
+  "kioskPinHint": "PIN",
+  "kioskWrongPin": "Napačen PIN",
+  "kioskUnlock": "Odkleni"
+}
