@@ -27,3 +27,4 @@
 | B05 | 14 datotek, 255 sporočil (remote_overview_health do settings_camera_streaming) | `4a68f59` | OK, check.py 0 težav | relativni časi in štetja preoblikovani (S) |
 | B06 | 11 datotek, 278 sporočil (settings_camera_streams_errors do settings_device_permissions) | `eed489c` | OK, check.py 0 težav | tehnični identifikatorji v napakah pretokov ostanejo (baseUrl, serverId …) |
 | B07 | 10 datotek, 270 sporočil (settings_device_remote_administration do settings_esphome_announcements) | `d52f499` | OK, check.py 0 težav | popravek GitHub sklona v plugins_repository_errors |
+| B08 | 14 datotek, 223 sporočil (settings_esphome_bluetooth do settings_home_assistant_rotation) | `ea5c999` | OK, check.py 0 težav | ime HA nastavitve (D13) označeno |

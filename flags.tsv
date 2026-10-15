@@ -107,3 +107,19 @@ settings_device_updates	deviceInstallingOn	placeholder v sklonu	»na kiosk {name
 settings_device_updates	deviceSendingTo	placeholder v sklonu	»na kiosk {name}«
 settings_device_updates	updateDownloadStalled	preoblikovano zaradi števila	»for {seconds} seconds« z okrajšano enoto
 settings_device_updates	updateUploadSpace	preoblikovano zaradi števila	preoblikovano, da »MB« ne zahteva sklona po številu
+settings_esphome_bluetooth	esphomeOption80Dbm	drugo	enako angleščini; samo vrednost z enoto
+settings_esphome_bluetooth	esphomeOption85Dbm	drugo	enako angleščini; samo vrednost z enoto
+settings_esphome_bluetooth_status	esphomeHoursAgo	preoblikovano zaradi števila	
+settings_esphome_bluetooth_status	esphomeMinutesAgo	preoblikovano zaradi števila	
+settings_esphome_bluetooth_status	esphomeNearbyCount	preoblikovano zaradi števila	»prvih {count}« je pravilno za omejitev prikaza (predvidoma 5 ali več); preveri, če je {count} lahko 2 do 4
+settings_esphome_bluetooth_status	esphomeSecondsAgo	preoblikovano zaradi števila	
+settings_esphome_bluetooth_status	esphomeSlots	preoblikovano zaradi števila	»Up to {count} devices«
+settings_footer	settingsMadeBy	drugo	sedanjik namesto preteklika, da se glagol ne ujema s spolom avtorja
+settings_gestures	gestureHoldSeconds	drugo	enako angleščini; enota s je enaka
+settings_home_assistant_hold	haHours	drugo	enako angleščini; enota h je enaka
+settings_home_assistant_hold	haHoursMinutes	drugo	enako angleščini; enoti sta enaki
+settings_home_assistant_hold	haMinutes	drugo	enako angleščini; enota min je enaka
+settings_home_assistant_optimizations	haFiltered	preoblikovano zaradi števila	»Filtered {percent}% of updates«
+settings_home_assistant_optimizations	haThreshold	preoblikovano zaradi števila	»This view uses {count} entities«
+settings_home_assistant_optimizations	haWatching	preoblikovano zaradi števila	»Watching {count} entities on this view.«
+settings_home_assistant_optimizations	settingDisableSuspendDescription	drugo	[D13] ime nastavitve v HA (»Suspend background connections«) prevedeno; preveri ime v slovenskem HA

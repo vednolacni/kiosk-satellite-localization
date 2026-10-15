@@ -726,3 +726,11 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | downgrade | vrnitev na starejšo različico | B07 | |
 | Scale UI | Velikost vmesnika | B07 | |
 | announce action | dejanje announce | B07 | ime dejanja HA ostane |
+| Made with {heart} by {author} | Z {heart} ustvarja {author} | B08 | sedanjik zaradi spola |
+| Buy me a coffee | Častite me s kavo | B08 | |
+| Clapper (razdelek) | Ploskanje | B08 | enako kot vrsta sprožilca |
+| Strict / Standard | Strogo / Običajno | B08 | |
+| Instant | Takoj | B08 | |
+| decimalna števila v besedilu | vejica (0,2) | B08 | ne v tehničnih vrednostih |
+| controls (entitete) | kontrolniki | B08 | |
+| fix (GPS) | določitev položaja | B08 | |
