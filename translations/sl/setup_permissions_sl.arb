@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "setupPermissionLead": "Android bo zahteval ta dovoljenja. Vse se zahteva vnaprej, da vas kiosk pozneje nikoli ne prekinja.",
+  "setupRemotePermissionLead": "Android jih zahteva na sami tablici. Pojdite do nje in sprejmite pozive, nato končajte tukaj.",
+  "setupMicrophoneHelp": "Voice Satellite in interkom potrebujeta dostop do mikrofona",
+  "setupNotificationListening": "Omogoča stalno obvestilo storitve Kiosk Satellite, ki pove, kaj ohranja v delovanju in kdaj kiosk posluša.",
+  "setupBatteryService": "Storitvi Kiosk Satellite omogoča delovanje v ozadju, ne da bi bila začasno ustavljena ali prekinjena.",
+  "setupOverlayBoot": "Aplikaciji Kiosk Satellite omogoča, da se po zrušitvi vrne in se zažene ob vklopu naprave.",
+  "setupOverlayCrash": "Aplikaciji Kiosk Satellite omogoča, da se po zrušitvi vrne na zaslon.",
+  "setupBrightnessHelp": "Aplikaciji Kiosk Satellite omogoča nastavitev dejanske svetlosti zaslona (spreminjanje sistemskih nastavitev).",
+  "setupScreenControl": "Upravljanje zaslona",
+  "setupScreenControlHelp": "Aplikaciji Kiosk Satellite omogoča izklop zaslona na zahtevo (skrbnik naprave).",
+  "setupGrantPermissions": "Odobri dovoljenja v napravi",
+  "setupRequestingPermissions": "Zahtevanje v napravi …",
+  "setupPermissionsRequested": "Dovoljenja so zahtevana v napravi"
+}

@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "settingBrowserInjectJsTitle": "Vstavi JavaScript na nadzorno ploščo HA",
+  "settingBrowserInjectJsDescription": "To kodo JavaScript zažene po vsakem nalaganju strani nadzorne plošče. Uporabno za skrivanje motečih elementov ali prilagoditev nadzorne plošče, ki je ne upravljate sami.",
+  "settingBrowserInjectJsExternalTitle": "Vstavi JavaScript na zunanje strani",
+  "settingBrowserInjectJsExternalDescription": "To kodo JavaScript zažene po nalaganju vsake zunanje strani: strani, odprtih prek povezave na nadzorni plošči, strani v menjavanju pogledov nadzorne plošče in ohranjevalnika zaslona s spletno stranjo. Stran Music Assistant ostane nespremenjena.",
+  "browserInjectJsPlaceholder": "// Primer: skrij moteč element\ndocument.querySelector('#banner').style.display = 'none';",
+  "browserInjectJsExternalPlaceholder": "// Primer: povečaj stran, ki ne upošteva ravni povečave nadzorne plošče\ndocument.documentElement.style.zoom = '1.25';"
+}

@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "setupChooseDashboard": "Izberite nadzorno ploščo",
+  "setupDashboardHelp": "To bo kiosk prikazal ob zagonu.",
+  "setupSelectDashboard": "Izberite nadzorno ploščo",
+  "setupSelectDashboardHelp": "Izberite nadzorno ploščo, ki jo bo kiosk prikazoval. Pozneje jo lahko spremenite v nastavitvah."
+}

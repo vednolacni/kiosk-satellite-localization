@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "settingAutoReloadOnErrorTitle": "Samodejno znova naloži ob napaki",
+  "settingAutoReloadOnErrorDescription": "Samodejno obnovi delovanje po napakah strani in zrušitvah aplikacije.",
+  "settingPullToRefreshTitle": "Omogoči osvežitev s potegom navzdol",
+  "settingPullToRefreshDescription": "Stran znova naložite tako, da jo z vrha povlečete navzdol. Privzeto izklopljeno: na nadzorni plošči, po kateri se pomikate, se hitro zgodi nehoten poteg.",
+  "settingPullToRefreshClearCacheTitle": "Počisti predpomnilnik ob osvežitvi s potegom",
+  "settingPullToRefreshClearCacheDescription": "Poteg pred vnovičnim nalaganjem počisti tudi spletni predpomnilnik in modele aktivacijske besede, zato se vse naloži na novo. Prijava in shranjeni podatki strani se ohranijo.",
+  "settingBrowserZoomTitle": "Raven povečave",
+  "settingBrowserZoomDescription": "Prilagodi velikost celotne strani. Nad 1x za stenske tablice, ki jih gledate od daleč; pod 1x na majhen zaslon spravi več nadzorne plošče.",
+  "settingPinchToZoomTitle": "Omogoči povečavo z razmikom prstov",
+  "settingPinchToZoomDescription": "Omogoča povečavo strani z razmikom dveh prstov. Privzeto izklopljeno, da nadzorna plošča kioska ob naključnih dotikih ostane na mestu.",
+  "settingDisableScrollingTitle": "Onemogoči pomikanje",
+  "settingDisableScrollingDescription": "Zaklene stran na mestu, da se je ne da pomikati v nobeno smer. Dotiki in gumbi še naprej delujejo.",
+  "browserCrashPermissionHelp": "Brez tega se kiosk po zrušitvi ne more vrniti.",
+  "browserCrashPermissionMissing": "Manjka dovoljenje »Prikaz čez druge aplikacije«",
+  "browserCrashPermissionRemoteHelp": "Brez tega se kiosk po zrušitvi ne more sam vrniti. Zaslon za odobritev se prikaže na tablici."
+}
