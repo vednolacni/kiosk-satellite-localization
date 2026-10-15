@@ -1,0 +1,24 @@
+file	key	flag	note
+alarms	alarmsDefaultLabel	drugo	enako angleščini; »alarm« je izraz iz ure v Androidu
+alarms	alarmsDurationHours	drugo	enako angleščini; enota h je enaka
+alarms	alarmsDurationHoursMinutes	drugo	enako angleščini; enoti h in min sta enaki
+alarms	alarmsDurationMinutes	drugo	enako angleščini; enota min je enaka
+alarms	alarmsEaseHint	preoblikovano zaradi števila	»over {seconds} seconds« z okrajšano enoto
+alarms	alarmsNextAt	drugo	{day} je po opisu Today, Tomorrow ali dan v tednu, torej »Danes« z veliko začetnico po dvopičju
+alarms	alarmsPhrase	drugo	glosar je predvidel »Besedna zveza«; »Besedilo« je naravnejše za polje z izgovorjenimi besedami
+alarms	alarmsSunriseHint	preoblikovano zaradi števila	»over {minutes} minutes« z okrajšano enoto
+alarms	alarmsVoiceHint	drugo	blueprint = »načrt« po slovenskem HA
+app_launcher_overlay	launcherOpenFailed	placeholder v sklonu	»aplikacije {name}«
+camera_view_status	cameraViewerCannotDecode	placeholder v sklonu	»kodeka {codec}«
+camera_view_status	cameraViewerConnectionRetry	preoblikovano zaradi števila	okrajšana enota
+camera_view_status	cameraViewerHaRetry	preoblikovano zaradi števila	»Retrying in {seconds}s« z okrajšano enoto
+camera_view_status	cameraViewerLoginRetry	preoblikovano zaradi števila	okrajšana enota
+camera_view_status	cameraViewerMissingRetry	preoblikovano zaradi števila	okrajšana enota
+camera_view_status	cameraViewerServerRetry	preoblikovano zaradi števila	okrajšana enota
+camera_view_status	cameraViewerStartDelayedRetry	preoblikovano zaradi števila	okrajšana enota
+camera_view_status	cameraViewerTrying	placeholder v sklonu	»s protokolom {transport}«
+common	commonColorCyan	negotovo	»cian« je tiskarski izraz; alternativa »Sinja«
+dashboard_picker	dashboardPickerPageCount	preoblikovano zaradi števila	»{count} pages«
+dashboard_picker	dashboardPickerSelected	preoblikovano zaradi števila	»{count} selected«
+dashboard_picker	dashboardPickerViewCount	preoblikovano zaradi števila	»{count} views«
+drawer_menu	drawerPluginAction	drugo	enako angleščini; samo placeholderja

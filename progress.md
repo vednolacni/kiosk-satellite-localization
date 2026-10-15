@@ -20,3 +20,4 @@
 
 | Serija | Datoteke | Commit | Validate | Opombe |
 |---|---|---|---|---|
+| B01 | 15 datotek, 230 sporočil (about_identity do drawer_updates) | glej `git log sl` | OK, check.py 0 težav | »Phrase« → »Besedilo« (sprememba glosarja) |

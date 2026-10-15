@@ -27,6 +27,7 @@ def main():
         print(f"# file: {name}  ({len(keys)})")
         last_ctx = None
         last_notes = None
+        last_locs = None
         for key in keys:
             meta = src.get("@" + key, {})
             ctx = meta.get("context", "")
@@ -42,8 +43,9 @@ def main():
                 print(f"    N: {notes}")
             last_notes = notes
             locs = meta.get("x-locations")
-            if locs:
+            if locs and locs != last_locs:
                 print(f"    L: {json.dumps(locs, ensure_ascii=False)[:300]}")
+            last_locs = locs
         print()
 
 

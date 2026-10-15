@@ -659,3 +659,20 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Ure kot jih vstavi aplikacija ({time}) | »ob {time}« |
 | `\n` ostane na istem mestu, enako število | |
 | Puščice → v potih ostanejo | »Nastavitve → Naprave in storitve« |
+
+---
+
+## 18. Dodatki in spremembe med prevajanjem (za pregled)
+
+| EN | SL | Serija | Opomba |
+|---|---|---|---|
+| Phrase (izgovorjeno besedilo) | Besedilo | B01 | **sprememba**: prej »Besedna zveza« |
+| Built-in alarm (ton) | Vgrajeni ton | B01 | |
+| blueprint (HA) | načrt | B01 | *HA* |
+| LLM conversation agent | pogovorni agent LLM | B01 | |
+| Already up to date | Že posodobljeno | B01 | |
+| Starting… (pred prenosom) | Pripravljanje … | B01 | |
+| Snoozed (alarm) | v dremežu | B01 | |
+| Could not list the apps | Seznama aplikacij ni bilo mogoče pridobiti | B01 | |
+| Retrying… | Nov poskus … | B01 | |
+| camera server | strežnik kamer | B01 | |

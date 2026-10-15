@@ -26,8 +26,20 @@ def urls(text):
     return {u.rstrip(".;:!?)]") for u in URL.findall(text)}
 
 
+def same_ok_keys():
+    path = Path(__file__).resolve().parents[1] / "flags.tsv"
+    keys = set()
+    if path.exists():
+        for row in path.read_text(encoding="utf-8").splitlines()[1:]:
+            f, k, fl, note = row.split("\t", 3)
+            if "enako angleščini" in note:
+                keys.add((f, k))
+    return keys
+
+
 def main():
     repo = Path(sys.argv[1])
+    allowed_same = same_ok_keys()
     names = sys.argv[2:] or sorted(p.name[:-7] for p in (repo / "source").glob("*_en.arb"))
     problems = 0
     total = 0
@@ -77,7 +89,7 @@ def main():
                     issues.append("html")
                 if re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", sl):
                     issues.append("control char")
-                if sl == en and sl not in SAME_OK and PARAM.sub("", sl).strip(" :%°C,.()-/·") != "":
+                if sl == en and sl not in SAME_OK and (name, key) not in allowed_same and PARAM.sub("", sl).strip(" :%°C,.()-/·") != "":
                     issues.append("identical to English")
                 prose = URL.sub("", sl)
                 if '"' in prose and "document." not in sl:
