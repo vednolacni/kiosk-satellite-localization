@@ -127,3 +127,11 @@ settings_home_assistant_setup	settingHaTokenDescription	drugo	[D13] pot v HA pre
 settings_media_player_general	mediaLocalOffline	placeholder v sklonu	»predvajalnik {player}«
 settings_media_player_music_assistant	mediaUnreachable	placeholder v sklonu	»Gostitelj {host}«
 settings_media_player_music_assistant	settingSendspinMaTokenDescription	drugo	pot v vmesniku Music Assistant (Settings, Users) prevedena kot pri D13
+settings_menu	settingsGroupKiosk	drugo	enako angleščini; »kiosk« je tudi slovenska beseda
+settings_menu	settingsMenuMediaPlayerSummary	drugo	enako angleščini; samo imena izdelkov
+settings_screen_audio_adaptive_brightness	screenAudioCurveHint	negotovo	»the Screen light« je entiteta luči kioska v HA; prevedeno opisno kot »luč zaslona«
+settings_screen_audio_adaptive_brightness	screenAudioLux	drugo	enako angleščini; enota lx je enaka
+settings_screen_audio_microphone	screenAudioStereo	drugo	enako angleščini; tehnična oznaka formata
+settings_screen_audio_microphone	settingMicGainDbDescription	negotovo	decimalna vejica »0,05«; preveri, kako preizkus prikaže raven (morda s piko)
+settings_screen_audio_screen	screenAudioAlwaysOnHelp	drugo	ime nastavitve Androida (»Always show time and info«) prevedeno; preveri ime v slovenskem Androidu
+settings_screensaver_clock	screensaverMaxCharacters	preoblikovano zaradi števila	»Use at most {count} characters«

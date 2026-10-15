@@ -751,3 +751,9 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Last view / Chosen view | Zadnji pogled / Izbrani pogled | B10 | |
 | sample rate / bit depth | frekvenca vzorčenja / bitna globina | B10 | |
 | Remote-only | samo na daljavo | B10 | |
+| X screensaver (naslov razdelka) | Ohranjevalnik zaslona z X (npr. »z uro«); Black → »Črni ohranjevalnik zaslona« | B11 | |
+| AM/PM | dop./pop. | B11 | |
+| Forget (zvočnik) | Pozabi | B11 | |
+| household (Sonos) | gospodinjstvo | B11 | |
+| punch hole | luknja za kamero | B11 | |
+| Always show time and info (Android) | Vedno pokaži čas in podatke | B11 | preveri v slovenskem Androidu |
