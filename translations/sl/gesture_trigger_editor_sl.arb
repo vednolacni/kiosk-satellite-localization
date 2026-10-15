@@ -28,7 +28,7 @@
   "gestureDoubleTap": "Dvojni dotik",
   "gestureHoldDuration": "Pridržanje {seconds} s",
   "gestureCameraHelp": "Zahteva vklopljeno kamero in dobro osvetljen prostor.",
-  "gestureUnavailable": "Ni na voljo v tej napravi.",
+  "gestureUnavailable": "V tej napravi ni na voljo.",
   "gestureClaps2": "2 ploska",
   "gestureClaps3": "3 ploski",
   "gestureClaps4": "4 ploski",

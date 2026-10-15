@@ -6,7 +6,7 @@
   "fleetSyncItAgain": "Znova sinhroniziraj",
   "fleetAddASetting": "Dodaj nastavitev",
   "fleetExcludeASetting": "Izključi nastavitev",
-  "fleetSearchSettings": "Iskanje nastavitev",
+  "fleetSearchSettings": "Iskanje po nastavitvah",
   "fleetCountMoreTypeToNarrowTheList": "Še {count}. Za zožitev seznama vnesite besedilo.",
   "fleetNotSyncedNote": "Ni sinhronizirano: {note}",
   "fleetTheAssignedSatellite": "dodeljeni satelit",
