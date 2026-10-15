@@ -694,3 +694,12 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | kbps | kb/s | B03 | |
 | Dock (konzola) | Zasidraj | B03 | |
 | Tip | Namig | B03 | |
+| asset (datoteka v paketu vtičnika) | sredstvo | B04 | negotovo; »release asset« ostane »datoteka izdaje« |
+| digest (SHA-256) | izvleček | B04 | |
+| integrity check | preverjanje celovitosti | B04 | |
+| did not stop cleanly | se ni pravilno ustavil | B04 | |
+| Screen on / Screen off (hitra kontrola) | Vklopi zaslon / Izklopi zaslon | B04 | |
+| Take snapshot | Zajemi posnetek | B04 | |
+| display groups | skupine prikaza | B04 | |
+| boolean / numeric / RGB hex color | logična / številska / šestnajstiška barva RGB | B04 | |
+| WARNING: | OPOZORILO: | B04 | |

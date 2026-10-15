@@ -66,3 +66,15 @@ player_controls	mediaStatusSource	drugo	»{status} - {source}«: vezaj kot pomi�
 plugin_windows	pluginCloseWindow	placeholder v sklonu	»okno {name}«
 plugins_actions	pluginAddsAButtonToTheKioskEsphomeDeviceRequires	negotovo	»native entities« = izvorne entitete ESPHome
 plugins_actions	pluginConfigureName	placeholder v sklonu	»vtičnik {name}«
+plugins_general	pluginAboutName	placeholder v sklonu	»O vtičniku {name}«
+plugins_general	pluginCheckForUpdatesForName	placeholder v sklonu	»vtičnika {name}«
+plugins_general	pluginEnableName	placeholder v sklonu	»vtičnik {name}«
+plugins_general	pluginUninstallName	placeholder v sklonu	»vtičnik {name}«
+plugins_general	pluginUninstallNameDetail	placeholder v sklonu	»vtičnik {name}«
+plugins_package_errors	pluginErrorAssetPath	negotovo	asset (datoteka v paketu vtičnika) = »sredstvo«, kot pri mapi assets v Androidu
+plugins_validation_errors	pluginErrorInvalidField	placeholder v sklonu	»polje {field}«
+remote_connection	remoteConnectionLost	placeholder v sklonu	»z napravo {name}«
+remote_connection	remoteUpdatedHelp	preoblikovano zaradi števila	»in {seconds} s« ostane z okrajšano enoto
+remote_overview_attention	overviewOutdatedMany	preoblikovano zaradi števila	»{count} followers run another release«
+remote_overview_attention	overviewSyncWaiting	negotovo	{version} je lahko tudi »ta izdaja« (overviewThisRelease), zato dvopičje
+remote_overview_attention	overviewThisRelease	negotovo	verjetno se vstavi v overviewSyncWaiting kot {version}
