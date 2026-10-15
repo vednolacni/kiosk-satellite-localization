@@ -22,3 +22,4 @@
 |---|---|---|---|---|
 | B01 | 15 datotek, 230 sporočil (about_identity do drawer_updates) | glej `git log sl` | OK, check.py 0 težav | »Phrase« → »Besedilo« (sprememba glosarja) |
 | B02 | 15 datotek, 347 sporočil (entity_picker do gesture_outcomes) | glej `git log sl` | OK, check.py 0 težav | 4 negotova mesta v floti (N) |
+| B03 | 15 datotek, 231 sporočil (gesture_trigger_editor do plugins_actions) | `a0eb483` | OK, check.py 0 težav | zvočne oznake Hi-Res in kHz enake angleščini (O) |

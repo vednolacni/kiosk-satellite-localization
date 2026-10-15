@@ -687,3 +687,10 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | in view (kamera, roka) | v kadru | B02 | |
 | Snooze the alarm (kretnja) | Dremež alarma | B02 | |
 | build (različica brez funkcije) | različica | B02 | v besedilu naravnejše kot »gradnja« |
+| Claps (vrsta sprožilca) | Ploskanje | B03 | |
+| Mute (v klicu) | Utišaj | B03 | pri medijih ostane »Izklopi zvok« |
+| {status} - {source} | {status} · {source} | B03 | vezaj kot pomišljaj zamenjan s piko na sredini |
+| Hi-Res / CD quality / Lossy | Hi-Res / Kakovost CD / Z izgubami | B03 | |
+| kbps | kb/s | B03 | |
+| Dock (konzola) | Zasidraj | B03 | |
+| Tip | Namig | B03 | |

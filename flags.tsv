@@ -51,3 +51,18 @@ gesture_descriptions	gestureDescribeFingerTap	preoblikovano zaradi števila
 gesture_descriptions	gestureDescribeFingers	preoblikovano zaradi števila	
 gesture_descriptions	gestureGoTo	placeholder v sklonu	»pogled {value}«
 gesture_hand_tester	gestureHandsCount	preoblikovano zaradi števila	»{count} hands in view«
+intercom_calls	intercomAnnouncingMany	preoblikovano zaradi števila	»Announcing to {count} kiosks«
+intercom_calls	intercomAnswersIn	preoblikovano zaradi števila	»Answers in {seconds} s«; dodano »samodejni«, ker gre za odštevanje do samodejnega sprejema
+intercom_calls	intercomCallingName	placeholder v sklonu	»kioska {name}«
+intercom_calls	intercomHaMessage	drugo	enako angleščini; samo ime izdelka in placeholder
+intercom_calls	intercomInCallName	placeholder v sklonu	»s kioskom {name}«
+intercom_calls	intercomManyReady	preoblikovano zaradi števila	»{count} kiosks are ready.«
+intercom_calls	intercomMissedFrom	placeholder v sklonu	»s kioska {name}«
+intercom_calls	intercomRangFor	preoblikovano zaradi števila	»Rang for {seconds} seconds.«
+logs_general	logsEntries	preoblikovano zaradi števila	»{count} entries«
+player_controls	mediaAudioHiRes	drugo	enako angleščini; ustaljena oznaka zvoka visoke ločljivosti (alternativa »Visoka ločljivost«)
+player_controls	mediaAudioSampleRate	drugo	enako angleščini; enota kHz je enaka
+player_controls	mediaStatusSource	drugo	»{status} - {source}«: vezaj kot pomišljaj zamenjan s piko na sredini, ki jo aplikacija že uporablja
+plugin_windows	pluginCloseWindow	placeholder v sklonu	»okno {name}«
+plugins_actions	pluginAddsAButtonToTheKioskEsphomeDeviceRequires	negotovo	»native entities« = izvorne entitete ESPHome
+plugins_actions	pluginConfigureName	placeholder v sklonu	»vtičnik {name}«
