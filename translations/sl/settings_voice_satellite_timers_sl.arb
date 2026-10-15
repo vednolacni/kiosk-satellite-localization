@@ -1,0 +1,21 @@
+{
+  "@@locale": "sl",
+  "settingVoiceTimerPillsTitle": "Pokaži značke časovnikov",
+  "settingVoiceTimerPillsDescription": "Delujoči časovniki lebdijo nad zaslonom. Povlecite jih kamor koli.",
+  "settingVoiceTimerNameInPillTitle": "Pokaži ime časovnika",
+  "settingVoiceTimerNameInPillDescription": "Ime ob času v znački.",
+  "settingVoiceTimerPillScaleTitle": "Velikost značk časovnikov",
+  "settingVoiceTimerPillScaleDescription": "Velikost značk časovnikov.",
+  "settingVoiceTimerAlertPillTitle": "Pokaži značke izteklih časovnikov",
+  "settingVoiceTimerAlertPillDescription": "Za ustavitev opozorila se dotaknite značke.",
+  "settingVoiceMuteTimersTitle": "Utišaj opozorila časovnikov",
+  "settingVoiceMuteTimersDescription": "Prikaže opozorilo brez zvoka.",
+  "settingVoiceTimerNameOnAlertTitle": "Pokaži ime na opozorilu",
+  "settingVoiceTimerNameOnAlertDescription": "Ime časovnika pod opozorilom.",
+  "settingVoiceTimerSpeakTitle": "Izgovori ob izteku časovnika",
+  "settingVoiceTimerSpeakDescription": "Med zvoki opozorila izgovori besedilo.",
+  "settingVoiceTimerPhraseTitle": "Besedilo",
+  "settingVoiceTimerPhraseDescription": "Izgovori se za časovnik brez imena.",
+  "settingVoiceTimerNamedPhraseTitle": "Besedilo za poimenovane časovnike",
+  "settingVoiceTimerNamedPhraseDescription": "{name} se nadomesti z imenom časovnika."
+}

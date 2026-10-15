@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "screensaverOverlayWeatherEntity": "Vremenska entiteta",
+  "screensaverOverlayWeatherRequired": "Izberite vremensko entiteto.",
+  "screensaverOverlayLocationName": "Ime lokacije",
+  "screensaverOverlayLocationHelp": "Pustite prazno, da skrijete vrstico z lokacijo.",
+  "screensaverOverlayLocation": "Lokacija",
+  "screensaverOverlayLocationDetail": "Ime kraja nad temperaturo.",
+  "screensaverOverlayFeelsLike": "Občutena temperatura",
+  "screensaverOverlayFeelsLikeHelp": "Prikaže občuteno temperaturo v označeni vrstici pod dejansko temperaturo.",
+  "screensaverOverlayFeelsLikeOnly": "Samo občutena temperatura",
+  "screensaverOverlayFeelsLikeOnlyHelp": "Namesto dejanske temperature prikaže občuteno temperaturo z oznako »Občuti se kot«.",
+  "screensaverOverlayForecast": "Napoved",
+  "screensaverOverlayForecastHelp": "Vremenske razmere z ustrezno ikono.",
+  "screensaverOverlayHumidity": "Vlažnost",
+  "screensaverOverlayWind": "Hitrost vetra",
+  "screensaverOverlayVisibility": "Vidljivost",
+  "screensaverWeatherFeelsLikeValue": "Občuti se kot {temperature}"
+}

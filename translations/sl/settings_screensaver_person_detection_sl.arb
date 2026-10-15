@@ -1,0 +1,22 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverDismissOnPersonTitle": "Zapri ob osebi",
+  "settingScreensaverDismissOnPersonDescription": "Med ohranjevalnikom zaslona bere senzor osebe v napravi in zbudi zaslon, ko je nekdo pred njo. Potrebuje spodnje dovoljenje »Dostop do dnevnikov«.",
+  "settingScreensaverDismissOnPersonScreenOffOnlyTitle": "Samo pri izklopljenem zaslonu",
+  "settingScreensaverDismissOnPersonScreenOffOnlyDescription": "Ko je zaslon vklopljen in nekdo pride, ohranjevalnik zaslona ostane viden. Ko se zaslon izklopi, zaznavanje zbudi nadzorno ploščo. Dotik še vedno zapre ohranjevalnik zaslona.",
+  "settingScreensaverPostponeOnPersonTitle": "Odloži ohranjevalnik zaslona ob osebi",
+  "settingScreensaverPostponeOnPersonDescription": "Odloži vklop ohranjevalnika zaslona, dokler je nekdo pred napravo.",
+  "screensaverDetectionPersonPage": "Zaznavanje osebe",
+  "screensaverDetectionPersonHint": "Zapre ali odloži ohranjevalnik zaslona glede na senzor osebe v napravi",
+  "screensaverDetectionOccupancy": "Prisotnost",
+  "screensaverDetectionStatusUnavailable": "Stanje ni na voljo.",
+  "screensaverDetectionOff": "Izklopljeno.",
+  "screensaverDetectionStarting": "Zaganjanje …",
+  "screensaverDetectionWaiting": "Čakanje na prvi signal delovanja. Senzor se oglaša vsakih 30 sekund, dokler je nekdo v njegovem vidnem polju.",
+  "screensaverDetectionLastHeartbeat": "Zadnji signal delovanja: {ago}.",
+  "screensaverDetectionSecondsAgo": "pred {count} s",
+  "screensaverDetectionMinutesAgo": "pred {count} min",
+  "screensaverDetectionHoursAgo": "pred {count} h",
+  "screensaverDetectionDetected": "Zaznano",
+  "screensaverDetectionClear": "Ni zaznano"
+}

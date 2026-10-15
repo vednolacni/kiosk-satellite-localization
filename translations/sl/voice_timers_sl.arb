@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "voiceTimerDefaultName": "Časovnik",
+  "voiceTimerDrag": "Povlecite za premik časovnikov",
+  "voiceTimerPauseHint": "Dotaknite se za začasno ustavitev. Dvakrat se dotaknite za preklic. Povlecite za premik.",
+  "voiceTimerResumeHint": "Dotaknite se za nadaljevanje. Dvakrat se dotaknite za preklic. Povlecite za premik.",
+  "voiceTimerCancel": "Prekliči časovnik",
+  "voiceTimerActionError": "Časovnika ni bilo mogoče spremeniti. Preverite povezavo in po potrebi posodobite Voice Satellite.",
+  "voiceTimerFinished": "Časovnik se je iztekel",
+  "voiceTimerDismissHint": "Dotaknite se, da opustite opozorilo časovnika."
+}

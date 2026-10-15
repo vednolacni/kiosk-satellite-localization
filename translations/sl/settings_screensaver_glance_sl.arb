@@ -1,0 +1,15 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverGlanceEnabledTitle": "Na prvi pogled",
+  "settingScreensaverGlanceEnabledDescription": "Na ohranjevalniku zaslona prikaže vrstico s stanji entitet Home Assistant.",
+  "settingScreensaverGlanceEntitiesTitle": "Entitete",
+  "settingScreensaverGlanceEntitiesDescription": "Največ štiri entitete za prikaz, vsaka z neobveznim imenom po meri.",
+  "settingScreensaverGlanceNowPlayingTitle": "Pokaži v »Zdaj se predvaja«",
+  "settingScreensaverGlanceNowPlayingDescription": "Vrstico prikaže v celozaslonskem pogledu »Zdaj se predvaja«. Ostane skrita, ko je prikazano besedilo pesmi.",
+  "screensaverOverlayShowing": "Prikazano",
+  "screensaverOverlayNone": "Še nobene",
+  "screensaverOverlayGlancePage": "Na prvi pogled",
+  "screensaverOverlayGlanceHint": "Entitete, prikazane nad ohranjevalnikom zaslona",
+  "glanceUnavailable": "Ni na voljo",
+  "glanceUnknown": "Neznano"
+}

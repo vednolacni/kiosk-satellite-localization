@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "settingLauncherEnabledTitle": "Omogoči zaganjalnik aplikacij",
+  "settingLauncherEnabledDescription": "Omogoča odpiranje izbranih nameščenih aplikacij iz kioska.",
+  "settingLauncherAppsDescription": "Aplikacije, ki jih ponuja zaganjalnik.",
+  "settingLauncherAutoReturnTitle": "Samodejna vrnitev",
+  "settingLauncherAutoReturnDescription": "Vrne se v kiosk, ko se druge aplikacije nekaj časa nihče ne dotakne.",
+  "settingLauncherAutoReturnSecondsTitle": "Vrnitev po (v sekundah)",
+  "settingLauncherAutoReturnSecondsDescription": "Čas brez dotika v drugi aplikaciji, preden se kiosk vrne."
+}

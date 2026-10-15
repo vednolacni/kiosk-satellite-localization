@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "intercomBuiltinRing": "Vgrajeno zvonjenje",
+  "intercomBuiltinChime": "Vgrajeni zvočni signal",
+  "intercomMissingFile": "{file} (manjka)",
+  "intercomAddSound": "Dodaj zvok",
+  "intercomCopySoundHelp": "Kopirajte zvočno datoteko iz te naprave v mapo zvokov.",
+  "intercomUploadSoundHelp": "Naložite zvočno datoteko iz tega računalnika v mapo zvokov.",
+  "intercomUpload": "Naloži",
+  "intercomUploading": "Nalaganje …",
+  "intercomUnsupportedSound": "Zvok ni podprt",
+  "intercomChooseSound": "Zvok ni podprt: izberite datoteko MP3, OGG, WAV, FLAC, M4A ali AAC.",
+  "intercomCopyFailed": "Datoteke ni bilo mogoče kopirati",
+  "intercomUploadFailed": "Nalaganje ni uspelo: {error}",
+  "intercomSaveFailed": "Ni shranjeno: {error}",
+  "intercomSoundFilename": "Vnesite ime datoteke, ne poti.",
+  "intercomSoundFormats": "Izberite datoteko MP3, OGG, WAV, FLAC, M4A ali AAC."
+}

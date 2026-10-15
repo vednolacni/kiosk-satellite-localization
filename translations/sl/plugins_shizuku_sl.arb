@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "pluginShizuku13OrLaterIsRequiredTapForSetup": "Zahtevana je aplikacija Shizuku 13 ali novejša. Dotaknite se za navodila za nastavitev.",
+  "pluginStartShizukuOnThisDeviceTapForSetupInstructions": "Zaženite Shizuku v tej napravi. Dotaknite se za navodila za nastavitev.",
+  "pluginShizukuGrantsKioskSatelliteShellOrRootAccessInstalled": "Shizuku aplikaciji Kiosk Satellite omogoči dostop do lupine ali korenski dostop. Nameščeni vtičniki tečejo znotraj KS, zato dostop odobrite samo, če jim zaupate.",
+  "pluginSetUp": "Nastavi",
+  "pluginGrantAccess": "Odobri dostop",
+  "pluginApproveThePermissionRequestOnTheKiosk": "Odobrite zahtevo za dovoljenje na kiosku."
+}

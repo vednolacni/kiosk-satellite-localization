@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverImmichIntervalTitle": "Sekunde na sliko",
+  "settingScreensaverImmichIntervalDescription": "Kako dolgo je vsaka slika prikazana pred naslednjo. Videoposnetki se predvajajo v celoti.",
+  "settingScreensaverImmichShuffleTitle": "Naključni vrstni red",
+  "settingScreensaverImmichShuffleDescription": "Medije prikazuje v naključnem vrstnem redu.",
+  "settingScreensaverImmichTransitionTitle": "Prehod",
+  "settingScreensaverImmichTransitionDescription": "Kako en element preide v naslednjega.",
+  "settingScreensaverImmichFillTitle": "Zapolni zaslon",
+  "settingScreensaverImmichFillDescription": "»Izklopljeno« ohrani celotno fotografijo med črnima pasovoma. »Pametno« poveča fotografije z razmerjem stranic, podobnim zaslonu, ostale pa uokviri na zamegljenem ozadju. »Vedno« poveča vse fotografije in odreže, kar ne gre na zaslon.",
+  "settingScreensaverImmichPairPortraitTitle": "Združi pokončne fotografije v pare",
+  "settingScreensaverImmichPairPortraitDescription": "Dve pokončni fotografiji prikaže drugo ob drugi, da zapolnita zaslon.",
+  "settingScreensaverImmichPairLandscapeTitle": "Združi ležeče fotografije v pare",
+  "settingScreensaverImmichPairLandscapeDescription": "Dve ležeči fotografiji prikaže eno nad drugo, da zapolnita pokončen zaslon.",
+  "settingScreensaverImmichEdgeTapsTitle": "Menjava diapozitivov z dotikom robov",
+  "settingScreensaverImmichEdgeTapsDescription": "Dotik leve ali desne petine zaslona prikaže prejšnji ali naslednji diapozitiv, namesto da zapre ohranjevalnik.",
+  "screensaverMediaSlideshow": "Diaprojekcija"
+}

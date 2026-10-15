@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "settingEsphomeRealMacTitle": "Uporabi pravi naslov MAC za Wi-Fi",
+  "settingEsphomeRealMacDescription": "Home Assistant ta kiosk poveže z isto napravo, ki jo vaše omrežne integracije že spremljajo. Sprememba ustvari novo napravo ESPHome v sistemu Home Assistant.",
+  "settingEsphomeMacOverrideTitle": "Ponaredi naslov MAC za Wi-Fi",
+  "settingEsphomeMacOverrideDescription": "Ker naslova MAC ni mogoče ugotoviti, lahko v to polje vnesete svojega. Sprememba ustvari novo napravo ESPHome v sistemu Home Assistant.",
+  "esphomeAdvanced": "Napredne nastavitve",
+  "esphomeAdvancedHelp": "Pravi ali ponarejen naslov MAC za Wi-Fi",
+  "esphomeMacInvalid": "Vnesite veljaven naslov MAC.",
+  "esphomeMacHardware": "Sporoča se {mac}.",
+  "esphomeMacManual": "Sporoča se {mac}, vnesen spodaj.",
+  "esphomeMacUnavailable": "Android ne razkrije strojnega naslova te naprave."
+}

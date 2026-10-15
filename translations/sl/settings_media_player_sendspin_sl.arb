@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingSendspinEnabledTitle": "Omogoči predvajalnik Sendspin",
+  "settingSendspinEnabledDescription": "To napravo spremeni v sinhroniziran predvajalnik Sendspin. V strežniku Music Assistant se prikaže pod imenom naprave, usklajeno z vsemi drugimi zvočniki Sendspin.",
+  "settingSendspinServerTitle": "Strežnik",
+  "settingSendspinServerDescription": "Naslov strežnika Sendspin, na primer 192.168.1.10:8927. Pustite prazno, da se strežnik v omrežju poišče samodejno.",
+  "settingSendspinCodecTitle": "Prednostni zvočni kodek",
+  "settingSendspinCodecDescription": "FLAC je brez izgub in idealen za Wi-Fi ali ethernet. Strežnik dokončno izbere med možnostmi, ki jih ponuja ta naprava.",
+  "settingSendspinSyncOffsetTitle": "Zamik sinhronizacije zvoka (ms)",
+  "settingSendspinSyncOffsetDescription": "Negativna vrednost predvaja to napravo prej, za zvočnike, ki zaostajajo za skupino (Bluetooth). Nastavite po posluhu; uveljavi se takoj.",
+  "settingSendspinGroupVolumeDescription": "Ko ta naprava predvaja v skupini, drsnik za glasnost nastavi glasnost celotne skupine. Če je izklopljeno, samo glasnost te naprave. Potrebuje povezavo s strežnikom Music Assistant.",
+  "mediaSendspinPage": "Predvajalnik Sendspin",
+  "mediaSendspinHint": "To napravo spremeni v sinhroniziran predvajalnik Music Assistant",
+  "mediaFlac": "FLAC (brez izgub)",
+  "mediaOpus": "Opus (učinkovito)",
+  "mediaPcm": "PCM (nestisnjeno)"
+}

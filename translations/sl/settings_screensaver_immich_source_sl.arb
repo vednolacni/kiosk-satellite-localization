@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverImmichAlbumTitle": "Vir medijev",
+  "settingScreensaverImmichAlbumDescription": "Celotna knjižnica ali albumi, ki jih izberete.",
+  "settingScreensaverImmichPhotosOnlyTitle": "Samo fotografije",
+  "settingScreensaverImmichPhotosOnlyDescription": "V diaprojekciji preskoči videoposnetke.",
+  "settingScreensaverImmichCacheTitle": "Predpomni medije lokalno",
+  "settingScreensaverImmichCacheDescription": "Kopije shrani v napravi, da se slike naložijo takoj.",
+  "settingScreensaverImmichCacheMaxTitle": "Velikost predpomnilnika (elementi)",
+  "settingScreensaverImmichCacheMaxDescription": "Ko je predpomnilnik poln, se izbrišejo najstarejši elementi.",
+  "screensaverMediaAll": "Vsi mediji",
+  "screensaverMediaAllDevice": "Vsi mediji.",
+  "screensaverMediaNoAlbums": "Še ni albumov. Najprej ga ustvarite v aplikaciji Immich.",
+  "screensaverMediaAlbumsFailed": "Seznama albumov ni bilo mogoče pridobiti",
+  "screensaverMediaListError": "Seznama ni bilo mogoče pridobiti: {error}",
+  "screensaverMediaListingFailed": "pridobivanje seznama ni uspelo",
+  "screensaverMediaItems": "Elementi: {count}",
+  "screensaverMediaCached": "Predpomnjeno: {count}, {size}"
+}

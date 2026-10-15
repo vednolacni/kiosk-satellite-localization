@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "settingDisableCacheTitle": "Onemogoči predpomnilnik",
+  "settingDisableCacheDescription": "Vedno prenaša iz omrežja in ob nalaganju zavrže predpomnjene podatke strani, zato je na novo objavljena nadzorna plošča vedno sveža. Počasno; uporabljajte kot pomoč pri razvoju.",
+  "settingAllowMixedContentTitle": "Dovoli mešano vsebino",
+  "settingAllowMixedContentDescription": "Stranem HTTPS dovoli nalaganje nezavarovanih virov HTTP. Pomaga, ko nadzorna plošča https:// prikazuje vsebino http://, ki jo vmeša Home Assistant.",
+  "settingIgnoreSslErrorsTitle": "Prezri napake SSL",
+  "settingIgnoreSslErrorsDescription": "Sprejme nezaupanja vredna ali samopodpisana potrdila. Uporabljajte samo v svojem omrežju, saj onemogoči preverjanje potrdil."
+}

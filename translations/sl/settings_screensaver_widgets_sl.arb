@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverWidgetsTitle": "Pripomočki",
+  "settingScreensaverWidgetsDescription": "Majhni prekrivni elementi v kotih ohranjevalnika zaslona.",
+  "settingScreensaverWidgetScaleTitle": "Splošna velikost pripomočkov",
+  "settingScreensaverWidgetScaleDescription": "Prilagodi velikost vseh pripomočkov hkrati, da se bolje prilegajo vašemu zaslonu. Vsak pripomoček ohrani svojo velikost glede na druge.",
+  "settingScreensaverWidgetFontTitle": "Splošna pisava",
+  "settingScreensaverWidgetFontDescription": "Pisava, s katero so izrisani vsi pripomočki. Posamezni pripomoček lahko izbere svojo.",
+  "settingScreensaverWidgetFontWeightTitle": "Splošna debelina pisave",
+  "settingScreensaverWidgetFontWeightDescription": "Kako debelo je izrisano besedilo vseh pripomočkov. »Privzeto« uporabi lastno debelino vsake vrstice. Posamezni pripomoček lahko izbere svojo.",
+  "settingScreensaverWidgetTextShadowTitle": "Senca besedila",
+  "settingScreensaverWidgetTextShadowDescription": "Besedilu pripomočkov doda senco za boljšo berljivost na fotografijah.",
+  "settingScreensaverVignetteStrengthTitle": "Moč vinjete",
+  "settingScreensaverVignetteStrengthDescription": "Temnost senčenja za pripomočki za boljšo berljivost na svetlih fotografijah. Pri 0 je izklopljeno.",
+  "screensaverOverlayWidgetsEmpty": "Še ni pripomočkov",
+  "screensaverOverlayRemove": "Odstrani pripomoček",
+  "screensaverOverlayAdd": "Dodaj pripomoček",
+  "screensaverOverlayAddHelp": "Majhna ura, vreme, baterija ali entiteta v kotu.",
+  "screensaverOverlayWidgetsHint": "Prekrivni elementi v kotih in njihova velikost"
+}

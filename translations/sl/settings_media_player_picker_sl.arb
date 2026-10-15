@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "mediaPickPlayer": "Izberite predvajalnik",
+  "mediaMaPlayer": "Predvajalnik Music Assistant",
+  "mediaHaPlayer": "Predvajalnik medijev Home Assistant",
+  "mediaSonosRoom": "Prostor Sonos",
+  "mediaSearchPlayers": "Iskanje predvajalnikov",
+  "mediaOffline": "Brez povezave",
+  "mediaOfflineName": "{name} (brez povezave)",
+  "mediaSetUpMa": "Nastavite Music Assistant, da se prikažejo njegovi predvajalniki.",
+  "mediaSetUpHa": "Povežite Home Assistant, da se prikažejo njegovi predvajalniki medijev.",
+  "mediaSetUpSonos": "Zvočniki Sonos še niso znani. Poiščite ali dodajte zvočnik na strani Sonos.",
+  "mediaHaFailed": "Home Assistant se ni odzval: {error}",
+  "mediaSaveFailed": "Predvajalnika ni bilo mogoče shraniti.",
+  "mediaSelectFailed": "Predvajalnika ni bilo mogoče izbrati",
+  "mediaNotificationAccessRemote": "Brez tega Android ne navede nobene seje medijev, zato »Zdaj se predvaja« ne more spremljati aplikacij, ki predvajajo v tej napravi. Zaslon za odobritev se prikaže na tablici.",
+  "mediaLocalMediaSession": "Lokalna seja medijev"
+}

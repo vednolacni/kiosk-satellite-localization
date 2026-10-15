@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "screensaverMediaTransitionNone": "Brez",
+  "screensaverMediaTransitionFade": "Prelivanje",
+  "screensaverMediaTransitionSlide": "Drsenje",
+  "screensaverMediaTransitionZoom": "Povečava",
+  "screensaverMediaTransitionKenBurns": "Ken Burns",
+  "screensaverMediaTransitionRandom": "Naključno",
+  "screensaverMediaFillOff": "Izklopljeno",
+  "screensaverMediaFillSmart": "Pametno",
+  "screensaverMediaFillAlways": "Vedno"
+}

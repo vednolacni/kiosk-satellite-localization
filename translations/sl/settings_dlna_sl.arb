@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "settingDlnaEnabledTitle": "Omogoči sprejemnik DLNA",
+  "settingDlnaEnabledDescription": "Prikazuje slike in predvaja medije, poslane iz sistema Home Assistant ali katere koli aplikacije DLNA. Naprava se prikaže kot predvajalnik medijev z imenom naprave.",
+  "settingDlnaAudioBackgroundTitle": "Ohrani zvok v ozadju",
+  "settingDlnaAudioBackgroundDescription": "Poslani zvok se predvaja, ne da bi prevzel zaslon.",
+  "settingDlnaPortTitle": "Vrata strežnika",
+  "settingDlnaPortDescription": "Vrata, na katerih deluje sprejemnik; izpolnijo se ob njegovem zagonu. Spremenite jih, da sprejemnik premaknete, ali jih izbrišite, da jih izbere znova.",
+  "settingDlnaPortPlaceholder": "Nastavijo se ob zagonu sprejemnika"
+}

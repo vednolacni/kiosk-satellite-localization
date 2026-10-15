@@ -1,0 +1,8 @@
+{
+  "@@locale": "sl",
+  "remoteDisableTitle": "Ali želite izklopiti oddaljeno upravljanje?",
+  "remoteDisableHelp": "OPOZORILO: Do te strani ne boste več mogli dostopati. Za vnovični vklop uporabite napravo ali stikalo za oddaljeno upravljanje v sistemu Home Assistant.",
+  "remoteDisableConfirm": "Izklopi",
+  "remoteCopyHelp": "Označite ključ in ga kopirajte ročno.",
+  "remoteSaveSettingFailed": "Te nastavitve ni bilo mogoče shraniti. Poskusite znova."
+}

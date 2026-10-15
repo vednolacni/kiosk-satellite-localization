@@ -1,0 +1,21 @@
+{
+  "@@locale": "sl",
+  "voiceNoticeError": "Napaka Voice Satellite",
+  "voiceNoticeWarning": "Opozorilo Voice Satellite",
+  "voiceNoticeNotice": "Obvestilo Voice Satellite",
+  "voiceNoticeTts": "Pretvorba besedila v govor",
+  "voiceNoticeAssistPipeline": "Cevovod Assist",
+  "voiceNoticePipeline": "Cevovod »{name}«",
+  "voiceNoticeMicUnavailable": "Mikrofon ni na voljo.",
+  "voiceNoticeNotConnected": "Home Assistant ni povezan s tem kioskom.",
+  "voiceNoticeConnectionLost": "Povezava s sistemom Home Assistant je bila prekinjena. Samodejno se znova povezuje.",
+  "voiceNoticePlayback": "Zvoka v napravi ni bilo mogoče predvajati.",
+  "voiceNoticeWatchdog": "Ko ste končali govoriti, Home Assistant ni odgovoril. Cevovod se je morda zataknil.",
+  "voiceNoticeRefused": "Home Assistant ni mogel zagnati pomočnika.",
+  "voiceNoticeUnexpected": "Prišlo je do nepričakovane napake cevovoda.",
+  "voiceNoticeMicBlocked": "Dostop do mikrofona je blokiran. V nastavitvah Androida ga dovolite aplikaciji Kiosk Satellite.",
+  "voiceNoticeMicDeclined": "Dostop do mikrofona je bil zavrnjen, zato aktivacijske besede ni mogoče slišati.",
+  "voiceNoticeMicLost": "Mikrofon je prenehal delovati.",
+  "voiceNoticeModels": "Modelov aktivacijske besede ni bilo mogoče naložiti.",
+  "voiceNoticeCrashed": "Detektor aktivacijske besede se je v tej napravi večkrat zrušil, zato je bil ustavljen."
+}

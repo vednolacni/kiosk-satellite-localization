@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "settingHomeLauncherEnabledTitle": "Deluj kot začetni zaslon",
+  "settingHomeLauncherEnabledDescription": "Aplikacijo Kiosk Satellite nastavi kot začetni zaslon naprave: kiosk se zažene ob vklopu, vsak pritisk gumba za začetni zaslon pa se vrne nanj. Če se aplikacija večkrat zapored ne zažene, se nastavitev sama izklopi in obnovi prejšnji zaganjalnik.",
+  "settingHomeKeepPinningTitle": "Ohrani pripenjanje zaslona",
+  "settingHomeKeepPinningDescription": "Zaslon pripne, tudi ko je Kiosk Satellite začetni zaslon. Izvorno blokira nedavne aplikacije in gumb Nazaj, vendar na napravah brez lastništva naprave znova prikaže pogovorno okno za potrditev pripenjanja."
+}

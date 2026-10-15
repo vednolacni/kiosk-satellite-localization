@@ -1,0 +1,14 @@
+{
+  "@@locale": "sl",
+  "voiceMicHeld": "Zaznavanje aktivacijske besede vas sliši.",
+  "voiceMicBlocked": "Blokirano. Android ne bo več vprašal, zato ga dovolite v nastavitvah aplikacije.",
+  "voiceMicMissing": "Brez tega nič ne posluša aktivacijske besede.",
+  "voiceForegroundHeld": "Kiosk Satellite se lahko prikaže v ospredju, ko vas sliši.",
+  "voiceForegroundMissing": "Brez tega je aktivacijska beseda slišana, vendar se nič ne zgodi.",
+  "voiceNotificationHeld": "Stalno obvestilo, ki omogoča poslušanje v ozadju.",
+  "voiceNotificationMissing": "Potrebno za zanesljivo poslušanje v ozadju.",
+  "voiceBatteryHeld": "Android bo poslušalnik pustil delovati.",
+  "voiceBatteryMissing": "Brez tega se poslušalnik po nekaj urah ustavi.",
+  "voicePermissionDirections": "Odobrite jih v sami napravi: povlecite z levega roba → Nastavitve → Voice Satellite → Zahtevana sistemska dovoljenja.",
+  "voicePermissionsSearch": "Mikrofon in druga dovoljenja, ki jih potrebuje zaznavanje aktivacijske besede."
+}

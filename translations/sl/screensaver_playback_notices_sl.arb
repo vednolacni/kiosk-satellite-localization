@@ -1,0 +1,14 @@
+{
+  "@@locale": "sl",
+  "screensaverNoPhotos": "Ni izbranih fotografij. Izberite jih v nastavitvah.",
+  "screensaverNoFolder": "Ni izbrane mape. Izberite jo v nastavitvah.",
+  "screensaverFolderEmpty": "V mapi {folder} ni fotografij ali videoposnetkov",
+  "screensaverFolderUnreadable": "Mape {folder} ni bilo mogoče prebrati. Ali je dovoljenje za medije odobreno?",
+  "screensaverReadPhotosFailed": "Fotografij ni bilo mogoče prebrati.",
+  "screensaverImmichNotReady": "Strežnik Immich ni povezan. Povezavo preverite v nastavitvah.",
+  "screensaverNoMediaMatch": "Nobena vsebina se ne ujema z virom in filtri.",
+  "screensaverNoMediaSource": "V izbranem viru ni vsebine.",
+  "screensaverImmichUnreachable": "Strežnik Immich ni dosegljiv.",
+  "screensaverRetryNotice": "{error} Poskus se samodejno ponovi.",
+  "screensaverVideosTooLarge": "Vsi videoposnetki na tem seznamu predvajanja so preveliki, da bi jih ta naprava lahko predvajala."
+}

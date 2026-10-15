@@ -1,0 +1,8 @@
+{
+  "@@locale": "sl",
+  "cameraStreamsImportHa": "Uvozi kamere iz sistema Home Assistant",
+  "cameraStreamsImportHaHelp": "Doda vse kamere povezanega sistema Home Assistant, ki se predvajajo prek WebRTC, HLS ali MJPEG. Vnovični uvoz doda nove kamere.",
+  "cameraStreamsImportFailed": "Uvoz ni uspel",
+  "cameraStreamsImportComplete": "Uvoz je končan",
+  "cameraStreamsImportCounts": "Dodano: {added}, manjka: {missing}."
+}

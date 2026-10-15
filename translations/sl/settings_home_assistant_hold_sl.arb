@@ -1,0 +1,14 @@
+{
+  "@@locale": "sl",
+  "settingHaHoldModeTitle": "Način zadržanja",
+  "settingHaHoldModeDescription": "Ohrani trenutni pogled na zaslonu: ohranjevalnik zaslona, menjavanje pogledov nadzorne plošče in časovnik za vrnitev domov so začasno ustavljeni, dokler tega ne izklopite.",
+  "settingHaHoldReleaseMinutesTitle": "Samodejno končaj zadržanje po",
+  "settingHaHoldReleaseMinutesDescription": "Po nastavljenem času sam izklopi način zadržanja. Nastavite 0, da zadržanje traja do ročnega izklopa.",
+  "settingHaHoldMenuTitle": "Pokaži v meniju kioska",
+  "settingHaHoldMenuDescription": "Doda vnos v meni, ki vklopi in izklopi način zadržanja.",
+  "haHoldHint": "Pripetje trenutnega pogleda, samodejna sprostitev, vnos v meniju",
+  "haNever": "Nikoli",
+  "haMinutes": "{minutes} min",
+  "haHours": "{hours} h",
+  "haHoursMinutes": "{hours} h {minutes} min"
+}

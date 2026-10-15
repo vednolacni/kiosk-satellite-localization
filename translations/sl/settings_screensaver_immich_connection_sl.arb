@@ -1,0 +1,22 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverImmichUrlTitle": "Naslov strežnika",
+  "settingScreensaverImmichUrlDescription": "Naslov vašega strežnika Immich z vrati.",
+  "settingScreensaverImmichApiKeyTitle": "Ključ API",
+  "settingScreensaverImmichApiKeyDescription": "Ustvari se v aplikaciji Immich pod Nastavitve računa → Ključi API.",
+  "screensaverMediaImmichPage": "Ohranjevalnik zaslona z mediji Immich",
+  "screensaverMediaImmichHint": "Strežnik, mediji, diaprojekcija, metapodatki, filtri",
+  "screensaverMediaServerConnection": "Povezava s strežnikom",
+  "screensaverMediaValidateFailedLog": "Preverjanje ni uspelo. Neuspeli klic je v dnevniku aplikacije.",
+  "screensaverMediaValidateFailed": "Preverjanje ni uspelo.",
+  "screensaverMediaNoAnswer": "Naprava se ni odzvala.",
+  "screensaverMediaAddressFirst": "Najprej vnesite naslov strežnika.",
+  "screensaverMediaKeyFirst": "Najprej vnesite ključ API.",
+  "screensaverMediaBadAddress": "Naslov strežnika ni veljaven URL.",
+  "screensaverMediaKeyRejected": "Ključ API je bil zavrnjen.",
+  "screensaverMediaScopeMissing": "Ključu API manjka dovoljenje {scope}.",
+  "screensaverMediaPermissionMissing": "Ključu API manjka dovoljenje: {error}",
+  "screensaverMediaServerError": "Strežnik je odgovoril {status}: {error}",
+  "screensaverMediaUnreachable": "Naslov {url} ni dosegljiv.",
+  "screensaverMediaTalkError": "Komunikacija s strežnikom ni uspela: {error}"
+}

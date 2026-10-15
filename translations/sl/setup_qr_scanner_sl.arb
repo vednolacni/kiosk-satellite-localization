@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "setupQrFlipCamera": "Zamenjaj kamero",
+  "setupQrCameraFailed": "Kamere ni bilo mogoče zagnati.",
+  "setupQrTitle": "Preberite kodo QR žetona",
+  "setupQrHelp": "Prikaže se ob na novo ustvarjenem žetonu v vašem profilu Home Assistant.",
+  "setupQrFlashOff": "Izklopi svetilko",
+  "setupQrFlashOn": "Vklopi svetilko"
+}

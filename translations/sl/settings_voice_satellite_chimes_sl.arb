@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "voiceChimesPage": "Zvočni signali",
+  "voiceChimesHint": "Zvoki ob aktivaciji, ob koncu, ob napaki, časovnika in razglasa",
+  "voiceChimesPreview": "Predogled na kiosku",
+  "voiceChimesPreviewFailed": "Zvoka ni bilo mogoče predvajati.",
+  "voiceChimesHelp": "Izberite zvoke za ta kiosk. Datoteke po meri naložite tukaj. Zvoki, shranjeni v sistemu Home Assistant, se za lokalne zvočne signale ne uporabljajo.",
+  "voiceChimeWakeTitle": "Zvok ob aktivaciji",
+  "voiceChimeWakeDescription": "Predvaja se, ko Voice Satellite začne poslušati.",
+  "voiceChimeDoneTitle": "Zvok ob koncu",
+  "voiceChimeDoneDescription": "Predvaja se, ko se glasovna interakcija konča.",
+  "voiceChimeErrorTitle": "Zvok ob napaki",
+  "voiceChimeErrorDescription": "Predvaja se, ko glasovna interakcija ne uspe.",
+  "voiceChimeTimerTitle": "Zvok časovnika",
+  "voiceChimeTimerDescription": "Ko se časovnik izteče, se ponavlja, dokler ga ne opustite.",
+  "voiceChimeAnnounceTitle": "Zvok razglasa",
+  "voiceChimeAnnounceDescription": "Predvaja se pred razglasom Voice Satellite, razen če ima razglas svoj zvok.",
+  "settingVoiceWakeSoundTitle": "Predvajaj zvočne signale",
+  "settingVoiceWakeSoundDescription": "Zvoki ob aktivaciji, ob koncu in ob napaki."
+}

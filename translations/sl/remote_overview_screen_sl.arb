@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "overviewNoScreenshot": "Ni posnetka zaslona",
+  "overviewStill": "Statično",
+  "overviewLive": "V živo",
+  "overviewFullSize": "Polna velikost",
+  "overviewLiveInterval": "V živo, vsakih 5 sekund",
+  "overviewTaken": "Zajeto {age}",
+  "overviewCameraViewNamed": "Pogled kamer: {name}",
+  "overviewCameraView": "Pogled kamer",
+  "overviewScreenOffState": "Zaslon je izklopljen"
+}

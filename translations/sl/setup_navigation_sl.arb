@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "setupWelcome": "Dobrodošli",
+  "setupConnect": "Povezava",
+  "setupConnectSummary": "URL in žeton Home Assistant",
+  "setupDashboard": "Nadzorna plošča",
+  "setupDashboardSummary": "Kaj kiosk prikazuje",
+  "setupRecommendedSummary": "Priporočene nastavitve",
+  "setupPermissions": "Dovoljenja",
+  "setupPermissionsSummary": "Kaj potrebuje nastavitev"
+}

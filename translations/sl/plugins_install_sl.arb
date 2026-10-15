@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "pluginAddPlugin": "Dodaj vtičnik",
+  "pluginInstallFromAGithubRepository": "Namesti iz repozitorija GitHub",
+  "pluginMakeSureYouTrustThePluginSAuthorAnd": "Pred namestitvijo se prepričajte, da zaupate avtorju vtičnika in njegovi kodi.",
+  "pluginPreview": "Predogled",
+  "pluginInstalledVersion": "Nameščena različica",
+  "pluginAuthor": "Avtor",
+  "pluginLicense": "Licenca",
+  "pluginPluginsRunCodeInsideKioskSatelliteAndCanAccess": "Vtičniki izvajajo kodo znotraj aplikacije Kiosk Satellite in lahko dostopajo do podatkov aplikacije in odobrenih dovoljenj Androida. Napačno delujoč ali zlonameren vtičnik lahko razkrije zasebne podatke ali onemogoči delovanje aplikacije. Nameščajte samo vtičnike avtorjev, ki jim zaupate.",
+  "pluginNewPluginsStartDisabledUpdatesPreserveTheEnabledState": "Novi vtičniki so ob namestitvi onemogočeni. Posodobitve ohranijo stanje omogočenosti in delujoče vtičnike samodejno znova zaženejo.",
+  "pluginTrustAndUpdate": "Zaupaj in posodobi",
+  "pluginTrustAndInstall": "Zaupaj in namesti",
+  "pluginInstallFromZip": "Namesti iz datoteke ZIP",
+  "pluginForDevelopersOnlyTestALocalBuild": "Samo za razvijalce: preizkus lokalne gradnje",
+  "pluginPluginZip": "Datoteka ZIP vtičnika",
+  "pluginPluginZipMustBeAtMost4Mb": "Datoteka ZIP vtičnika je lahko velika največ 4 MB",
+  "pluginCouldNotReadTheSelectedZip": "Izbrane datoteke ZIP ni bilo mogoče prebrati"
+}

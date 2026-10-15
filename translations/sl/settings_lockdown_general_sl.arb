@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "settingLockdownEnabledTitle": "Omogoči način zaklepa",
+  "settingLockdownEnabledDescription": "Onemogoči interakcijo z zaslonom, dokler ga ne izklopite v sistemu Home Assistant ali s kretnjo za izhod.",
+  "settingLockdownMenuTitle": "Pokaži v meniju kioska",
+  "settingLockdownMenuDescription": "V meni kioska doda vnos Način zaklepa, ki zaklene zaslon. Za odklep uporabite kretnjo za izhod, oddaljeno skrbništvo ali Home Assistant.",
+  "settingLockdownBlackoutTitle": "Črn zaslon",
+  "settingLockdownBlackoutDescription": "Med zaklepom zatemni zaslon v črno.",
+  "settingLockdownAllowScreensaverTitle": "Dovoli ohranjevalnik zaslona",
+  "settingLockdownAllowScreensaverDescription": "Med zaklepom dovoli delovanje ohranjevalnika zaslona. »Zapri ob gibanju« ostane izklopljeno, dokler zaklep ni odpravljen.",
+  "settingLockdownExitGestureTitle": "Kretnja za izhod iz načina zaklepa",
+  "settingLockdownExitGestureDescription": "Hitri dotiki kjer koli izklopijo način zaklepa, po vnosu kode PIN kioska, če je nastavljena. Različice s pridržanjem zahtevajo, da zadnji dotik pridržite. Ko je onemogočeno, ga lahko izklopi samo oddaljeno skrbništvo ali Home Assistant.",
+  "lockdownGestureNone": "Onemogočeno (samo na daljavo)",
+  "lockdownExplanation": "Način zaklepa naredi nadzorno ploščo neinteraktivno, aktivira vse zaščite kiosknega načina, ne da bi spremenil vaše nastavitve kiosknega načina, in med delovanjem utiša zaznavanje aktivacijske besede. Ko je omogočena zaščita sistemskega vmesnika (zgoraj), sta blokirana tudi podokno z obvestili in nedavne aplikacije. Home Assistant prek ESPHome dobi stikalo za način zaklepa.",
+  "lockdownSearch": "Zaščita pred dotiki, ki se nastavlja samo na daljavo. Nastavite jo v vmesniku oddaljenega skrbništva; njena dovoljenja so pod »Zahtevana sistemska dovoljenja«."
+}

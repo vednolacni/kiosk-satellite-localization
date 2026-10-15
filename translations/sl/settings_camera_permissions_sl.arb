@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "cameraNoCamera": "Ni zaznane kamere",
+  "cameraNoCameraHelp": "Ta naprava ne sporoča nobene uporabne kamere.",
+  "cameraCameraPermission": "Manjka dovoljenje za kamero",
+  "cameraCameraPermissionHelp": "Brez njega kamere ni mogoče uporabljati. Pogovorno okno za odobritev se prikaže na zaslonu tablice.",
+  "cameraGrantOnDevice": "Odobri v napravi",
+  "cameraCameraBlocked": "Blokirano. Android ne bo več vprašal, zato ga dovolite v nastavitvah aplikacije.",
+  "cameraCameraNeeded": "Brez tega kamere ni mogoče uporabljati.",
+  "cameraAppSettings": "Nastavitve aplikacije"
+}

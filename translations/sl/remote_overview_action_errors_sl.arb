@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "deviceScreenOffPermission": "Za izklop zaslona je potrebno enkratno dovoljenje. Na tablici je zdaj prikazan zaslon za odobritev »Skrbnik naprave«. Tam ga odobrite in poskusite znova.",
+  "deviceAdminInactive": "Dovoljenje »Skrbnik naprave« ni aktivno.",
+  "deviceRestartOverlay": "Za vnovični zagon je potrebno dovoljenje »Prikaz čez druge aplikacije«, sicer se aplikacija ne more znova odpreti. Zaslon za odobritev se odpira v napravi; tam ga dovolite in poskusite znova.",
+  "deviceRebootPermission": "Za vnovični zagon naprave mora biti aplikacija Kiosk Satellite nastavljena kot lastnik naprave ali pa mora imeti odobreno povezavo Shizuku.",
+  "deviceRestartAndroidOnly": "Vnovični zagon je na voljo samo v Androidu.",
+  "deviceRestartShizukuRefused": "Aplikacija Shizuku je zavrnila vnovični zagon",
+  "deviceRestartFailed": "Vnovični zagon ni uspel: {error}"
+}

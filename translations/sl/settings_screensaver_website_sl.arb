@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverWebsiteUrlTitle": "URL spletne strani",
+  "settingScreensaverWebsiteUrlDescription": "Stran, ki se prikaže čez cel zaslon. Dovoljevati mora vdelavo.",
+  "settingScreensaverWebsiteZoomTitle": "Raven povečave",
+  "settingScreensaverWebsiteZoomDescription": "Spremeni velikost prikaza celotne zunanje spletne strani na ohranjevalniku zaslona.",
+  "settingScreensaverWebsiteDoubleTapTitle": "Zapri z dvojnim dotikom",
+  "settingScreensaverWebsiteDoubleTapDescription": "Posamezni dotiki delujejo na spletni strani, namesto da zaprejo ohranjevalnik.",
+  "screensaverWebsiteSection": "Ohranjevalnik zaslona s spletno stranjo"
+}

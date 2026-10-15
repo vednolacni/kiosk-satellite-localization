@@ -1,0 +1,18 @@
+{
+  "@@locale": "sl",
+  "settingHaRotationEnabledTitle": "Omogoči menjavanje pogledov nadzorne plošče",
+  "settingHaRotationEnabledDescription": "V neskončni zanki menjava izbrane poglede nadzorne plošče in vsakega prikaže izbrano število sekund.",
+  "settingHaRotationSecondsTitle": "Sekunde na pogled",
+  "settingHaRotationSecondsDescription": "Kako dolgo vsak pogled ostane na zaslonu.",
+  "settingHaRotationPauseSecondsTitle": "Premor menjavanja ob interakciji (v sekundah)",
+  "settingHaRotationPauseSecondsDescription": "Dotik zaslona za toliko časa ustavi menjavanje, vsak dotik pa odštevanje začne znova. Glasovne interakcije ustavijo menjavanje do konca. Pri 0 se menjavanje ob dotikih nadaljuje.",
+  "settingHaRotationCrossfadeTitle": "Prelivanje med pogledi",
+  "settingHaRotationCrossfadeDescription": "Namesto takojšnjega preklopa pogled zbledi v ozadje in nato preide v naslednjega. Prehod na drugo nadzorno ploščo ali zunanjo stran je še vedno takojšen.",
+  "settingHaRotationFadeSecondsTitle": "Trajanje prelivanja (v sekundah)",
+  "settingHaRotationFadeSecondsDescription": "Skupni čas pojemanja in pojavljanja. Nalaganje naslednjega pogleda lahko doda čas, zlasti ob prvem obisku.",
+  "haRotation": "Menjavanje pogledov nadzorne plošče",
+  "haRotationHint": "Menjavanje pogledov, čas prikaza, prelivanje",
+  "haExternalPages": "Zunanje strani",
+  "haFadeError": "Izberite trajanje prelivanja od 0,2 do 5 sekund.",
+  "haPauseRemoteHelp": "Dotik za toliko časa ustavi menjavanje; vsak dotik ga začne znova. Glasovne interakcije ga vedno ustavijo do konca. Pri 0 se menjavanje nadaljuje."
+}

@@ -1,0 +1,12 @@
+{
+  "@@locale": "sl",
+  "voiceDisconnected": "Home Assistant ni povezan",
+  "voiceValidate": "Najprej preverite povezavo v nastavitvah Home Assistant.",
+  "voiceChecking": "Preverjanje integracije Voice Satellite …",
+  "voiceMissing": "Integracija Voice Satellite ni nameščena v sistemu Home Assistant",
+  "voiceInstallHelp": "Integracija Voice Satellite ta kiosk spremeni v polnovrednega prostoročnega glasovnega pomočnika za Home Assistant: zaznavanje aktivacijske besede, pogovori, časovniki in razglasi, kar na nadzorni plošči.\n\nNa voljo je v privzetem repozitoriju HACS. Namestite jo v svoj sistem Home Assistant, nato se vrnite sem.",
+  "voiceLearnMore": "Več informacij: ",
+  "voiceGithub": "Voice Satellite v storitvi GitHub",
+  "voiceHacs": "Odpri repozitorij HACS",
+  "voiceLoading": "Nalaganje kontrolnikov Voice Satellite …"
+}

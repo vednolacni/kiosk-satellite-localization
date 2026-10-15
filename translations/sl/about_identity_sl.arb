@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "aboutApp": "Aplikacija",
+  "aboutVersion": "Različica aplikacije",
+  "aboutBuild": "Gradnja",
+  "aboutPackage": "Paket",
+  "aboutAttribution": "Navedba avtorstva",
+  "aboutAuthor": "Avtor",
+  "aboutWebsite": "Spletno mesto",
+  "aboutSourceCode": "Izvorna koda",
+  "aboutLicense": "Licenca",
+  "aboutLicenseSummary": "Aplikacija Kiosk Satellite je brezplačna za osebno, nekomercialno uporabo. Izdana je pod licenco CC BY-NC-ND 4.0: aplikacijo lahko uporabljate in delite, ni pa dovoljena njena komercialna uporaba in razširjanje spremenjenih različic aplikacije. Za neodvisne vtičnike velja dodatno dovoljenje iz datoteke PLUGIN-EXCEPTION.md."
+}

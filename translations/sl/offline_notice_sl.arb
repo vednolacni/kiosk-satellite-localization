@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "offlineDashboard": "Nadzorna plošča ni na voljo",
+  "offlineNetwork": "Ni omrežne povezave",
+  "offlinePageHelp": "Strani ni bilo mogoče naložiti.",
+  "offlineNetworkHelp": "Nadzorna plošča se vrne, ko bo omrežje znova na voljo.",
+  "offlineLost": "Omrežna povezava je prekinjena",
+  "offlineRestored": "Omrežna povezava je znova vzpostavljena"
+}

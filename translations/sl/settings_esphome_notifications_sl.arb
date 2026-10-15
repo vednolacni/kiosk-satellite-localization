@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingNotificationsTransparencyTitle": "Prosojnost",
+  "settingNotificationsTransparencyDescription": "Zaslon v ozadju je viden skozi kartice obvestil. Besedilo in ikone ostanejo neprosojni.",
+  "settingNotificationsBlurTitle": "Zameglitev ozadja",
+  "settingNotificationsBlurDescription": "Zamegli, kar je vidno skozi prosojno kartico obvestila. Opomba: zameglitve ni mogoče uporabiti nad površino nadzorne plošče Home Assistant.",
+  "settingNotificationsChimeFileTitle": "Zvok obvestila",
+  "settingNotificationsChimeFileDescription": "Zvočne datoteke se berejo iz mape Android/data/me.jxl.kiosk_satellite/files/sounds v napravi, ki je dostopna tudi iz upravitelja datotek.",
+  "settingNotificationsVolumeTitle": "Glasnost obvestil",
+  "settingNotificationsVolumeDescription": "Kako glasno se predvaja zvok obvestila, neodvisno od glasnosti medijev in pomočnika.",
+  "esphomeNotifications": "Obvestila",
+  "esphomeNotificationsHelp": "Prosojnost, zameglitev, zvok obvestila, preizkusno obvestilo",
+  "esphomeAppearance": "Videz",
+  "esphomeSound": "Zvok",
+  "esphomeNotificationTest": "Preizkusno obvestilo",
+  "esphomeNotificationHelp": "Obvestila pošlje Home Assistant z dejanjem {action}. Preizkus prikaže eno nad nadzorno ploščo.",
+  "esphomeNotificationBody": "Tako je videti in zveni obvestilo iz sistema Home Assistant.",
+  "esphomeNotificationSearch": "Dejanje Home Assistant, ki pošilja obvestila, in gumb za prikaz enega."
+}

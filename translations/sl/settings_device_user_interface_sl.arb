@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "settingUiLanguageTitle": "Jezik",
+  "settingUiLanguageDescription": "Jezik aplikacije Kiosk Satellite in oddaljenega skrbništva. Home Assistant ohrani svoj jezik.",
+  "settingUiThemeTitle": "Tema aplikacije",
+  "settingUiThemeDescription": "Svetla ali temna za zaslone aplikacije: meni, nastavitve, pogovorna okna. Sistemska sledi nastavitvi Androida.",
+  "settingUiScaleTitle": "Velikost vmesnika",
+  "settingUiScaleDescription": "Velikost zaslonov aplikacije: meni, nastavitve, pogovorna okna. Za zaslone z visoko gostoto. Spletna vsebina ohrani svojo velikost.",
+  "deviceUserInterface": "Uporabniški vmesnik",
+  "deviceThemeDark": "Temna",
+  "deviceThemeLight": "Svetla",
+  "deviceThemeSystem": "Sistemska"
+}

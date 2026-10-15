@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "entityPickerNoArea": "Brez območja",
+  "entityPickerAll": "Vse",
+  "entityPickerChoose": "Izberite entiteto",
+  "entityPickerNoMatch": "Ni zadetkov",
+  "entityPickerOfflineHelp": "Entitete se naložijo, ko je povezava znova vzpostavljena.",
+  "entityPickerMissing": "Te entitete v sistemu Home Assistant ni več. Izberite drugo.",
+  "entityPickerOrderHint": "Vrstni red spremenite z vlečenjem ali s puščicami.",
+  "entityPickerFull": "Če želite dodati drugo, eno odstranite.",
+  "entityPickerAdd": "Dodaj entitete",
+  "entityPickerShowing": "Prikazano {count} od {max}"
+}

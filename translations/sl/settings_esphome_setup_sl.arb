@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingEsphomeEnabledTitle": "Omogoči ESPHome",
+  "settingEsphomeEnabledDescription": "Ta kiosk ponudi sistemu Home Assistant kot napravo ESPHome: njegove senzorje in kontrolnike kot izvorne entitete. Samodejno odkrito.",
+  "settingEsphomeEntitiesTitle": "Izpostavi entitete kioska",
+  "settingEsphomeEntitiesDescription": "Senzorje in kontrolnike te naprave ponudi kot entitete ESPHome.",
+  "settingEsphomeExcludedEntitiesTitle": "Izključene entitete",
+  "settingEsphomeExcludedEntitiesDescription": "Izberite entitete, ki jih želite izključiti iz sistema Home Assistant. Vse druge razpoložljive entitete so izpostavljene. Shranjevanje znova poveže ESPHome.",
+  "settingEsphomeNodeNameTitle": "Ime vozlišča",
+  "settingEsphomeNodeNameDescription": "Poimenuje ta kiosk v omrežju, Home Assistant pa iz njega sestavi imena dejanj. Preimenovanje preimenuje tudi ta dejanja.",
+  "settingEsphomeNodeNamePlaceholder": "Nastavi se ob prvem zagonu",
+  "settingBtproxyKeyTitle": "Šifrirni ključ",
+  "settingBtproxyKeyDescription": "Ta ključ prilepite v Home Assistant, ko vas vpraša za šifrirni ključ. Ustvari se samodejno ob prvem zagonu.",
+  "settingBtproxyKeyPlaceholder": "Ustvari se ob prvem zagonu",
+  "settingBtproxyPortTitle": "Vrata API",
+  "settingBtproxyPortDescription": "Vrata, s katerimi se poveže Home Assistant. Pustite prazno za standardna vrata ESPHome, 6053.",
+  "esphomeStartFailed": "Strežnika ESPHome ni bilo mogoče zagnati: {error}",
+  "esphomeExcludedInvalid": "Izberite seznam ID-jev entitet."
+}

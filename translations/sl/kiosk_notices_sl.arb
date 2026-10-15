@@ -1,0 +1,21 @@
+{
+  "@@locale": "sl",
+  "kioskBackClose": "Znova pritisnite Nazaj, da zaprete aplikacijo",
+  "kioskBackAgain": "Znova pritisnite Nazaj, da se vrnete",
+  "kioskHoldOn": "Način zadržanja je vklopljen",
+  "kioskHoldOff": "Način zadržanja je izklopljen",
+  "kioskHoldNotice": "Trenutni pogled ostane, dokler tega ne izklopite.",
+  "kioskDownloadComplete": "Prenos je končan",
+  "kioskDownloadFailed": "Prenos ni uspel",
+  "kioskDownload": "Prenesi",
+  "kioskDownloading": "Prenašanje",
+  "kioskOpen": "Odpri",
+  "kioskTip": "Namig",
+  "kioskMenuHint": "Za odpiranje menija povlecite z levega roba.",
+  "kioskUnknownLink": "Neznana povezava kioska",
+  "kioskOpenAppFailed": "Aplikacije ni bilo mogoče odpreti",
+  "kioskWebViewMissing": "Android System WebView ni nameščen",
+  "kioskWebViewMissingHelp": "Ta naprava nima ponudnika WebView, zato nadzorne plošče Home Assistant ni mogoče prikazati. Namestite Android System WebView ali Chrome, nato znova zaženite aplikacijo Kiosk Satellite.",
+  "kioskDuraSpeedBlocking": "DuraSpeed blokira nadzorno ploščo",
+  "kioskDuraSpeedBlockingHelp": "DuraSpeed na tej tablici preprečuje zagon upodabljalnika nadzorne plošče, nekatere tablice pa zanj nimajo strani z nastavitvami. Enkrat ga izklopite prek adb, nato znova zaženite aplikacijo Kiosk Satellite:"
+}

@@ -1,0 +1,15 @@
+{
+  "@@locale": "sl",
+  "deviceHelperPage": "Neobvezni pomočnik za posodobitve",
+  "deviceHelperStatus": "Stanje pomočnika",
+  "deviceHelperError": "Pomočnika za posodobitve ni bilo mogoče preveriti.",
+  "deviceHelperUnneeded": "Android zdaj lahko posodobitve namesti tiho. Pomočnik ni potreben.",
+  "deviceHelperIntro": "Ta naprava trenutno za namestitev posodobitev prek Androida potrebuje potrditev na zaslonu. Neobvezni pomočnik aplikaciji Kiosk Satellite omogoča nameščanje posodobitev brez dotika.",
+  "deviceHelperBusy": "Nameščanje posodobitve.",
+  "deviceHelperReady": "Pripravljeno. Posodobitve se namestijo brez potrditve.",
+  "deviceHelperUnavailable": "Ni na voljo. Za posodobitve brez potrditve zaženite pomočnika prek ADB.",
+  "deviceHelperLifetime": "Pomočnik ostane aktiven ob vnovičnih zagonih in posodobitvah aplikacije, ustavi pa se po vnovičnem zagonu naprave. Za vnovični zagon zaženite ukaz iz računalnika z ADB. Računalnik lahko nato odklopite.",
+  "deviceHelperStart": "Zaženi prek ADB",
+  "deviceHelperGuide": "Vodnik za nastavitev",
+  "deviceHelperGuideHelp": "Preberite navodila in zahteve za pomočnika za posodobitve."
+}

@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingSendspinShowPlayerTitle": "Pokaži plavajoči predvajalnik",
+  "settingSendspinShowPlayerDescription": "Med predvajanjem glasbe nad nadzorno ploščo prikaže majhno okno s trenutno skladbo, naslovnico, podatki o skladbi in napredkom. Povlecite ga kamor koli; položaj se zapomni.",
+  "settingSendspinPlayerSizeTitle": "Velikost predvajalnika",
+  "settingSendspinPlayerSizeDescription": "»Kompaktno« je majhno, nevsiljivo okno s trenutno skladbo. »Veliko s kontrolniki« doda dotiku prilagojene gumbe za prejšnjo, predvajanje/premor in naslednjo, ki upravljajo celotno skupino predvajanja.",
+  "settingSendspinPausedHideMinutesTitle": "Skrij začasno ustavljen predvajalnik po",
+  "settingSendspinPausedHideMinutesDescription": "Kako dolgo začasno ustavljen predvajalnik ostane na zaslonu. Velja za plavajoči predvajalnik in pogled »Zdaj se predvaja«.",
+  "settingSendspinDismissKeepsPlayingTitle": "Ob zaprtju nadaljuj predvajanje",
+  "settingSendspinDismissKeepsPlayingDescription": "Ko plavajoči predvajalnik odrinete stran, se skrije, glasba pa se ne ustavi.",
+  "settingSendspinPlayerShortcutTitle": "Pokaži v meniju kioska",
+  "settingSendspinPlayerShortcutDescription": "V meni kioska doda vnos, ki pokaže ali skrije plavajoči predvajalnik. OPOZORILO: Če se nič ne predvaja ali ta predvajalnik nima čakalne vrste, se vnos ne prikaže.",
+  "mediaFloatingPage": "Plavajoči predvajalnik",
+  "mediaFloatingHint": "Majhna kartica nad nadzorno ploščo",
+  "mediaCompact": "Kompaktno",
+  "mediaLargeControls": "Veliko s kontrolniki"
+}

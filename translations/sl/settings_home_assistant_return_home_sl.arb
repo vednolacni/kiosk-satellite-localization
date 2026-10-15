@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "settingHaReturnHomeEnabledTitle": "Vrnitev na domači pogled nadzorne plošče",
+  "settingHaReturnHomeEnabledDescription": "Po obdobju nedejavnosti se vrne na zgoraj nastavljeno nadzorno ploščo.",
+  "settingHaReturnHomeSecondsTitle": "Vrnitev po (v sekundah)",
+  "settingHaReturnHomeSecondsDescription": "Obdobje nedejavnosti, preden se kiosk vrne.",
+  "haReturnHint": "Vrnitev na domači pogled, ko kiosk miruje",
+  "haReturnDisabled": "Izklopljeno, ko je vklopljeno menjavanje pogledov nadzorne plošče.",
+  "haReturnNoPath": "Nastavljena nadzorna plošča nima poti pogleda za vrnitev.",
+  "haReturnPath": "Po izteku časa se vrne na »{path}«."
+}

@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "settingPersonSensorTitle": "Omogoči senzor osebe",
+  "settingPersonSensorDescription": "Senzor osebe v napravi izpostavi sistemu Home Assistant kot senzor prisotnosti. Potrebuje spodnje dovoljenje »Dostop do dnevnikov«.",
+  "cameraPersonPage": "Senzor osebe",
+  "cameraPersonHint": "Senzor prisotnosti za Home Assistant iz senzorja osebe v napravi"
+}

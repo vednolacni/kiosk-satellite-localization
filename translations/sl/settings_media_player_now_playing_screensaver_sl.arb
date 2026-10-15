@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "settingSendspinFullscreenTitle": "»Zdaj se predvaja« namesto ohranjevalnika zaslona",
+  "settingSendspinFullscreenDescription": "Med predvajanjem glasbe ohranjevalnik zaslona postane celozaslonski pogled »Zdaj se predvaja« z naslovnico albuma. Če se nič ne predvaja, deluje običajen ohranjevalnik zaslona.",
+  "settingSendspinFullscreenSplitTitle": "Pokaži ob ohranjevalniku zaslona",
+  "settingSendspinFullscreenSplitDescription": "Ohranjevalnik zaslona ostane viden poleg »Zdaj se predvaja«. Na pokončnih zaslonih je ohranjevalnik nad predvajalnikom. Majhni zasloni ohranijo celozaslonski predvajalnik.",
+  "settingSendspinFullscreenPhotoFillTitle": "Zapolni zaslon",
+  "settingSendspinFullscreenPhotoFillDescription": "Preglasi zapolnjevanje fotografij, ko si ohranjevalnik zaslona deli zaslon z »Zdaj se predvaja«. »Privzeto« uporabi nastavitev posameznega ohranjevalnika. »Izklopljeno« ohrani celotno fotografijo med črnima pasovoma. »Pametno« poveča fotografije z razmerjem stranic, podobnim zaslonu, ostale pa uokviri na zamegljenem ozadju. »Vedno« poveča vse fotografije in odreže, kar ne gre na zaslon.",
+  "settingSendspinFullscreenOverrideBrightnessTitle": "Preglasi svetlost ohranjevalnika zaslona",
+  "settingSendspinFullscreenOverrideBrightnessDescription": "Ko je »Zdaj se predvaja« prikazan ob ohranjevalniku zaslona, uporabi običajno svetlost zaslona namesto svetlosti ohranjevalnika. To preglasi tudi načrtovano svetlost ohranjevalnika.",
+  "mediaScreensaverHeading": "Ohranjevalnik zaslona",
+  "mediaDefaultFill": "Privzeto",
+  "mediaFillOff": "Izklopljeno",
+  "mediaFillSmart": "Pametno",
+  "mediaFillAlways": "Vedno"
+}

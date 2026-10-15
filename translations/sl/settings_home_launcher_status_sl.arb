@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "kioskHomeScreen": "Začetni zaslon",
+  "kioskCheckingDevice": "Preverjanje naprave …",
+  "kioskFireOs": "Fire OS ne dovoli zamenjave zaganjalnika.",
+  "kioskUnsupported": "Ta naprava ne dovoli spreminjanja začetnega zaslona.",
+  "kioskRecovered": "Samodejno izklopljeno po večkratnih neuspelih zagonih; prejšnji zaganjalnik je bil obnovljen. Za nov poskus znova vklopite stikalo.",
+  "kioskHeld": "Kiosk Satellite je začetni zaslon. Kiosk se zažene ob vklopu, vsak pritisk gumba za začetni zaslon pa se vrne nanj.",
+  "kioskDisabled": "Ni začetni zaslon. Zgoraj vklopite »Deluj kot začetni zaslon«.",
+  "kioskWaiting": "Še ni trenutni začetni zaslon: naprava čaka na potrditev.",
+  "kioskOpenHomeSettings": "Odpri nastavitve začetnega zaslona",
+  "kioskSetDefault": "Nastavi kot privzeto",
+  "kioskActive": "Aktivno",
+  "kioskNotHome": "Ni začetni zaslon.",
+  "kioskWaitingRemote": "Čakanje na potrditev v napravi: tam se odpre sistemsko pogovorno okno ali nastavitve začetnega zaslona.",
+  "kioskSetDevice": "Nastavi v napravi"
+}

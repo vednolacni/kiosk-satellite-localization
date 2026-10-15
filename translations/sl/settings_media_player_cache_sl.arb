@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "mediaCacheTitle": "Predpomnilnik naslovnic albumov",
+  "mediaCacheReadFailed": "Velikosti predpomnilnika ni bilo mogoče prebrati.",
+  "mediaCacheClearFailed": "Predpomnilnika ni bilo mogoče počistiti.",
+  "mediaCacheChecking": "Preverjanje velikosti predpomnilnika …",
+  "mediaCacheClearing": "Čiščenje …",
+  "mediaCacheUsage": "Uporabljeno {used} od {limit}. Sličice čakalne vrste se predpomnijo samodejno."
+}

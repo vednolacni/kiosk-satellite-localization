@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverDismissOnMotionTitle": "Zapri ob gibanju",
+  "settingScreensaverDismissOnMotionDescription": "Med ohranjevalnikom zaslona spremlja kamero in zbudi zaslon, ko se nekdo približa. Kamera deluje samo med ohranjevalnikom zaslona.",
+  "settingScreensaverDismissOnMotionScreenOffOnlyTitle": "Samo pri izklopljenem zaslonu",
+  "settingScreensaverDismissOnMotionScreenOffOnlyDescription": "Ko je zaslon vklopljen in je zaznano gibanje, ohranjevalnik zaslona ostane viden. Ko se zaslon izklopi, zaznavanje zbudi nadzorno ploščo. Dotik še vedno zapre ohranjevalnik zaslona.",
+  "settingScreensaverPostponeOnMotionTitle": "Odloži ohranjevalnik zaslona ob gibanju",
+  "settingScreensaverPostponeOnMotionDescription": "Ob zaznanem gibanju odloži vklop ohranjevalnika zaslona. OPOZORILO: Kamera ostane stalno vklopljena.",
+  "screensaverDetectionMotionPage": "Zaznavanje gibanja",
+  "screensaverDetectionMotionHint": "Zapre ali odloži ohranjevalnik zaslona ob gibanju",
+  "screensaverDetectionMotionTuning": "Zaznavanje gibanja se nastavi v nastavitvah kamere.",
+  "settingMotionUseEntityTitle": "Uporabi entiteto Home Assistant",
+  "settingMotionUseEntityDescription": "Gibanje zaznava s senzorjem v sistemu Home Assistant namesto s kamero.",
+  "settingMotionEntityTitle": "Entiteta senzorja gibanja",
+  "settingMotionEntityDescription": "Senzor zasedenosti, gibanja ali prisotnosti v sistemu Home Assistant, ki mu aplikacija sledi.",
+  "screensaverDetectionExternalMotionHeading": "Zunanji senzor gibanja"
+}

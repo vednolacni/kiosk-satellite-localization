@@ -1,0 +1,15 @@
+{
+  "@@locale": "sl",
+  "intercomKiosks": "Kioski",
+  "intercomRosterHelp": "Najdeni kioski in shranjeni člani flote. Kiosk je pripravljen, ko je dosegljiv, ima vklopljen interkom, isti ključ in ujemajoče se nastavitve šifriranja.",
+  "intercomNoOther": "Drugih kioskov ni bilo mogoče najti",
+  "intercomRosterDeviceHelp": "Tukaj se prikažejo kioski z vklopljenima »Oddaljeno upravljanje« in »Najdi druge kioske«.",
+  "intercomNoneHeard": "Ni najdenih kioskov",
+  "intercomRosterRemoteHelp": "Kioski se prikažejo prek odkrivanja v omrežju ali shranjenega članstva v floti. »Oddaljeno upravljanje« in »Najdi druge kioske« morata biti vklopljena.",
+  "intercomReady": "Pripravljeno",
+  "intercomOff": "Interkom je izklopljen",
+  "intercomDifferentKey": "Drug ključ",
+  "intercomUnreachable": "Nedosegljivo",
+  "intercomOffline": "Brez povezave",
+  "intercomChecking": "Preverjanje …"
+}

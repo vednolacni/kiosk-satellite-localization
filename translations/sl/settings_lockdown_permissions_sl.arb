@@ -1,0 +1,6 @@
+{
+  "@@locale": "sl",
+  "lockdownOverlayHeld": "Zaščita zaklepa lahko prekrije celoten zaslon.",
+  "lockdownOverlayMissing": "Brez tega zaščita prekrije samo aplikacijo. Zaslon za odobritev se prikaže na tablici.",
+  "lockdownPermissionsSearch": "Dovoljenja, na katera se zanašajo zaščite zaklepa."
+}

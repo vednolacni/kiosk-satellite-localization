@@ -1,0 +1,22 @@
+{
+  "@@locale": "sl",
+  "settingSendspinPlayerSourceTitle": "Vir predvajalnika",
+  "settingSendspinPlayerSourceDescription": "Kaj prikazujeta in upravljata plavajoči predvajalnik in »Zdaj se predvaja«: ta naprava ali predvajalnik drugje.",
+  "settingSendspinPlayerTitle": "Predvajalnik",
+  "settingSendspinPlayerDescription": "Predvajalnik tega vira, ki ga želite prikazati in upravljati.",
+  "settingSendspinDuckPercentTitle": "Zmanjšaj glasnost med glasovnimi interakcijami",
+  "settingSendspinDuckPercentDescription": "Med glasovnimi interakcijami in klici interkoma se glasba utiša na ta delež svoje glasnosti, nato se vrne.",
+  "settingSendspinEsphomeEntitiesTitle": "Izpostavi entitete ESPHome",
+  "settingSendspinEsphomeEntitiesDescription": "Gumbi za predvajanje, premor, naslednjo in prejšnjo skladbo za spremljani predvajalnik v sistemu Home Assistant, z njegovim stanjem, naslovom, izvajalcem in virom kot senzorji.",
+  "settingSendspinVolumeKeysTitle": "Gumba za glasnost upravljata predvajalnik",
+  "settingSendspinVolumeKeysDescription": "Gumba za glasnost te naprave spreminjata glasnost spremljanega predvajalnika namesto lastne. Samo, ko je na zaslonu pogled »Zdaj se predvaja«, ali kadar koli predvajalnik predvaja.",
+  "settingSendspinVolumeKeyStepTitle": "Korak gumba za glasnost",
+  "settingSendspinVolumeKeyStepDescription": "Za koliko en pritisk gumba za glasnost spremeni glasnost predvajalnika.",
+  "mediaIntro": "Plavajoči predvajalnik in »Zdaj se predvaja« se prikažeta samo, ko izbrani predvajalnik predvaja skladbo ali ima naloženo čakalno vrsto. Če se nič ne predvaja in ni čakalne vrste, se ne prikaže nobeden.",
+  "mediaThisDevice": "Ta naprava",
+  "mediaOff": "Izklopljeno",
+  "mediaKeysNowPlaying": "Ko je prikazan »Zdaj se predvaja«",
+  "mediaKeysPlaying": "Ko predvajalnik predvaja",
+  "mediaAnotherPlayer": "drug predvajalnik",
+  "mediaLocalOffline": "Lasten predvajalnik Sendspin te naprave ostane brez povezave, medtem ko se upravlja predvajalnik {player}."
+}

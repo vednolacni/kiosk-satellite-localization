@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "gestureHaServiceKind": "Storitev Home Assistant",
+  "gestureHaScriptKind": "Skripta Home Assistant",
+  "gestureHaAutomationKind": "Avtomatizacija Home Assistant",
+  "gestureHaEventKind": "Dogodek Home Assistant",
+  "gestureRan": "Zagnano: {value}",
+  "gestureRunFailed": "Ni bilo mogoče zagnati: {value}",
+  "gestureCalled": "Poklicano: {value}",
+  "gestureCallFailed": "Ni bilo mogoče poklicati: {value}",
+  "gestureTriggered": "Sproženo: {value}",
+  "gestureTriggerFailed": "Ni bilo mogoče sprožiti: {value}",
+  "gestureFired": "Dogodek sprožen: {value}",
+  "gestureFireFailed": "Dogodka ni bilo mogoče sprožiti: {value}",
+  "gestureDone": "Končano",
+  "gestureFailed": "Ni uspelo"
+}

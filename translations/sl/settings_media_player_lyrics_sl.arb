@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "settingSendspinLyricsEnabledTitle": "Omogoči besedila pesmi",
+  "settingSendspinLyricsEnabledDescription": "Sinhronizirana besedila pesmi v pogledu »Zdaj se predvaja« za vse vire predvajalnikov.",
+  "settingSendspinLyricsSourceTitle": "Vir besedil pesmi",
+  "settingSendspinLyricsSourceDescription": "Od kod prihajajo besedila pesmi. Music Assistant potrebuje naslov strežnika in žeton na svoji strani.",
+  "settingSendspinLyricsFallbackTitle": "Nadomestno uporabi Music Assistant",
+  "settingSendspinLyricsFallbackDescription": "Če LRCLIB ni dosegljiv, se vpraša Music Assistant. Potrebuje povezavo s strežnikom Music Assistant.",
+  "settingSendspinLyricsOffsetTitle": "Časovna uskladitev besedila",
+  "settingSendspinLyricsOffsetDescription": "Premakne besedilo glede na glasbo. Pozitivna vrednost prikaže vsako vrstico prej, negativna pozneje. Koristno pri skladbah, kjer je besedilo stalno zamaknjeno.",
+  "mediaLyricsPage": "Besedila pesmi",
+  "mediaLyricsHint": "Sinhronizirana besedila pesmi, njihov vir in časovna uskladitev"
+}

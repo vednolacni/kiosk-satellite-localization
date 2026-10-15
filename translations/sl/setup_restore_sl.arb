@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "setupNotBackup": "To ni datoteka varnostne kopije",
+  "setupInvalidBackupHelp": "Ta datoteka ni veljaven JSON. Izvozite konfiguracijo v nastavitvah že nastavljene aplikacije Kiosk Satellite ali v njenem oddaljenem skrbništvu.",
+  "setupWrongBackupKind": "Izvozite konfiguracijo na zavihku »Nastavitve« že nastavljene aplikacije Kiosk Satellite.",
+  "setupImportFailedHelp": "Datoteke ni bilo mogoče uporabiti.",
+  "setupBackupNoDashboard": "Varnostna kopija nima nadzorne plošče",
+  "setupBackupNoDashboardHelp": "Nastavitve so bile uporabljene, vendar je bila ta varnostna kopija narejena, preden je bila naprava nastavljena, zato ni nadzorne plošče za prikaz. Nadaljujte s čarovnikom in jo izberite.",
+  "setupImporting": "Uvažanje …",
+  "setupRemoteRestoreHelp": "Uvozite konfiguracijo, izvoženo iz aplikacije Kiosk Satellite, in preskočite preostanek tega čarovnika.",
+  "setupFinishOnDevice": "Dokončajte v napravi",
+  "setupFinishOnDeviceHelp": "Konfiguracija je uvožena. Odgovorite na pozive za dovoljenja na zaslonu tablice; ta stran se samodejno nadaljuje, ko se naloži nadzorna plošča.",
+  "setupBackupObject": "Varnostna kopija mora vsebovati objekt JSON.",
+  "setupBackupKind": "To ni konfiguracijska datoteka aplikacije Kiosk Satellite.",
+  "setupBackupSettings": "Varnostna kopija ne vsebuje nastavitev."
+}

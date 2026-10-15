@@ -1,0 +1,6 @@
+{
+  "@@locale": "sl",
+  "remoteLogin": "Prijava",
+  "remoteInvalidPassword": "Neveljavno geslo",
+  "remoteLoginThrottled": "Preveč poskusov. Počakajte 5 minut in poskusite znova."
+}

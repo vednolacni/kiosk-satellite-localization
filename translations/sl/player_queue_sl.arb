@@ -1,0 +1,8 @@
+{
+  "@@locale": "sl",
+  "mediaNothingQueued": "Čakalna vrsta je prazna",
+  "mediaChapters": "Poglavja",
+  "mediaNowPlaying": "Zdaj se predvaja",
+  "mediaUpNext": "Sledi",
+  "mediaUnnamedChapter": "Poglavje {number}"
+}

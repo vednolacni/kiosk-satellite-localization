@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverDismissOnFaceTitle": "Zapri ob obrazu",
+  "settingScreensaverDismissOnFaceDescription": "Zbudi zaslon, ko nekdo pogleda v kiosk, ne le ob gibanju. Kamera deluje samo med ohranjevalnikom zaslona. OPOZORILO: Potreben je osvetljen obraz; v temi namesto tega načrtujte zaznavanje gibanja.",
+  "settingScreensaverDismissOnFaceScreenOffOnlyTitle": "Samo pri izklopljenem zaslonu",
+  "settingScreensaverDismissOnFaceScreenOffOnlyDescription": "Ko je zaslon vklopljen in je zaznan obraz, ohranjevalnik zaslona ostane viden. Ko se zaslon izklopi, zaznavanje zbudi nadzorno ploščo. Dotik še vedno zapre ohranjevalnik zaslona.",
+  "settingScreensaverPostponeOnFaceTitle": "Odloži ohranjevalnik zaslona ob obrazu",
+  "settingScreensaverPostponeOnFaceDescription": "Odloži vklop ohranjevalnika zaslona, dokler nekdo gleda v kiosk. OPOZORILO: Kamera ostane stalno vklopljena, procesor pa dodatno obremenjuje še zaznavanje obraza.",
+  "settingFaceSensitivityTitle": "Občutljivost zaznavanja obraza",
+  "settingFaceSensitivityDescription": "Višja vrednost zbudi zaslon ob manjših, bolj oddaljenih obrazih. Pri 1 mora biti obraz blizu zaslona; pri 100 se odzove na vsak obraz, ki ga kamera razloči.",
+  "screensaverDetectionFacePage": "Zaznavanje obraza",
+  "screensaverDetectionFaceHint": "Zapre ohranjevalnik zaslona, ko ga nekdo pogleda",
+  "screensaverDetectionMotionPrecedence": "»Zapri ob gibanju« je vklopljeno in ima prednost, zato zaznavanje obraza miruje, dokler ga ne izklopite.",
+  "screensaverDetectionFaceTuning": "Hitrost sličic, izbira kamere in zakasnitev zagona se nastavijo v nastavitvah kamere.",
+  "screensaverDetectionAndroidUnsupported": "Ni na voljo v tej različici Androida.",
+  "screensaverDetectionX86Unsupported": "Ni na voljo v napravah x86."
+}

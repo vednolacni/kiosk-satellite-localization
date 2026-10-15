@@ -1,0 +1,10 @@
+{
+  "@@locale": "sl",
+  "settingAudioMicDeviceTitle": "Mikrofon",
+  "settingAudioMicDeviceDescription": "Mikrofon, iz katerega zajemata zaznavanje aktivacijske besede in glasovni ukazi.",
+  "settingAudioSpeakerDeviceTitle": "Zvočnik",
+  "settingAudioSpeakerDeviceDescription": "Izhod za zvoke integracije Voice Satellite; predvajanje medijev sledi sistemski poti.",
+  "screenAudioDevices": "Zvočne naprave",
+  "screenAudioSelectedDevice": "Izbrana naprava",
+  "screenAudioDisconnected": "{name} (ni povezano)"
+}

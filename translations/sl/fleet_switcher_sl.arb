@@ -1,0 +1,6 @@
+{
+  "@@locale": "sl",
+  "fleetSwitchKiosk": "Zamenjaj kiosk",
+  "fleetKiosksOnThisNetworkWithTheRemoteAdminOn": "Najdeni kioski in shranjeni člani flote. Ko izberete kiosk, se njegovo oddaljeno skrbništvo odpre tukaj, na tej strani.",
+  "fleetNoOtherKioskFoundOnThisNetworkAKioskDetail": "Drugih kioskov ni bilo mogoče najti. Kioski se prikažejo prek odkrivanja v omrežju ali shranjenega članstva v floti."
+}

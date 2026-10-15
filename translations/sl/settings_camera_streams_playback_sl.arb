@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingCameraAllowH265Title": "Dovoli pretoke H.265",
+  "settingCameraAllowH265Description": "Pretoke kamer H.265 predvaja nespremenjene. Naprava, ki ne more dekodirati H.265, namesto tega prikaže prazno sliko.",
+  "settingCameraPreferMseTitle": "Daj prednost MSE pred WebRTC",
+  "settingCameraPreferMseDescription": "Kamere Go2RTC najprej pretaka prek MSE. Za naprave, ki ne morejo predvajati WebRTC; doda sekundo ali dve zamika.",
+  "settingCameraPreferHlsTitle": "Daj prednost HLS pred WebRTC",
+  "settingCameraPreferHlsDescription": "Kamere Home Assistant najprej pretaka prek HLS. Za naprave, ki ne morejo predvajati WebRTC; doda nekaj sekund zamika.",
+  "settingCameraSingleAudioTitle": "Predvajaj zvok posamezne kamere",
+  "settingCameraSingleAudioDescription": "Predvaja zvok kamere, ko je na zaslonu samo ena kamera. Mreže z več kamerami ostanejo brez zvoka.",
+  "settingCameraPinchZoomTitle": "Povečava posamezne kamere z razmikom prstov",
+  "settingCameraPinchZoomDescription": "Ko je na zaslonu samo ena kamera, sliko povečate z dvema prstoma. Za premikanje povlecite, za ponastavitev se dvakrat dotaknite.",
+  "settingCameraAutoDismissSecondsTitle": "Samodejno zapri po",
+  "settingCameraAutoDismissSecondsDescription": "Odprti pogled kamer se zapre sam; 0 ga ohrani odprtega. Na ohranjevalnik zaslona s kamerami to ne vpliva.",
+  "cameraStreamsPlayback": "Predvajanje",
+  "cameraStreamsOff": "Izklopljeno",
+  "cameraStreamsSeconds": "{seconds} s",
+  "cameraStreamsGridHelp": "Mreže z več kamerami so samo video. Za manj zmogljive naprave v pogledih uporabite pretoke Go2RTC z nižjo ločljivostjo in po želji nastavite ločen celozaslonski pretok."
+}
