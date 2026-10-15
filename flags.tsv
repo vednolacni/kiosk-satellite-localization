@@ -135,3 +135,11 @@ settings_screen_audio_microphone	screenAudioStereo	drugo	enako angleščini; teh
 settings_screen_audio_microphone	settingMicGainDbDescription	negotovo	decimalna vejica »0,05«; preveri, kako preizkus prikaže raven (morda s piko)
 settings_screen_audio_screen	screenAudioAlwaysOnHelp	drugo	ime nastavitve Androida (»Always show time and info«) prevedeno; preveri ime v slovenskem Androidu
 settings_screensaver_clock	screensaverMaxCharacters	preoblikovano zaradi števila	»Use at most {count} characters«
+settings_screensaver_immich_connection	screensaverMediaUnreachable	placeholder v sklonu	»Naslov {url}«
+settings_screensaver_immich_connection	settingScreensaverImmichApiKeyDescription	drugo	pot v vmesniku Immich (Account Settings → API Keys) prevedena kot pri D13
+settings_screensaver_immich_filters	screensaverMediaDateFormat	negotovo	»YYYY-MM-DD« zapisano kot slovenski vzorec »LLLL-MM-DD«
+settings_screensaver_immich_source	screensaverMediaCached	preoblikovano zaradi števila	»{count} cached«
+settings_screensaver_immich_source	screensaverMediaItems	preoblikovano zaradi števila	»{count} items«
+settings_screensaver_media_camera	screensaverMediaCameras	preoblikovano zaradi števila	»{count} cameras«
+settings_screensaver_media_camera	screensaverMediaOneCamera	negotovo	predvidoma samo za {count} = 1
+settings_screensaver_media_gallery	screensaverMediaSelected	preoblikovano zaradi števila	»{count} selected«

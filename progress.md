@@ -31,3 +31,4 @@
 | B09 | 12 datotek, 218 sporočil (settings_home_assistant_setup do settings_kiosk_permissions) | `ff29b9e` | OK, check.py 0 težav | pot v HA (D13) označena |
 | B10 | 11 datotek, 171 sporočil (settings_lockdown_general do settings_media_player_sendspin) | `9a50012` | OK, check.py 0 težav | pot v vmesniku Music Assistant prevedena (O) |
 | B11 | 12 datotek, 280 sporočil (settings_media_player_sonos do settings_screensaver_face_preview) | `41a3cd4` | OK, check.py 0 težav | ime Android nastavitve in »luč zaslona« označena |
+| B12 | 12 datotek, 285 sporočil (settings_screensaver_general do settings_screensaver_media_home_assistant) | `3502541` | OK, check.py 0 težav | oblika datuma LLLL-MM-DD (N) |

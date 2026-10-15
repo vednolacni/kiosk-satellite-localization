@@ -757,3 +757,10 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | household (Sonos) | gospodinjstvo | B11 | |
 | punch hole | luknja za kamero | B11 | |
 | Always show time and info (Android) | Vedno pokaži čas in podatke | B11 | preveri v slovenskem Androidu |
+| chips (entitete) | značke | B12 | po D16 |
+| Tap edges to change slides | Menjava diapozitivov z dotikom robov | B12 | |
+| slide (diaprojekcija) | diapozitiv | B12 | |
+| Past N months/years | Zadnji 3 meseci, Zadnji 2 leti, Zadnjih 5 let | B12 | fiksna števila v pravilnem sklonu |
+| YYYY-MM-DD | LLLL-MM-DD | B12 | negotovo |
+| Anyone / No one / Any | Kdor koli / Nihče / Katera koli | B12 | |
+| Timeframe | Časovno obdobje | B12 | |
