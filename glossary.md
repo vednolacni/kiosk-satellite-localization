@@ -734,3 +734,11 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | decimalna števila v besedilu | vejica (0,2) | B08 | ne v tehničnih vrednostih |
 | controls (entitete) | kontrolniki | B08 | |
 | fix (GPS) | določitev položaja | B08 | |
+| Act as the home screen | Deluj kot začetni zaslon | B09 | |
+| Theme picker | Izbirnik teme | B09 | |
+| thermostat dials | vrtljivi gumbi termostatov | B09 | |
+| Answer (razdelek) / Talk (razdelek) | Sprejemanje / Govorjenje | B09 | |
+| Ignore (možnost) | Prezri | B09 | |
+| Regenerate | Ustvari znova | B09 | |
+| N fast taps, holding the last | N hitrih dotikov, zadnji pridržan | B09 | |
+| PIN (v stavku) | koda PIN | B09 | brez sklanjanja kratice »PIN-a« |

@@ -123,3 +123,4 @@ settings_home_assistant_optimizations	haFiltered	preoblikovano zaradi števila	�
 settings_home_assistant_optimizations	haThreshold	preoblikovano zaradi števila	»This view uses {count} entities«
 settings_home_assistant_optimizations	haWatching	preoblikovano zaradi števila	»Watching {count} entities on this view.«
 settings_home_assistant_optimizations	settingDisableSuspendDescription	drugo	[D13] ime nastavitve v HA (»Suspend background connections«) prevedeno; preveri ime v slovenskem HA
+settings_home_assistant_setup	settingHaTokenDescription	drugo	[D13] pot v HA prevedena (Profile → Security)
