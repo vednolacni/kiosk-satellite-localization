@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "cameraStreamsServers": "Strežniki Go2RTC",
+  "cameraStreamsImportStreams": "Uvozi pretoke",
+  "cameraStreamsDeleteServer": "Izbriši strežnik",
+  "cameraStreamsAddServer": "Dodaj strežnik Go2RTC",
+  "cameraStreamsAddServerHelp": "Povežite se s strežnikom in uvozite njegove pretoke.",
+  "cameraStreamsEditServer": "Uredi strežnik",
+  "cameraStreamsName": "Ime",
+  "cameraStreamsBaseUrl": "Osnovni URL",
+  "cameraStreamsUsername": "Uporabniško ime (neobvezno)",
+  "cameraStreamsNewPassword": "Novo geslo (pustite prazno, da ostane nespremenjeno)",
+  "cameraStreamsPassword": "Geslo (neobvezno)",
+  "cameraStreamsInvalidCertificate": "Dovoli neveljavno potrdilo TLS",
+  "cameraStreamsSaveServerFailed": "Strežnika ni bilo mogoče shraniti",
+  "cameraStreamsDeleteServerHelp": "Njegove kamere bodo odstranjene iz vseh pogledov."
+}

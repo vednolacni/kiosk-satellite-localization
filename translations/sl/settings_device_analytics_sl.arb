@@ -1,0 +1,13 @@
+{
+  "@@locale": "sl",
+  "settingAnalyticsBasicTitle": "Osnovna analitika",
+  "settingAnalyticsBasicDescription": "Podatki o vaši napravi, kot so model, različica Androida, različica aplikacije, velikost zaslona in jezik.",
+  "settingAnalyticsUsageTitle": "Uporaba",
+  "settingAnalyticsUsageDescription": "Podrobnosti o tem, kaj uporabljate v aplikaciji Kiosk Satellite.",
+  "settingAnalyticsDiagnosticsTitle": "Diagnostika",
+  "settingAnalyticsDiagnosticsDescription": "Ob nepričakovanih napakah pošlje poročila o zrušitvah.",
+  "deviceAnalyticsPage": "Analitika Kiosk Satellite",
+  "deviceAnalyticsIntro": "Delite anonimizirane podatke o svoji namestitvi in pomagajte izboljšati aplikacijo Kiosk Satellite ter določiti, katerim napravam in funkcijam se posveča pozornost.",
+  "deviceAnalyticsLearn": "Preberite, kako obdelujemo vaše podatke",
+  "deviceAnalyticsLearnHelp": "Kaj analitika Kiosk Satellite pošilja in česa nikoli ne pošlje."
+}
