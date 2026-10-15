@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "screensaverDetectionPermissions": "Zahtevana sistemska dovoljenja",
+  "screensaverDetectionLogAccess": "Dostop do dnevnikov",
+  "screensaverDetectionChecking": "Preverjanje …",
+  "screensaverDetectionReadable": "Senzor osebe v napravi je mogoče brati.",
+  "screensaverDetectionRestartRequired": "Odobreno. Za uveljavitev znova zaženite aplikacijo Kiosk Satellite.",
+  "screensaverDetectionGrantHelp": "To dovoljenje je mogoče odobriti samo prek ADB. Celoten ukaz je v dokumentaciji za Meta Portal. Nato znova zaženite aplikacijo Kiosk Satellite.",
+  "screensaverDetectionGrantRemoteHelp": "To dovoljenje je mogoče odobriti samo prek ADB. Spodaj je celoten ukaz, pripravljen za kopiranje. Nato znova zaženite aplikacijo Kiosk Satellite.",
+  "screensaverDetectionGranted": "Odobreno",
+  "screensaverDetectionMissing": "Manjka",
+  "screensaverDetectionRestart": "Znova zaženi",
+  "screensaverDetectionRestartRemote": "Znova zaženi v napravi",
+  "screensaverDetectionLogRestart": "Dostop do dnevnikov je odobren, vendar začne veljati šele ob vnovičnem zagonu aplikacije Kiosk Satellite.",
+  "screensaverDetectionLogMissing": "Dostop do dnevnikov ni odobren."
+}

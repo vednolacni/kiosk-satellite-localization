@@ -1,0 +1,14 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverDismissOnProximityTitle": "Zapri ob bližini",
+  "settingScreensaverDismissOnProximityDescription": "Med ohranjevalnikom zaslona spremlja senzor bližine in zbudi zaslon, ko se napravi kaj približa. Naprava, ki ima samo senzorje za klice (»palm«, »touch«), ne bo delovala.",
+  "settingScreensaverDismissOnProximityScreenOffOnlyTitle": "Samo pri izklopljenem zaslonu",
+  "settingScreensaverDismissOnProximityScreenOffOnlyDescription": "Ko je zaslon vklopljen in se kaj približa, ohranjevalnik zaslona ostane viden. Ko se zaslon izklopi, zaznavanje zbudi nadzorno ploščo. Dotik še vedno zapre ohranjevalnik zaslona.",
+  "settingScreensaverPostponeOnProximityTitle": "Odloži ohranjevalnik zaslona ob bližini",
+  "settingScreensaverPostponeOnProximityDescription": "Odloži vklop ohranjevalnika zaslona, dokler je kaj blizu senzorja.",
+  "screensaverDetectionProximityPage": "Zaznavanje bližine",
+  "screensaverDetectionProximityHint": "Zapre ali odloži ohranjevalnik zaslona glede na senzor bližine",
+  "screensaverDetectionNoProximity": "V tej napravi ni na voljo: nima senzorja bližine.",
+  "screensaverDetectionSensor": "Senzor",
+  "screensaverDetectionSensorHelp": "Kar naprava sporoča kot senzor bližine. Senzor za klice z imenom »palm« ali »touch« ne bo deloval."
+}

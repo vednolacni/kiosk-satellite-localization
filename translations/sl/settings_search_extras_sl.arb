@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "searchInstallApk": "Naložite datoteko APK aplikacije Kiosk Satellite prek oddaljenega skrbništva in jo namestite.",
+  "searchPermissionsHelp": "Vsa dovoljenja Androida, ki jih aplikacija lahko uporablja, z njihovim stanjem: mikrofon, kamera, obvestila, neomejena poraba baterije, prikaz čez druge aplikacije, spreminjanje sistemskih nastavitev, zaščita sistemskega vmesnika, skrbnik naprave, dostop do vseh datotek, dostop do podatkov o uporabi in lokacija.",
+  "searchServiceStatus": "Stanje storitve",
+  "searchServiceHelp": "Ali storitev Kiosk Satellite deluje in kaj ohranja dejavno.",
+  "searchServicePermissions": "Dovoljenja, ki jih potrebuje storitev Kiosk Satellite.",
+  "searchIntercomKiosks": "Znani kioski in ali lahko vsak od njih sprejme klic.",
+  "searchHaValidate": "Preverite URL in žeton s svojim sistemom Home Assistant.",
+  "searchHaProxy": "Do sistema Home Assistant na navadnem HTTP dostopajte prek varnega posrednika v aplikaciji.",
+  "searchHaDashboard": "Izberite nadzorno ploščo in pogled, ki ju kiosk prikazuje.",
+  "searchKioskPermissions": "Dovoljenja, na katera se opirajo zaščite kioska in načina zaklepa.",
+  "searchHomeStatus": "Stanje začetnega zaslona",
+  "searchHomeHelp": "Ali je Kiosk Satellite začetni zaslon naprave in kje ga dokončno nastavite kot privzetega.",
+  "searchMasterVolume": "Glasnost naprave, ki ji sorazmerno sledita drsnika za glasnost medijev in pomočnika.",
+  "searchSmallClock": "Pripomoček z uro v kotu ohranjevalnika zaslona.",
+  "searchBattery": "Pripomoček z baterijo v kotu ohranjevalnika zaslona: napolnjenost te naprave.",
+  "searchPersonPermission": "Dovoljenje »Dostop do dnevnikov«, ki ga potrebuje senzor osebe v napravi.",
+  "searchSonosSpeakers": "Zvočniki Sonos, ki jih ta naprava pozna, iskanje po omrežju in polje za naslov."
+}

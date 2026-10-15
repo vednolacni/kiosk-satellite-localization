@@ -1,0 +1,7 @@
+{
+  "@@locale": "sl",
+  "settingsSearchHint": "Iskanje po nastavitvah",
+  "settingsSearchClear": "Počisti iskanje",
+  "settingsSearchResults": "Rezultati iskanja",
+  "settingsSearchEmpty": "Nobena nastavitev se ne ujema z »{query}«."
+}
