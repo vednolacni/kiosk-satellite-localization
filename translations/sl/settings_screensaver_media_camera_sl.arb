@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverCameraViewsTitle": "Pogledi kamer",
+  "settingScreensaverCameraViewsDescription": "Pogledi kamer, ki jih ohranjevalnik zaslona prikaže, v tem vrstnem redu.",
+  "settingScreensaverCameraViewSecondsTitle": "Sekunde na pogled kamer",
+  "settingScreensaverCameraViewSecondsDescription": "Kako dolgo vsak pogled ostane na zaslonu pred naslednjim. Če je izbran samo en pogled, se nič ne menja.",
+  "settingScreensaverCameraMuteTitle": "Utišaj vse poglede",
+  "settingScreensaverCameraMuteDescription": "Vsi pogledi ostanejo brez zvoka, tudi posamezna kamera.",
+  "screensaverMediaCameraPage": "Ohranjevalnik zaslona s pretoki kamer",
+  "screensaverMediaCameraHint": "Pogledi za prikaz, sekunde na pogled, zvok",
+  "screensaverMediaNoCameras": "Noben pogled kamer še nima kamer. Kamero dodajte v razdelku »Pretoki kamer«.",
+  "screensaverMediaNoCamerasRemote": "Noben pogled kamer še nima kamer",
+  "screensaverMediaAddCameras": "Kamero dodajte v razdelku »Pretoki kamer«.",
+  "screensaverMediaNoViews": "Še nobenega. Izberite poglede, med katerimi ohranjevalnik zaslona kroži.",
+  "screensaverMediaRotation": "V menjavanju (povlecite za spremembo vrstnega reda)",
+  "screensaverMediaAvailable": "Na voljo",
+  "screensaverMediaOneCamera": "{count} kamera",
+  "screensaverMediaCameras": "Kamere: {count}",
+  "screensaverMediaPosition": "Položaj {index} · {cameras}"
+}

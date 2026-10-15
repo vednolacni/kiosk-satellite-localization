@@ -1,0 +1,16 @@
+{
+  "@@locale": "sl",
+  "settingScreensaverGlanceScaleTitle": "Velikost vrstice",
+  "settingScreensaverGlanceScaleDescription": "Prilagodi velikost vrstice, da se bolje prilega vašemu zaslonu.",
+  "settingScreensaverGlanceFontTitle": "Pisava",
+  "settingScreensaverGlanceFontDescription": "Pisava, s katero je izrisana vrstica.",
+  "settingScreensaverGlanceFontWeightTitle": "Debelina pisave",
+  "settingScreensaverGlanceFontWeightDescription": "Kako debelo je izrisano besedilo vrstice. »Privzeto« uporabi lastno debelino vsake vrstice: navadna imena, polkrepke vrednosti.",
+  "settingScreensaverGlanceHideNamesTitle": "Skrij imena",
+  "settingScreensaverGlanceHideNamesDescription": "Prikaže samo ikono in vrednost, vrednost pa v večji velikosti.",
+  "settingScreensaverGlanceBwIconsTitle": "Enobarvne ikone",
+  "settingScreensaverGlanceBwIconsDescription": "Vse ikone ohrani v nevtralni sivi namesto v barvi stanja.",
+  "settingScreensaverGlanceTextOnlyTitle": "Slog plavajočega besedila",
+  "settingScreensaverGlanceTextOnlyDescription": "Entitete prikaže kot plavajoče besedilo namesto kot značke.",
+  "screensaverOverlayAppearance": "Videz"
+}
