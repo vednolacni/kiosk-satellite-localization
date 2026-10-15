@@ -1,0 +1,20 @@
+{
+  "@@locale": "sl",
+  "gestureTester": "Preizkus kretenj z roko",
+  "gestureOpenTester": "Odpri preizkus",
+  "gestureCameraFirst": "Najprej vklopite kamero v nastavitvah kamere.",
+  "gestureTesterHelp": "Oglejte si, katere prste prepozna kamera, da se naučite, kako držati roko.",
+  "gestureHandHelp": "Dvignite roko do višine ramen, z dlanjo proti kameri in razprtimi prsti. Prst, ki ga popolnoma upognete, se ne šteje. Za štiri prste podvijte palec čez dlan: palec se šteje samo pri odprti dlani.",
+  "gestureTesterPaused": "Med odprtim preizkusom se kretnje ne sprožijo.",
+  "gestureShowHand": "Pokažite roko kameri.",
+  "gestureTesterTrigger": "Sproži: {action}",
+  "gestureNoCount": "Nobena kretnja ne uporablja tega števila.",
+  "gestureNoHand": "Ni roke v kadru",
+  "gestureReadingHand": "Prepoznavanje roke",
+  "gestureNoFingers": "Noben prst ni iztegnjen",
+  "gestureHandsCount": "Rok v kadru: {count}, upošteva se večja.",
+  "gestureTesterSearch": "Sprotni prikaz prstov, ki jih prepozna kamera.",
+  "gestureHoldConfirmed": "Pridržanje potrjeno",
+  "gestureHoldProgress": "Napredek pridržanja: {progress}",
+  "gestureTesterHoldDuration": "Trajanje pridržanja: {duration}"
+}

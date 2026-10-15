@@ -1,0 +1,23 @@
+{
+  "@@locale": "sl",
+  "gestureValid": "Videti je v redu.",
+  "gestureValidationFailed": "Preverjanje ni uspelo.",
+  "gestureDomainMissing": "Domene {value} ni mogoče najti.",
+  "gestureServiceMissing": "Storitve {value} ni mogoče najti.",
+  "gestureEntityMissing": "Entitete {value} ni mogoče najti.",
+  "gestureEntityRequired": "Vnesite entiteto {domain}.*.",
+  "gestureScriptEntity": "Entiteta skripte",
+  "gestureAutomationEntity": "Entiteta avtomatizacije",
+  "gestureEntityOptional": "Entiteta (neobvezno)",
+  "gestureServiceData": "Podatki storitve (neobvezno)",
+  "gestureServiceTitle": "Pokliči storitev Home Assistant",
+  "gestureServiceJson": "Podatki storitve morajo biti objekt JSON.",
+  "gestureEventType": "Vrsta dogodka",
+  "gestureEventData": "Podatki dogodka (neobvezno)",
+  "gestureEventTitle": "Sproži dogodek Home Assistant",
+  "gestureEventRequired": "Vrsta dogodka je obvezna.",
+  "gestureEventJson": "Podatki dogodka morajo biti objekt JSON.",
+  "gestureServiceSearch": "Iskanje storitev",
+  "gestureServiceChoose": "Izberite storitev",
+  "gestureServiceNoEntity": "Ta storitev je ne uporablja"
+}

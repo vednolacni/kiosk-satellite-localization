@@ -1,0 +1,15 @@
+{
+  "@@locale": "sl",
+  "fleetFleetManagementNeedsTheRemoteAdmin": "Upravljanje flote potrebuje oddaljeno skrbništvo",
+  "fleetKiosksFindEachOtherThroughItTurnOnRemote": "Kioski se najdejo prek njega. V razdelku »Naprava« vklopite »Oddaljeno upravljanje« in »Najdi druge kioske«, nato se vrnite sem.",
+  "fleetLeadThisFleet": "Vodi to floto",
+  "fleetSyncThisKioskSSettingsToItsFollowersRequires": "Sinhronizira nastavitve tega kioska z njegovimi sledilci. Vsi kioski morajo imeti isto različico.",
+  "fleetAKioskThatFollowsALeaderCannotLead": "Kiosk, ki sledi vodji, ne more voditi.",
+  "fleetFollowers": "Sledilci",
+  "fleetProfiles": "Profili",
+  "fleetLeader": "Vodja",
+  "fleetLearnWhichSettingsSyncAndWhichDoNotIn": "Katere nastavitve se sinhronizirajo in katere ne, je opisano tukaj: ",
+  "fleetFleetManagementDocumentation": "Dokumentacija za upravljanje flote",
+  "fleetMore": "Več",
+  "fleetSearchFollowers": "Kioski, ki jih ta kiosk vodi, njihovo stanje in možnost dodajanja novega."
+}

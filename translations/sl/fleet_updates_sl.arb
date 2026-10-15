@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "fleetUpdateTheFleet": "Posodobi floto",
+  "fleetUpdateTheWholeFleetToTheKioskSatelliteVersion": "Posodobi celotno floto na različico Kiosk Satellite, ki teče na vodji.",
+  "fleetKeepFollowersOnThisVersion": "Ohrani sledilce na tej različici",
+  "fleetAutomaticallyUpdateAllFollowersToTheKioskSatelliteVersion": "Samodejno posodobi vse sledilce na različico Kiosk Satellite, ki teče na vodji.",
+  "fleetNothingToUpdate": "Ničesar ni treba posodobiti",
+  "fleetUpdating": "Posodabljanje",
+  "fleetNamesInstalling": "Nameščanje: {names}.",
+  "fleetSearchUpdates": "Namesti ponujeno izdajo na vsakega sledilca, nato še tukaj."
+}
