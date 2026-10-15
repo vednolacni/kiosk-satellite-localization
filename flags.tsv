@@ -72,6 +72,7 @@ plugins_general	pluginEnableName	placeholder v sklonu	»vtičnik {name}«
 plugins_general	pluginUninstallName	placeholder v sklonu	»vtičnik {name}«
 plugins_general	pluginUninstallNameDetail	placeholder v sklonu	»vtičnik {name}«
 plugins_package_errors	pluginErrorAssetPath	negotovo	asset (datoteka v paketu vtičnika) = »sredstvo«, kot pri mapi assets v Androidu
+plugins_repository_errors	pluginErrorGithubDigest	drugo	popravek iz B07: GitHub se po D1 ne sklanja
 plugins_validation_errors	pluginErrorInvalidField	placeholder v sklonu	»polje {field}«
 remote_connection	remoteConnectionLost	placeholder v sklonu	»z napravo {name}«
 remote_connection	remoteUpdatedHelp	preoblikovano zaradi števila	»in {seconds} s« ostane z okrajšano enoto
@@ -101,3 +102,8 @@ settings_camera_streams_views	cameraStreamsOneCamera	negotovo	predvidoma samo za
 settings_device_configuration	deviceAppliedReload	preoblikovano zaradi števila	»Applied {count} settings.«
 settings_device_configuration	deviceAppliedSettings	preoblikovano zaradi števila	»Applied {count} settings.«
 settings_device_configuration	deviceRestoreStorageHelp	drugo	vezaj kot pomišljaj v izvirniku zamenjan s podpičjem
+settings_device_shizuku	deviceShizukuTestOk	negotovo	{access} je verjetno »root« ali »shell«, zato dvopičje
+settings_device_updates	deviceInstallingOn	placeholder v sklonu	»na kiosk {name}«
+settings_device_updates	deviceSendingTo	placeholder v sklonu	»na kiosk {name}«
+settings_device_updates	updateDownloadStalled	preoblikovano zaradi števila	»for {seconds} seconds« z okrajšano enoto
+settings_device_updates	updateUploadSpace	preoblikovano zaradi števila	preoblikovano, da »MB« ne zahteva sklona po številu

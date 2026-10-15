@@ -719,3 +719,10 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | ongoing notification | stalno obvestilo | B06 | |
 | (missing) | (manjka) | B06 | |
 | Prefer X over Y | Daj prednost X pred Y | B06 | |
+| GitHub (sklon) | storitev GitHub (»v storitvi GitHub«) | B07 | po D1, popravljen tudi B04 |
+| wake lock Held / Released | Aktiven / Sproščen | B07 | |
+| reverse proxy | obratni posredniški strežnik | B07 | |
+| hostname | ime gostitelja | B07 | |
+| downgrade | vrnitev na starejšo različico | B07 | |
+| Scale UI | Velikost vmesnika | B07 | |
+| announce action | dejanje announce | B07 | ime dejanja HA ostane |

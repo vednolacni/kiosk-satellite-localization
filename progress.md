@@ -26,3 +26,4 @@
 | B04 | 14 datotek, 254 sporočil (plugins_general do remote_overview_controls) | `b31e358` | OK, check.py 0 težav | »asset« = sredstvo (N); »this release« v sestavi (N) |
 | B05 | 14 datotek, 255 sporočil (remote_overview_health do settings_camera_streaming) | `4a68f59` | OK, check.py 0 težav | relativni časi in štetja preoblikovani (S) |
 | B06 | 11 datotek, 278 sporočil (settings_camera_streams_errors do settings_device_permissions) | `eed489c` | OK, check.py 0 težav | tehnični identifikatorji v napakah pretokov ostanejo (baseUrl, serverId …) |
+| B07 | 10 datotek, 270 sporočil (settings_device_remote_administration do settings_esphome_announcements) | `d52f499` | OK, check.py 0 težav | popravek GitHub sklona v plugins_repository_errors |
