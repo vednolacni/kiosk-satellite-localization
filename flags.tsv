@@ -181,3 +181,8 @@ settings_voice_satellite_wake_word	voiceWakeWordResumeTimeoutSecondsDescription	
 settings_web_browsing_url_filter	urlFilterTitle	negotovo	ime strani in vrstice; »Filter URL« brez sklanjanja kratice
 settings_web_browsing_url_filter	urlFilterTypeWildcard	negotovo	Wildcard = nadomestni znaki (vzorec z *)
 setup_connect	setupConnectLead	drugo	[D13] pot v HA prevedena (Profile → Security → Long-lived access tokens), enako v setupInvalidTokenHelp in setupEnterTokenHelp
+setup_restore	setupFinishOnDeviceHelp	drugo	vezaj » - « kot pomišljaj zamenjan s podpičjem
+setup_voice_satellite	setupNewSatelliteHelp	drugo	[D13] pot v HA prevedena (Settings → Devices & Services → Voice Satellite → Add Entry)
+setup_voice_satellite	setupVoiceAddHint	drugo	[D13] pot v HA prevedena (Settings, Devices & services)
+setup_voice_satellite	setupVoiceMigratedHelp	negotovo	»its satellite« razumljeno kot satelit, izbran pri selitvi
+voice_results	voiceFinancialOpen	negotovo	finančni izrazi: Otvoritev, Najvišja, Najnižja, Tržna kap.

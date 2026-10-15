@@ -795,3 +795,10 @@ Vsa taka sporočila (približno 85) dobijo zastavico »preoblikovano zaradi šte
 | Long-lived access tokens (HA meni) | Dolgotrajni dostopni žetoni | B15 | [D13] |
 | Scan the QR code (gumb) | Preberi kodo QR | B15 | navodilo ostane »Preberite kodo QR« |
 | instance (HA) | namestitev | B15 | |
+| Flip camera | Zamenjaj kamero | B16 | |
+| Restore backup (naslov razdelka) | Obnovitev varnostne kopije | B16 | gumb ostane »Obnovi …« |
+| Recommended Service Permissions | Priporočena dovoljenja za storitev | B16 | |
+| Built-in ring / Built-in chime | Vgrajeno zvonjenje / Vgrajeni zvočni signal | B16 | |
+| sounds folder | mapa zvokov | B16 | |
+| Open / High / Low / MCap (finance) | Otvoritev / Najvišja / Najnižja / Tržna kap. | B16 | negotovo |
+| Set up\nKiosk Satellite | Nastavite\nKiosk Satellite | B16 | |

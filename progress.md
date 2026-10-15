@@ -35,3 +35,4 @@
 | B13 | 13 datotek, 277 sporočil (settings_screensaver_media_local do settings_search_extras) | `724fedb` | OK, check.py 0 težav | pot v aplikaciji in »Občuti se kot« označena |
 | B14 | 10 datotek, 302 sporočil (settings_voice_satellite_appearance do settings_voice_satellite_tester) | `e72436c` | OK, check.py 0 težav | pot v HA (D13) in stran »Home Assistant Setup« označeni |
 | B15 | 10 datotek, 214 sporočil (settings_voice_satellite_timers do setup_permissions) | `d229103` | OK, check.py 0 težav | pot v HA za dolgotrajne žetone (D13) označena |
+| B16 | 10 datotek, 116 sporočil (setup_qr_scanner do voice_timers) | `103da45` | OK, check.py 0 težav | zadnja serija; finančni izrazi označeni |
