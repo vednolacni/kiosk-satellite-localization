@@ -1,0 +1,14 @@
+{
+  "@@locale": "sl",
+  "pluginCharts": "Grafi",
+  "pluginReadings": "Odčitki",
+  "pluginWaitingForSamples": "Čakanje na vzorce",
+  "pluginLatest": "Najnovejše",
+  "pluginSelected": "Izbrano",
+  "pluginNoDataYet": "Še ni podatkov",
+  "pluginTapOrDragToInspectSamplesDoubleTapTo": "Za ogled vzorcev se dotaknite ali povlecite. Z dvojnim dotikom sledite najnovejšim.",
+  "pluginNoData": "Ni podatkov",
+  "pluginOn": "Vklopljeno",
+  "pluginEmpty": "Prazno",
+  "pluginChartKeyboardHelp": "S puščičnimi tipkami si oglejte vzorce, s tipko End pa najnovejšega."
+}

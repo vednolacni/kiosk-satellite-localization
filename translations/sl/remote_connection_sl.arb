@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "remoteReconnecting": "Vnovično povezovanje …",
+  "remoteConnectionLost": "Povezava z napravo {name} je bila prekinjena. Ta stran se bo samodejno nadaljevala, ko bo povezava znova vzpostavljena.",
+  "remoteConnectionLostUnnamed": "Povezava s kioskom je bila prekinjena. Ta stran se bo samodejno nadaljevala, ko bo povezava znova vzpostavljena.",
+  "remoteReloadPage": "Znova naloži stran",
+  "remoteUpdated": "Aplikacija Kiosk Satellite je bila posodobljena",
+  "remoteUpdatedHelp": "V napravi zdaj teče različica {version}{build}. Ta stran pripada prejšnji različici in se bo znova naložila čez {seconds} s.",
+  "remoteBuild": " (gradnja {build})",
+  "remoteReloadNow": "Znova naloži zdaj"
+}

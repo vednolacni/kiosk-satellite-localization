@@ -1,0 +1,23 @@
+{
+  "@@locale": "sl",
+  "overviewAttention": "Zahteva pozornost",
+  "overviewUpdate": "Posodobi",
+  "overviewInvitation": "{name} želi voditi ta kiosk",
+  "overviewOutdatedOne": "1 sledilec uporablja drugo izdajo",
+  "overviewOutdatedMany": "Sledilci z drugo izdajo: {count}",
+  "overviewSyncWaiting": "{names}. Sinhronizacija čaka na različico: {version}.",
+  "overviewThisRelease": "ta izdaja",
+  "overviewUpdateAvailable": "Na voljo je posodobitev",
+  "overviewInstallHelp": "Različica {version} aplikacije Kiosk Satellite je pripravljena za namestitev. Namestitev se potrdi na zaslonu tablice.",
+  "overviewHaSetup": "Home Assistant ni nastavljen",
+  "overviewHaSetupHelp": "Povežite kiosk s sistemom Home Assistant, da naloži nadzorno ploščo.",
+  "overviewSetUp": "Nastavi",
+  "overviewHaNotValidated": "Home Assistant ni preverjen",
+  "overviewHaNotValidatedHelp": "URL in žeton v tem zagonu še nista prestala preverjanja povezave. Kiosk poskusi znova vsakih 30 sekund.",
+  "overviewOpenSetup": "Odpri nastavitev",
+  "overviewWakeStopped": "Zaznavanje aktivacijske besede je ustavljeno",
+  "overviewWakeReleased": "Mehanizem je bil sproščen.",
+  "overviewOpenVoice": "Odpri Voice Satellite",
+  "overviewOpenService": "Odpri storitev",
+  "overviewPermissionMissing": "Manjka dovoljenje: {permission}"
+}
