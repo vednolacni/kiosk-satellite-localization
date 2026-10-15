@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingIntercomAnswerModeTitle": "Način sprejemanja",
+  "settingIntercomAnswerModeDescription": "Pri zvonjenju se sprejem potrdi na zaslonu. Pri samodejnem sprejemu se klic odpre po zvočnem signalu.",
+  "settingIntercomRingSecondsTitle": "Zvoni",
+  "settingIntercomRingSecondsDescription": "Kako dolgo klic zvoni, preden velja za zgrešenega.",
+  "settingIntercomRingSoundTitle": "Zvok zvonjenja",
+  "settingIntercomRingSoundDescription": "Predvaja se z glasnostjo obvestil.",
+  "settingIntercomAcceptAnnouncementsTitle": "Sprejemaj razglase",
+  "settingIntercomAcceptAnnouncementsDescription": "Predvaja »Razglas vsem« z drugih kioskov.",
+  "intercomOptionAnswerRing": "Zvonjenje",
+  "intercomOptionAnswerAuto": "Samodejno sprejmi",
+  "intercomOptionAnswerDnd": "Ne moti",
+  "intercomOptionAnswer15": "15 sekund",
+  "intercomOptionAnswer30": "30 sekund",
+  "intercomOptionAnswer45": "45 sekund",
+  "intercomOptionAnswer60": "60 sekund",
+  "intercomAnswerSection": "Sprejemanje"
+}

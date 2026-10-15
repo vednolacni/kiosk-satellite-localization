@@ -1,0 +1,22 @@
+{
+  "@@locale": "sl",
+  "settingIntercomEnabledTitle": "Omogoči interkom",
+  "settingIntercomEnabledDescription": "Kliče druge kioske v tem omrežju in sprejema njihove klice.",
+  "settingIntercomKeyTitle": "Ključ interkoma",
+  "settingIntercomKeyDescription": "Kioski z istim ključem se lahko kličejo med seboj. Upravljanje flote ga lahko sinhronizira.",
+  "settingIntercomKeyPlaceholder": "Ustvari se ob omogočanju interkoma",
+  "settingIntercomMenuTitle": "Pokaži v meniju kioska",
+  "settingIntercomMenuDescription": "V meni kioska doda vnos Interkom.",
+  "intercomNeedsAdmin": "Interkom potrebuje oddaljeno skrbništvo",
+  "intercomAdminHelp": "Kioski se prek njega najdejo in dosežejo. V razdelku »Naprava« vklopite »Oddaljeno upravljanje« in »Najdi druge kioske«, nato se vrnite sem.",
+  "intercomChangeKey": "Spremeni ključ",
+  "intercomChangeKeyHelp": "Prilepite ključ z drugega kioska ali ustvarite novega.",
+  "intercomChange": "Spremeni",
+  "intercomKeyWarning": "Kioski s tem ključem se lahko kličejo med seboj. Nov ključ ta kiosk loči od drugih, dokler ga ne dobijo tudi oni.",
+  "intercomRegenerate": "Ustvari znova",
+  "intercomKeyChanged": "Ključ je spremenjen",
+  "intercomNotSet": "Ni nastavljeno",
+  "intercomOpen": "Odpri",
+  "settingIntercomTlsTitle": "Šifriraj komunikacijo",
+  "settingIntercomTlsDescription": "Za šifriranje klicev interkoma med kioski uporablja TLS. Vsi kioski v klicu morajo imeti to omogočeno."
+}

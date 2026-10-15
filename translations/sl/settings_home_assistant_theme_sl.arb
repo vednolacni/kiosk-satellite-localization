@@ -1,0 +1,17 @@
+{
+  "@@locale": "sl",
+  "settingHaThemeTitle": "Tema",
+  "settingHaThemeDescription": "Svetla ali temna za nadzorno ploščo Home Assistant; nastavite jo lahko tudi z entiteto teme v sistemu Home Assistant. Samodejno upošteva spodnje nastavitve.",
+  "settingThemeMatchAppTitle": "Sinhroniziraj teme Home Assistant z aplikacijo Kiosk Satellite",
+  "settingThemeMatchAppDescription": "Temo Home Assistant samodejno uskladi z vmesnikom aplikacije Kiosk Satellite.",
+  "settingThemeAutoTitle": "Prilagodi temo času dneva",
+  "settingThemeAutoDescription": "Home Assistant po urniku preklaplja med svetlo in temno temo. Ohrani izbrano temo in spreminja samo njeno svetlo ali temno različico.",
+  "settingThemeDarkAtTitle": "Temna tema ob",
+  "settingThemeDarkAtDescription": "Lokalni čas preklopa na temno temo.",
+  "settingThemeLightAtTitle": "Svetla tema ob",
+  "settingThemeLightAtDescription": "Lokalni čas vrnitve na svetlo temo.",
+  "settingThemeAutoAppTitle": "Preklopi tudi temo aplikacije",
+  "settingThemeAutoAppDescription": "Skupaj z načrtovano spremembo v sistemu Home Assistant preklopi tudi temo aplikacije Kiosk Satellite (meni, nastavitve).",
+  "haThemeHint": "Uskladi z aplikacijo ali preklapljaj temno in svetlo po urniku",
+  "haThemeAuto": "Samodejno"
+}

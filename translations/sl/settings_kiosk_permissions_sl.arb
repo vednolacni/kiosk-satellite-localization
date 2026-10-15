@@ -1,0 +1,11 @@
+{
+  "@@locale": "sl",
+  "kioskForeground": "Aplikacija Kiosk Satellite se lahko sama vrne v ospredje.",
+  "kioskOverlayMissing": "Brez tega se kiosk ne more sam vrniti, zaščita zaklepa pa prekrije samo aplikacijo.",
+  "kioskGuardHeld": "Podokno z obvestili in nedavne aplikacije se samodejno zaprejo, medtem ko je zaslon zaščiten.",
+  "kioskGuardMissing": "Brez tega podokno z obvestili in nedavne aplikacije ostanejo dosegljivi. V razdelku Dostopnost omogočite Kiosk Satellite.",
+  "kioskOverlayRemote": "Brez tega se kiosk ne more sam vrniti. Zaslon za odobritev se prikaže na tablici.",
+  "kioskGuardRemote": "Brez tega podokno z obvestili in nedavne aplikacije ostanejo dosegljivi. Na tablici v razdelku Dostopnost omogočite Kiosk Satellite.",
+  "kioskGrantDevice": "Odobri v napravi",
+  "kioskOpenSettingsDevice": "Odpri nastavitve v napravi"
+}
