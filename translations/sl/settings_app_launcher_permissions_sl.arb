@@ -1,0 +1,9 @@
+{
+  "@@locale": "sl",
+  "launcherOverlayHeld": "Aplikacija Kiosk Satellite se lahko sama vrne v ospredje in zazna dotike v drugi aplikaciji.",
+  "launcherOverlayMissing": "Brez tega se kiosk ne more sam vrniti, dotiki v drugi aplikaciji pa ostanejo nezaznani.",
+  "launcherOverlayRemote": "Brez tega se kiosk ne more sam vrniti, dotiki v drugi aplikaciji pa ostanejo nezaznani. Zaslon za odobritev se prikaže na tablici.",
+  "launcherBatteryMissing": "Android lahko začasno ustavi aplikacijo v ozadju, ustavljen časovnik pa kioska nikoli ne vrne.",
+  "launcherBatteryRemote": "Android lahko začasno ustavi aplikacijo v ozadju, ustavljen časovnik pa kioska nikoli ne vrne. Pogovorno okno za odobritev se prikaže na tablici.",
+  "launcherPermissionsSearch": "Dovoljenja, na katera se zanaša samodejna vrnitev."
+}

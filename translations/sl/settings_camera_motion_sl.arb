@@ -1,0 +1,15 @@
+{
+  "@@locale": "sl",
+  "settingMotionSensorTitle": "Senzor gibanja",
+  "settingMotionSensorDescription": "Gibanje izpostavi kot senzor v sistemu Home Assistant. OPOZORILO: Kamera ostane stalno vklopljena, tudi ko je zaslon izklopljen.",
+  "settingMotionSensorOffDelayTitle": "Počisti po",
+  "settingMotionSensorOffDelayDescription": "Sekunde brez gibanja, preden senzor sporoči, da gibanja ni.",
+  "settingMotionFpsTitle": "Hitrost sličic za gibanje",
+  "settingMotionFpsDescription": "Število sličic na sekundo, v katerih kamera preverja gibanje. Nižja vrednost manj obremeni procesor; 2 zadostujeta za zaznavo osebe, ki se približuje.",
+  "settingMotionStartDelayTitle": "Zakasnitev zagona",
+  "settingMotionStartDelayDescription": "Toliko časa po zagonu kamere ne upošteva gibanja; za naprave, katerih kamera se ob odpiranju fizično premakne.",
+  "settingMotionSensitivityTitle": "Občutljivost zaznavanja gibanja",
+  "settingMotionSensitivityDescription": "Višja vrednost se odzove na manjše premike. Pri 1 je potrebna velika sprememba v kadru; pri 100 se odzove že na najmanjše gibanje.",
+  "cameraMotionPage": "Senzor gibanja",
+  "cameraMotionHint": "Senzor gibanja za Home Assistant in skupne nastavitve zaznavanja"
+}

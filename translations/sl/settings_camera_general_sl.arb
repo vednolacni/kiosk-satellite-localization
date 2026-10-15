@@ -1,0 +1,19 @@
+{
+  "@@locale": "sl",
+  "settingCameraEnabledTitle": "Omogoči kamero",
+  "settingCameraEnabledDescription": "Uporaba kamere poveča obremenitev procesorja in segrevanje, kar lahko skrajša življenjsko dobo baterije in naprave.",
+  "settingCameraDeviceTitle": "Kamera",
+  "settingCameraDeviceDescription": "Katero kamero uporabiti.",
+  "settingCameraSnapshotResolutionTitle": "Ločljivost posnetka",
+  "settingCameraSnapshotResolutionDescription": "Višja je ostrejša, a porabi več procesorja in pasovne širine.",
+  "settingCameraDisableDetectionSnapshotsTitle": "Onemogoči posnetke ob zaznavanju",
+  "settingCameraDisableDetectionSnapshotsDescription": "Prepreči samodejne posnetke, ki jih sproži zaznavanje. Zaznavanje gibanja, obraza, prisotnosti in kretenj deluje naprej. Ročne zahteve in neprekinjeni posnetki lahko še vedno zajamejo slike.",
+  "settingCameraSnapshotsTitle": "Neprekinjeni posnetki",
+  "settingCameraSnapshotsDescription": "V stalnih intervalih pošilja nov posnetek kamere sistemu Home Assistant.",
+  "settingCameraSnapshotIntervalTitle": "Interval posnetkov",
+  "settingCameraSnapshotIntervalDescription": "Sekunde med posnetki.",
+  "cameraFront": "Sprednja",
+  "cameraBack": "Zadnja",
+  "cameraExternal": "Zunanja",
+  "cameraOnlyCamera": "Edina kamera v tej napravi."
+}
