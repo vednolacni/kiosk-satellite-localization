@@ -10,7 +10,8 @@ Attribute VB_Name = "RandomReze"
 '   3. Tools > Macro > Run, potrdi ali spremeni parametre.
 '
 ' Vse mere so v mm. Vzorec je centriran na izhodisce skice (sredisce gabarita).
-' Vsaka vrsta ima na levi in desni nakljucen zamik (0 - DEF_ROB) -> razgiban rob.
+' Razporeditev 1 (privzeto): reze prosto razmetane do ciljne odprtosti (DEF_ODPRTOST).
+' Razporeditev 2: vrste, vsaka z nakljucnim zamikom na levi/desni (DEF_ROB).
 ' Reze so pravokotniki z zaobljenimi vogali (R). Ce je R = visina/2 -> polkrozni konci.
 '
 ' NAMESTITEV
@@ -26,23 +27,30 @@ Private Const DEF_VISINA As Double = 680      ' gabarit plosce Y
 Private Const DEF_ODMIK As Double = 40        ' min. odmik rez od vseh robov
 Private Const DEF_H As Double = 10            ' visina reze
 Private Const DEF_R As Double = 3             ' radij vogalov reze
-Private Const DEF_RAZMIK As Double = 15       ' material med vrstami
+Private Const DEF_RAZPORED As Long = 1        ' 1 = prosto (nakljucno razmetano), 2 = v vrstah
+Private Const DEF_ODPRTOST As Double = 13     ' ciljna odprtost plosce [%] (samo prosto)
+Private Const DEF_RAZMIK As Double = 10       ' min. material nad/pod rezo (med vrstami)
 Private Const DEF_LMIN As Double = 40         ' min. dolzina reze
-Private Const DEF_LMAX As Double = 200        ' max. dolzina reze
-Private Const DEF_GMIN As Double = 20         ' min. material med rezami v vrsti
-Private Const DEF_GMAX As Double = 120        ' max. material med rezami v vrsti
-Private Const DEF_ROB As Double = 150         ' max. nakljucni zamik vrste od levega/desnega odmika (0 = raven rob)
+Private Const DEF_LMAX As Double = 220        ' max. dolzina reze
+Private Const DEF_GMIN As Double = 25         ' min. material levo/desno med rezami
+Private Const DEF_GMAX As Double = 120        ' max. material med rezami v vrsti (samo vrste)
+Private Const DEF_ROB As Double = 150         ' max. nakljucni zamik vrste od levega/desnega odmika (samo vrste, 0 = raven rob)
 Private Const DEF_SEME As Long = 0            ' 0 = nakljucno, >0 = ponovljiv vzorec
 Private Const DEF_NACIN As Long = 1           ' 1 = hitro (crte + loki), 2 = pravokotnik + zaokrozitev
 Private Const DEF_REZ As Long = 1             ' 1 = naredi Cut-Extrude skozi vse, 0 = samo skica
 
 Private Const EPS As Double = 0.000001        ' [mm]
+Private Const PI As Double = 3.14159265358979
+Private Const K_CAND As Long = 12             ' prosto: kandidatov na rezo (vec = bolj enakomerno)
+Private Const V_SCALE As Double = 4           ' prosto: utez navpicnega razmika pri izbiri kandidata
+Private Const MAX_FAILS As Long = 300         ' prosto: zaporednih neuspelih poskusov -> konec
 Private Const EPS_M As Double = 0.000000001   ' [m]
 
 ' ---------- parametri ----------
 Private pW As Double, pH As Double, pM As Double
 Private pSh As Double, pR As Double, pRow As Double
 Private pLmin As Double, pLmax As Double, pGmin As Double, pGmax As Double
+Private pLayout As Long, pTarget As Double
 Private pEdge As Double, pSeed As Long, pMode As Long, pCut As Long
 
 ' ---------- generirane reze [mm]: center X, center Y, dolzina ----------
@@ -144,7 +152,7 @@ Sub main()
 
     ' --- povzetek ---
     msg = "Narejeno v " & Format(Timer - t, "0.0") & " s" & vbCrLf & vbCrLf & _
-          "Vrst: " & nRows & vbCrLf & _
+          IIf(pLayout = 1, "Razporeditev: prosto", "Vrst: " & nRows) & vbCrLf & _
           "Rez: " & sN & vbCrLf & _
           "Seme: " & pSeed & "  (vpisi ga za enak vzorec)" & vbCrLf & _
           "Nacin risanja: " & IIf(usedMode = 1, "hitro", "robustno") & vbCrLf & _
@@ -176,6 +184,7 @@ Private Sub SetDefaults()
     pW = DEF_SIRINA: pH = DEF_VISINA: pM = DEF_ODMIK
     pSh = DEF_H: pR = DEF_R: pRow = DEF_RAZMIK
     pLmin = DEF_LMIN: pLmax = DEF_LMAX: pGmin = DEF_GMIN: pGmax = DEF_GMAX
+    pLayout = DEF_RAZPORED: pTarget = DEF_ODPRTOST
     pEdge = DEF_ROB: pSeed = DEF_SEME: pMode = DEF_NACIN: pCut = DEF_REZ
 End Sub
 
@@ -185,9 +194,10 @@ Private Function ParamText() As String
         "Min. odmik od robov: " & F(pM) & vbCrLf & _
         "Reza: visina " & F(pSh) & ", R" & F(pR) & vbCrLf & _
         "Dolzina reze: " & F(pLmin) & " - " & F(pLmax) & vbCrLf & _
-        "Material med rezami v vrsti: " & F(pGmin) & " - " & F(pGmax) & vbCrLf & _
-        "Material med vrstami: " & F(pRow) & vbCrLf & _
-        "Nakljucni zamik na robu: 0 - " & F(pEdge) & vbCrLf & _
+        "Razporeditev: " & IIf(pLayout = 1, "1 prosto, ciljna odprtost " & F(pTarget) & " %", "2 v vrstah") & vbCrLf & _
+        "Min. material levo/desno: " & F(pGmin) & IIf(pLayout = 2, " (max " & F(pGmax) & ")", "") & vbCrLf & _
+        "Min. material zgoraj/spodaj: " & F(pRow) & vbCrLf & _
+        IIf(pLayout = 2, "Nakljucni zamik na robu: 0 - " & F(pEdge) & vbCrLf, "") & _
         "Seme: " & IIf(pSeed <= 0, "nakljucno", CStr(pSeed)) & vbCrLf & _
         "Nacin: " & IIf(pMode = 1, "1 hitro", "2 robustno") & vbCrLf & _
         "Cut-Extrude: " & IIf(pCut = 1, "da", "ne (samo skica)")
@@ -209,12 +219,17 @@ Private Function AskParams() As Boolean
         pM = AskNum("Min. odmik rez od vseh robov [mm]", pM)
         pSh = AskNum("Visina reze [mm]", pSh)
         pR = AskNum("Radij vogalov reze [mm]" & vbCrLf & "(0 = ostri vogali, visina/2 = polkrozni konci)", pR)
-        pRow = AskNum("Material med vrstami [mm]", pRow)
         pLmin = AskNum("Min. dolzina reze [mm]", pLmin)
         pLmax = AskNum("Max. dolzina reze [mm]", pLmax)
-        pGmin = AskNum("Min. material med rezami v vrsti [mm]", pGmin)
-        pGmax = AskNum("Max. material med rezami v vrsti [mm]", pGmax)
-        pEdge = AskNum("Max. nakljucni zamik vrste od levega/desnega roba [mm]" & vbCrLf & "Vsaka vrsta se zacne/konca nakljucno 0 - X mm za odmikom." & vbCrLf & "0 = raven rob (vse vrste od odmika do odmika)", pEdge)
+        pLayout = CLng(AskNum("Razporeditev" & vbCrLf & "1 = prosto (nakljucno razmetano)" & vbCrLf & "2 = v vrstah", pLayout))
+        pGmin = AskNum("Min. material levo/desno med rezami [mm]", pGmin)
+        pRow = AskNum("Min. material zgoraj/spodaj med rezami [mm]", pRow)
+        If pLayout = 1 Then
+            pTarget = AskNum("Ciljna odprtost plosce [%]" & vbCrLf & "manj = redkejse (npr. 8), vec = gosteje (npr. 18)", pTarget)
+        Else
+            pGmax = AskNum("Max. material med rezami v vrsti [mm]", pGmax)
+            pEdge = AskNum("Max. nakljucni zamik vrste od levega/desnega roba [mm]" & vbCrLf & "Vsaka vrsta se zacne/konca nakljucno 0 - X mm za odmikom." & vbCrLf & "0 = raven rob (vse vrste od odmika do odmika)", pEdge)
+        End If
         pSeed = CLng(AskNum("Seme nakljucnih stevil" & vbCrLf & "0 = vsakic nov vzorec, npr. 1234 = vedno enak vzorec", pSeed))
         pMode = CLng(AskNum("Nacin risanja" & vbCrLf & "1 = hitro (crte + loki)" & vbCrLf & "2 = robustno (pravokotnik + sketch fillet, pocasneje)", pMode))
         pCut = CLng(AskNum("Naredi Cut-Extrude skozi vse?" & vbCrLf & "1 = da, 0 = samo skica", pCut))
@@ -239,13 +254,15 @@ Private Function ValidateParams() As Boolean
     If pSh <= 0 Then e = e & "- Visina reze mora biti > 0." & vbCrLf
     If pSh > pH - 2 * pM Then e = e & "- Visina reze je vecja od uporabne visine." & vbCrLf
     If pR < 0 Then e = e & "- Radij ne sme biti negativen." & vbCrLf
-    If pRow <= 0 Then e = e & "- Material med vrstami mora biti > 0." & vbCrLf
+    If pRow <= 0 Then e = e & "- Material zgoraj/spodaj mora biti > 0." & vbCrLf
+    If pLayout <> 1 And pLayout <> 2 Then e = e & "- Razporeditev mora biti 1 ali 2." & vbCrLf
+    If pLayout = 1 And (pTarget <= 0 Or pTarget > 60) Then e = e & "- Ciljna odprtost mora biti med 0 in 60 %." & vbCrLf
     If pLmin <= 0 Or pLmax < pLmin Then e = e & "- Preveri min/max dolzino reze." & vbCrLf
     If pGmin <= 0 Or pGmax < pGmin Then e = e & "- Preveri min/max material med rezami." & vbCrLf
     If pLmin > pW - 2 * pM Then e = e & "- Min. dolzina reze je vecja od uporabne sirine." & vbCrLf
     If pMode <> 1 And pMode <> 2 Then e = e & "- Nacin mora biti 1 ali 2." & vbCrLf
     If pEdge < 0 Then e = e & "- Zamik na robu ne sme biti negativen." & vbCrLf
-    If pW - 2 * pM - 2 * pEdge < pLmin Then e = e & "- Zamik na robu je prevelik (vrsta bi bila krajsa od min. dolzine reze)." & vbCrLf
+    If pLayout = 2 And pW - 2 * pM - 2 * pEdge < pLmin Then e = e & "- Zamik na robu je prevelik (vrsta bi bila krajsa od min. dolzine reze)." & vbCrLf
     If pCut <> 0 Then pCut = 1
 
     If pR > pSh / 2 Then pR = pSh / 2          ' vec kot polkrog ni mogoce
@@ -267,6 +284,7 @@ End Function
 ' GENERIRANJE VZORCA (vse v mm, izhodisce = sredisce plosce)
 '==============================================================================
 Private Sub GeneratePattern()
+    If pLayout = 1 Then GenerateFree: Exit Sub
     Dim wu As Double, hu As Double, pitch As Double
     Dim totH As Double, yTop As Double, r As Long
 
@@ -347,6 +365,94 @@ Private Sub AddSlot(xc As Double, yc As Double, L As Double)
     sX(sN) = xc: sY(sN) = yc: sL(sN) = L
     sN = sN + 1
 End Sub
+
+' ---------- PROSTA razporeditev ----------
+' Reze se postavljajo nakljucno. Za vsako rezo se preizkusi K_CAND nakljucnih
+' polozajev; izbere se veljaven polozaj z najvec prostora do sosedov
+' (bolj enakomerna gostota, brez gruc). Konec, ko je dosezena ciljna odprtost.
+Private Sub GenerateFree()
+    Dim wu As Double, hu As Double, L As Double, x As Double, y As Double
+    Dim bestX As Double, bestY As Double, bs As Double, s As Double
+    Dim area As Double, cornerLoss As Double, total As Double
+    Dim k As Long, fails As Long, found As Boolean
+
+    wu = pW - 2 * pM
+    hu = pH - 2 * pM
+    total = pW * pH
+    cornerLoss = (4 - PI) * pR * pR
+    sN = 0
+    ReDim sX(0 To 511): ReDim sY(0 To 511): ReDim sL(0 To 511)
+    If hu < pSh Then Exit Sub
+
+    Do While (area / total * 100 < pTarget) And (fails < MAX_FAILS)
+        L = R05(RandBetween(pLmin, pLmax))
+        If L > wu Then L = wu
+        found = False
+        For k = 1 To K_CAND
+            x = R05(RandBetween(-wu / 2 + L / 2, wu / 2 - L / 2))
+            y = R05(RandBetween(-hu / 2 + pSh / 2, hu / 2 - pSh / 2))
+            If x - L / 2 >= -wu / 2 - EPS And x + L / 2 <= wu / 2 + EPS And _
+               y - pSh / 2 >= -hu / 2 - EPS And y + pSh / 2 <= hu / 2 + EPS Then
+                s = FreeScore(x, y, L)
+                If s > -1E+29 Then
+                    If Not found Or s > bs Then bs = s: bestX = x: bestY = y: found = True
+                End If
+            End If
+        Next k
+        If found Then
+            AddSlot bestX, bestY, L
+            area = area + L * pSh - cornerLoss
+            fails = 0
+        Else
+            fails = fails + 1
+        End If
+    Loop
+    CenterPattern
+End Sub
+
+' -1E30 = trk (premalo materiala), sicer najmanjsi utezeni razmik do sosedov
+Private Function FreeScore(x As Double, y As Double, L As Double) As Double
+    Dim i As Long, gx As Double, gy As Double, c As Double, best As Double
+    best = 1E+30
+    For i = 0 To sN - 1
+        gx = Abs(x - sX(i)) - (L + sL(i)) / 2
+        gy = Abs(y - sY(i)) - pSh
+        If gx < pGmin - EPS And gy < pRow - EPS Then
+            FreeScore = -1E+30
+            Exit Function
+        End If
+        If gx > gy * V_SCALE Then c = gx Else c = gy * V_SCALE
+        If c < best Then best = c
+    Next i
+    FreeScore = best
+End Function
+
+' premakne vzorec tako, da je njegov gabarit centriran na sredisce plosce
+Private Sub CenterPattern()
+    Dim i As Long, x0 As Double, x1 As Double, y0 As Double, y1 As Double
+    Dim dx As Double, dy As Double, wu As Double, hu As Double
+    If sN = 0 Then Exit Sub
+    wu = pW - 2 * pM: hu = pH - 2 * pM
+    x0 = 1E+30: x1 = -1E+30: y0 = 1E+30: y1 = -1E+30
+    For i = 0 To sN - 1
+        If sX(i) - sL(i) / 2 < x0 Then x0 = sX(i) - sL(i) / 2
+        If sX(i) + sL(i) / 2 > x1 Then x1 = sX(i) + sL(i) / 2
+        If sY(i) - pSh / 2 < y0 Then y0 = sY(i) - pSh / 2
+        If sY(i) + pSh / 2 > y1 Then y1 = sY(i) + pSh / 2
+    Next i
+    dx = -(x0 + x1) / 2: dy = -(y0 + y1) / 2
+    ' zaokrozi na 0.5 mm, ce s tem ne prestopimo odmika
+    If x0 + R05(dx) >= -wu / 2 - EPS And x1 + R05(dx) <= wu / 2 + EPS Then dx = R05(dx)
+    If y0 + R05(dy) >= -hu / 2 - EPS And y1 + R05(dy) <= hu / 2 + EPS Then dy = R05(dy)
+    For i = 0 To sN - 1
+        sX(i) = sX(i) + dx
+        sY(i) = sY(i) + dy
+    Next i
+End Sub
+
+Private Function R05(v As Double) As Double
+    R05 = Int(v * 2 + 0.5) / 2
+End Function
 
 Private Function RandBetween(a As Double, b As Double) As Double
     RandBetween = a + Rnd * (b - a)
