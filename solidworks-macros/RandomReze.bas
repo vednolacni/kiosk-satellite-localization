@@ -10,6 +10,7 @@ Attribute VB_Name = "RandomReze"
 '   3. Tools > Macro > Run, potrdi ali spremeni parametre.
 '
 ' Vse mere so v mm. Vzorec je centriran na izhodisce skice (sredisce gabarita).
+' Ob zagonu najprej izberes GOSTOTO (1 zelo zaprto ... 5 zelo odprto, 6 po meri).
 ' Razporeditev 1 (privzeto): reze prosto razmetane do ciljne odprtosti (DEF_ODPRTOST).
 ' Razporeditev 2: vrste, vsaka z nakljucnim zamikom na levi/desni (DEF_ROB).
 ' Reze so pravokotniki z zaobljenimi vogali (R). Ce je R = visina/2 -> polkrozni konci.
@@ -28,7 +29,8 @@ Private Const DEF_ODMIK As Double = 40        ' min. odmik rez od vseh robov
 Private Const DEF_H As Double = 10            ' visina reze
 Private Const DEF_R As Double = 3             ' radij vogalov reze
 Private Const DEF_RAZPORED As Long = 1        ' 1 = prosto (nakljucno razmetano), 2 = v vrstah
-Private Const DEF_ODPRTOST As Double = 13     ' ciljna odprtost plosce [%] (samo prosto)
+Private Const DEF_GOSTOTA As Long = 3         ' gostota: 1 zelo zaprto, 2 zaprto, 3 srednje, 4 odprto, 5 zelo odprto, 6 po meri
+Private Const DEF_ODPRTOST As Double = 13     ' ciljna odprtost plosce [%] (za 6 = po meri)
 Private Const DEF_RAZMIK As Double = 10       ' min. material nad/pod rezo (med vrstami)
 Private Const DEF_LMIN As Double = 40         ' min. dolzina reze
 Private Const DEF_LMAX As Double = 220        ' max. dolzina reze
@@ -50,7 +52,8 @@ Private Const EPS_M As Double = 0.000000001   ' [m]
 Private pW As Double, pH As Double, pM As Double
 Private pSh As Double, pR As Double, pRow As Double
 Private pLmin As Double, pLmax As Double, pGmin As Double, pGmax As Double
-Private pLayout As Long, pTarget As Double
+Private pLayout As Long, pTarget As Double, pDensity As Long
+Private pRowUsed As Double, gOpen As Double
 Private pEdge As Double, pSeed As Long, pMode As Long, pCut As Long
 
 ' ---------- generirane reze [mm]: center X, center Y, dolzina ----------
@@ -90,6 +93,7 @@ Sub main()
 
     ' --- parametri ---
     SetDefaults
+    If Not AskDensity() Then Exit Sub
     If Not AskParams() Then Exit Sub
     If Not ValidateParams() Then Exit Sub
 
@@ -152,11 +156,16 @@ Sub main()
 
     ' --- povzetek ---
     msg = "Narejeno v " & Format(Timer - t, "0.0") & " s" & vbCrLf & vbCrLf & _
-          IIf(pLayout = 1, "Razporeditev: prosto", "Vrst: " & nRows) & vbCrLf & _
+          "Gostota: " & DensityName() & vbCrLf & _
+          IIf(pLayout = 1, "Razporeditev: prosto", "Vrst: " & nRows & " (razmik " & F(pRowUsed) & ")") & vbCrLf & _
           "Rez: " & sN & vbCrLf & _
           "Seme: " & pSeed & "  (vpisi ga za enak vzorec)" & vbCrLf & _
           "Nacin risanja: " & IIf(usedMode = 1, "hitro", "robustno") & vbCrLf & _
           SummaryText()
+    If gOpen < pTarget - 0.5 Then
+        msg = msg & vbCrLf & vbCrLf & "Ciljna odprtost " & F(pTarget) & " % ni dosezena - plosca je polna. " & _
+              "Za bolj odprto ograjo zmanjsaj min. material med rezami ali izberi gostoto 5."
+    End If
     If pCut = 1 Then
         If swCutFeat Is Nothing Then
             msg = msg & vbCrLf & vbCrLf & "POZOR: Cut-Extrude ni uspel. Skica 'Random reze' je ostala - " & _
@@ -184,7 +193,7 @@ Private Sub SetDefaults()
     pW = DEF_SIRINA: pH = DEF_VISINA: pM = DEF_ODMIK
     pSh = DEF_H: pR = DEF_R: pRow = DEF_RAZMIK
     pLmin = DEF_LMIN: pLmax = DEF_LMAX: pGmin = DEF_GMIN: pGmax = DEF_GMAX
-    pLayout = DEF_RAZPORED: pTarget = DEF_ODPRTOST
+    pLayout = DEF_RAZPORED: pTarget = DEF_ODPRTOST: pDensity = DEF_GOSTOTA
     pEdge = DEF_ROB: pSeed = DEF_SEME: pMode = DEF_NACIN: pCut = DEF_REZ
 End Sub
 
@@ -194,7 +203,8 @@ Private Function ParamText() As String
         "Min. odmik od robov: " & F(pM) & vbCrLf & _
         "Reza: visina " & F(pSh) & ", R" & F(pR) & vbCrLf & _
         "Dolzina reze: " & F(pLmin) & " - " & F(pLmax) & vbCrLf & _
-        "Razporeditev: " & IIf(pLayout = 1, "1 prosto, ciljna odprtost " & F(pTarget) & " %", "2 v vrstah") & vbCrLf & _
+        "Gostota: " & DensityName() & ", ciljna odprtost " & F(pTarget) & " %" & vbCrLf & _
+        "Razporeditev: " & IIf(pLayout = 1, "1 prosto", "2 v vrstah") & vbCrLf & _
         "Min. material levo/desno: " & F(pGmin) & IIf(pLayout = 2, " (max " & F(pGmax) & ")", "") & vbCrLf & _
         "Min. material zgoraj/spodaj: " & F(pRow) & vbCrLf & _
         IIf(pLayout = 2, "Nakljucni zamik na robu: 0 - " & F(pEdge) & vbCrLf, "") & _
@@ -224,9 +234,8 @@ Private Function AskParams() As Boolean
         pLayout = CLng(AskNum("Razporeditev" & vbCrLf & "1 = prosto (nakljucno razmetano)" & vbCrLf & "2 = v vrstah", pLayout))
         pGmin = AskNum("Min. material levo/desno med rezami [mm]", pGmin)
         pRow = AskNum("Min. material zgoraj/spodaj med rezami [mm]", pRow)
-        If pLayout = 1 Then
-            pTarget = AskNum("Ciljna odprtost plosce [%]" & vbCrLf & "manj = redkejse (npr. 8), vec = gosteje (npr. 18)", pTarget)
-        Else
+        pTarget = AskNum("Ciljna odprtost plosce [%]" & vbCrLf & "manj = bolj zaprta ograja (npr. 5), vec = bolj odprta (npr. 20)", pTarget)
+        If pLayout = 2 Then
             pGmax = AskNum("Max. material med rezami v vrsti [mm]", pGmax)
             pEdge = AskNum("Max. nakljucni zamik vrste od levega/desnega roba [mm]" & vbCrLf & "Vsaka vrsta se zacne/konca nakljucno 0 - X mm za odmikom." & vbCrLf & "0 = raven rob (vse vrste od odmika do odmika)", pEdge)
         End If
@@ -235,6 +244,52 @@ Private Function AskParams() As Boolean
         pCut = CLng(AskNum("Naredi Cut-Extrude skozi vse?" & vbCrLf & "1 = da, 0 = samo skica", pCut))
         If mCancel Then Exit Function
     Loop
+End Function
+
+' Izbira gostote vzorca (kako odprta je ograja)
+Private Function AskDensity() As Boolean
+    Dim s As String, v As Long
+    Do
+        s = InputBox("Gostota vzorca - kako odprta naj bo ograja?" & vbCrLf & vbCrLf & _
+            "1 = zelo zaprto  (~5 % odprtosti, malo rez)" & vbCrLf & _
+            "2 = zaprto  (~9 %)" & vbCrLf & _
+            "3 = srednje  (~13 %)" & vbCrLf & _
+            "4 = odprto  (~18 %)" & vbCrLf & _
+            "5 = zelo odprto  (~23 %, razmiki zmanjsani na 18 / 8 mm)" & vbCrLf & _
+            "6 = po meri (vpises % odprtosti)", "Random reze - gostota", CStr(pDensity))
+        If StrPtr(s) = 0 Then Exit Function          ' Cancel
+        v = CLng(Val(Trim$(s)))
+        If v >= 1 And v <= 6 Then Exit Do
+        MsgBox "Vpisi stevilko od 1 do 6.", vbExclamation, "Random reze"
+    Loop
+
+    pDensity = v
+    Select Case v
+        Case 1: pTarget = 5
+        Case 2: pTarget = 9
+        Case 3: pTarget = 13
+        Case 4: pTarget = 18
+        Case 5
+            pTarget = 23
+            If pGmin > 18 Then pGmin = 18           ' sicer se 23 % ne da doseci
+            If pRow > 8 Then pRow = 8
+        Case 6
+            mCancel = False
+            pTarget = AskNum("Ciljna odprtost plosce [%]" & vbCrLf & _
+                "Pri razmikih 25 / 10 mm je prosto mozno do ~20 %.", pTarget)
+            If mCancel Then Exit Function
+    End Select
+    AskDensity = True
+End Function
+
+Private Function DensityName() As String
+    Dim names As Variant, std As Variant
+    names = Array("", "zelo zaprto", "zaprto", "srednje", "odprto", "zelo odprto")
+    std = Array(0, 5, 9, 13, 18, 23)
+    If pDensity >= 1 And pDensity <= 5 Then
+        If Abs(std(pDensity) - pTarget) < EPS Then DensityName = pDensity & " " & names(pDensity): Exit Function
+    End If
+    DensityName = "po meri"
 End Function
 
 Private Function AskNum(prompt As String, def As Double) As Double
@@ -256,7 +311,7 @@ Private Function ValidateParams() As Boolean
     If pR < 0 Then e = e & "- Radij ne sme biti negativen." & vbCrLf
     If pRow <= 0 Then e = e & "- Material zgoraj/spodaj mora biti > 0." & vbCrLf
     If pLayout <> 1 And pLayout <> 2 Then e = e & "- Razporeditev mora biti 1 ali 2." & vbCrLf
-    If pLayout = 1 And (pTarget <= 0 Or pTarget > 60) Then e = e & "- Ciljna odprtost mora biti med 0 in 60 %." & vbCrLf
+    If pTarget <= 0 Or pTarget > 60 Then e = e & "- Ciljna odprtost mora biti med 0 in 60 %." & vbCrLf
     If pLmin <= 0 Or pLmax < pLmin Then e = e & "- Preveri min/max dolzino reze." & vbCrLf
     If pGmin <= 0 Or pGmax < pGmin Then e = e & "- Preveri min/max material med rezami." & vbCrLf
     If pLmin > pW - 2 * pM Then e = e & "- Min. dolzina reze je vecja od uporabne sirine." & vbCrLf
@@ -290,15 +345,21 @@ Private Sub GeneratePattern()
 
     wu = pW - 2 * pM
     hu = pH - 2 * pM
-    pitch = pSh + pRow
-    nRows = Int((hu + pRow) / pitch + EPS)
+    ' razmik med vrstami iz ciljne odprtosti (ocena), nikoli manj od min. materiala
+    Dim fillX As Double, aFac As Double
+    fillX = ((pLmin + pLmax) / 2) / ((pLmin + pLmax) / 2 + (pGmin + pGmax) / 2)
+    aFac = (wu - pEdge) * hu / (pW * pH)
+    pRowUsed = pSh * (fillX * aFac * 100 / pTarget - 1)
+    If pRowUsed < pRow Then pRowUsed = pRow
+    pitch = pSh + pRowUsed
+    nRows = Int((hu + pRowUsed) / pitch + EPS)
     sN = 0
     If nRows < 1 Then Exit Sub
 
     ReDim sX(0 To 511): ReDim sY(0 To 511): ReDim sL(0 To 511)
 
     ' vrste centrirane po visini
-    totH = nRows * pSh + (nRows - 1) * pRow
+    totH = nRows * pSh + (nRows - 1) * pRowUsed
     yTop = totH / 2 - pSh / 2
     Dim insL As Double, insR As Double
     For r = 0 To nRows - 1
@@ -470,6 +531,7 @@ Private Function SummaryText() As String
         If sY(i) + pSh / 2 > y1 Then y1 = sY(i) + pSh / 2
         area = area + sL(i) * pSh - cornerLoss
     Next i
+    gOpen = 100 * area / (pW * pH)
     SummaryText = "Gabarit vzorca: " & F(x1 - x0) & " x " & F(y1 - y0) & vbCrLf & _
                   "Odmik levo/desno: " & F(x0 + pW / 2) & " / " & F(pW / 2 - x1) & vbCrLf & _
                   "Odmik spodaj/zgoraj: " & F(y0 + pH / 2) & " / " & F(pH / 2 - y1) & vbCrLf & _
