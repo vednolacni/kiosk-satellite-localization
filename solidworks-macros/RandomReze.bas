@@ -10,6 +10,7 @@ Attribute VB_Name = "RandomReze"
 '   3. Tools > Macro > Run, potrdi ali spremeni parametre.
 '
 ' Vse mere so v mm. Vzorec je centriran na izhodisce skice (sredisce gabarita).
+' Vsaka vrsta ima na levi in desni nakljucen zamik (0 - DEF_ROB) -> razgiban rob.
 ' Reze so pravokotniki z zaobljenimi vogali (R). Ce je R = visina/2 -> polkrozni konci.
 '
 ' NAMESTITEV
@@ -30,7 +31,7 @@ Private Const DEF_LMIN As Double = 40         ' min. dolzina reze
 Private Const DEF_LMAX As Double = 200        ' max. dolzina reze
 Private Const DEF_GMIN As Double = 20         ' min. material med rezami v vrsti
 Private Const DEF_GMAX As Double = 120        ' max. material med rezami v vrsti
-Private Const DEF_PORAVNAJ As Long = 1        ' 1 = raven levi/desni rob vzorca, 0 = razgiban rob
+Private Const DEF_ROB As Double = 150         ' max. nakljucni zamik vrste od levega/desnega odmika (0 = raven rob)
 Private Const DEF_SEME As Long = 0            ' 0 = nakljucno, >0 = ponovljiv vzorec
 Private Const DEF_NACIN As Long = 1           ' 1 = hitro (crte + loki), 2 = pravokotnik + zaokrozitev
 Private Const DEF_REZ As Long = 1             ' 1 = naredi Cut-Extrude skozi vse, 0 = samo skica
@@ -42,7 +43,7 @@ Private Const EPS_M As Double = 0.000000001   ' [m]
 Private pW As Double, pH As Double, pM As Double
 Private pSh As Double, pR As Double, pRow As Double
 Private pLmin As Double, pLmax As Double, pGmin As Double, pGmax As Double
-Private pAlign As Long, pSeed As Long, pMode As Long, pCut As Long
+Private pEdge As Double, pSeed As Long, pMode As Long, pCut As Long
 
 ' ---------- generirane reze [mm]: center X, center Y, dolzina ----------
 Private sX() As Double, sY() As Double, sL() As Double
@@ -175,7 +176,7 @@ Private Sub SetDefaults()
     pW = DEF_SIRINA: pH = DEF_VISINA: pM = DEF_ODMIK
     pSh = DEF_H: pR = DEF_R: pRow = DEF_RAZMIK
     pLmin = DEF_LMIN: pLmax = DEF_LMAX: pGmin = DEF_GMIN: pGmax = DEF_GMAX
-    pAlign = DEF_PORAVNAJ: pSeed = DEF_SEME: pMode = DEF_NACIN: pCut = DEF_REZ
+    pEdge = DEF_ROB: pSeed = DEF_SEME: pMode = DEF_NACIN: pCut = DEF_REZ
 End Sub
 
 Private Function ParamText() As String
@@ -186,7 +187,7 @@ Private Function ParamText() As String
         "Dolzina reze: " & F(pLmin) & " - " & F(pLmax) & vbCrLf & _
         "Material med rezami v vrsti: " & F(pGmin) & " - " & F(pGmax) & vbCrLf & _
         "Material med vrstami: " & F(pRow) & vbCrLf & _
-        "Raven levi/desni rob: " & IIf(pAlign = 1, "da", "ne") & vbCrLf & _
+        "Nakljucni zamik na robu: 0 - " & F(pEdge) & vbCrLf & _
         "Seme: " & IIf(pSeed <= 0, "nakljucno", CStr(pSeed)) & vbCrLf & _
         "Nacin: " & IIf(pMode = 1, "1 hitro", "2 robustno") & vbCrLf & _
         "Cut-Extrude: " & IIf(pCut = 1, "da", "ne (samo skica)")
@@ -213,7 +214,7 @@ Private Function AskParams() As Boolean
         pLmax = AskNum("Max. dolzina reze [mm]", pLmax)
         pGmin = AskNum("Min. material med rezami v vrsti [mm]", pGmin)
         pGmax = AskNum("Max. material med rezami v vrsti [mm]", pGmax)
-        pAlign = CLng(AskNum("Raven levi/desni rob vzorca?" & vbCrLf & "1 = da (vse vrste od odmika do odmika)" & vbCrLf & "0 = ne (vrste centrirane, razgiban rob)", pAlign))
+        pEdge = AskNum("Max. nakljucni zamik vrste od levega/desnega roba [mm]" & vbCrLf & "Vsaka vrsta se zacne/konca nakljucno 0 - X mm za odmikom." & vbCrLf & "0 = raven rob (vse vrste od odmika do odmika)", pEdge)
         pSeed = CLng(AskNum("Seme nakljucnih stevil" & vbCrLf & "0 = vsakic nov vzorec, npr. 1234 = vedno enak vzorec", pSeed))
         pMode = CLng(AskNum("Nacin risanja" & vbCrLf & "1 = hitro (crte + loki)" & vbCrLf & "2 = robustno (pravokotnik + sketch fillet, pocasneje)", pMode))
         pCut = CLng(AskNum("Naredi Cut-Extrude skozi vse?" & vbCrLf & "1 = da, 0 = samo skica", pCut))
@@ -243,7 +244,8 @@ Private Function ValidateParams() As Boolean
     If pGmin <= 0 Or pGmax < pGmin Then e = e & "- Preveri min/max material med rezami." & vbCrLf
     If pLmin > pW - 2 * pM Then e = e & "- Min. dolzina reze je vecja od uporabne sirine." & vbCrLf
     If pMode <> 1 And pMode <> 2 Then e = e & "- Nacin mora biti 1 ali 2." & vbCrLf
-    If pAlign <> 0 Then pAlign = 1
+    If pEdge < 0 Then e = e & "- Zamik na robu ne sme biti negativen." & vbCrLf
+    If pW - 2 * pM - 2 * pEdge < pLmin Then e = e & "- Zamik na robu je prevelik (vrsta bi bila krajsa od min. dolzine reze)." & vbCrLf
     If pCut <> 0 Then pCut = 1
 
     If pR > pSh / 2 Then pR = pSh / 2          ' vec kot polkrog ni mogoce
@@ -280,8 +282,12 @@ Private Sub GeneratePattern()
     ' vrste centrirane po visini
     totH = nRows * pSh + (nRows - 1) * pRow
     yTop = totH / 2 - pSh / 2
+    Dim insL As Double, insR As Double
     For r = 0 To nRows - 1
-        GenerateRow -wu / 2, wu, yTop - r * pitch
+        ' nakljucen zamik vrste od levega in desnega odmika -> razgiban rob
+        insL = Rnd * pEdge
+        insR = Rnd * pEdge
+        GenerateRow -wu / 2 + insL, wu - insL - insR, yTop - r * pitch
     Next r
 End Sub
 
@@ -315,13 +321,13 @@ Private Sub GenerateRow(xmin As Double, wu As Double, yc As Double)
     If n = 0 Then Exit Sub
 
     extra = wu - pos      ' preostanek (< min presledek + min dolzina)
-    If pAlign = 1 And n > 1 Then
-        ' raztegni presledke, da vrsta sega tocno od odmika do odmika
+    If n > 1 Then
+        ' raztegni presledke, da vrsta sega tocno od zacetka do konca
         For i = 1 To n - 1
             st(i) = st(i) + extra * i / (n - 1)
         Next i
     Else
-        ' centriraj vrsto
+        ' ena sama reza -> na sredino
         For i = 0 To n - 1
             st(i) = st(i) + extra / 2
         Next i
