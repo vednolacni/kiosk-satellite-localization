@@ -8,7 +8,9 @@ Attribute VB_Name = "RandomReze"
 '      npr. ograja ob stopniscu; obstojece luknje se upostevajo)
 '   b) SKICA obrisa (izbrana v drevesu, izbran njen rob ali odprta skica)
 '      -> reze znotraj obrisa skice (pomozne / construction crte se ne upostevajo)
-'   c) nic ali ravnina -> vpises sirino in visino (pravokotnik centriran v izhodiscu)
+'   c) RAVNINA (ali nic -> prva ravnina, Front) -> makro poisce najvecjo ploskev
+'      telesa, ki lezi na tej ravnini ali vzporedno tik ob njej (do 25 mm)
+'   d) ce te ni -> po potrditvi vpises sirino in visino (pravokotnik v izhodiscu)
 '
 ' SMER REZ:  0 = vodoravno, A = vzporedno z najdaljsim ravnim robom,
 '            S = sledi obliki (vsaka reza v smeri najblizjega dolgega roba),
@@ -58,6 +60,7 @@ Private Const EDGE_SEGS As Long = 48          ' razdelitev krivih robov ploskve
 Private Const SCAN_STEP As Double = 2         ' [mm] korak iskanja prostora v vrsti
 Private Const SCAN_LINES As Long = 800        ' natancnost izracuna povrsine
 Private Const LONG_EDGE As Double = 0.5       ' S: "dolg" rob = vsaj 50 % najdaljsega ravnega roba
+Private Const FACE_MAX_OFFSET As Double = 25  ' [mm] iskanje ploskve ob izbrani ravnini (debelina plocevine)
 
 ' ---------- parametri ----------
 Private pW As Double, pH As Double, pM As Double
@@ -163,6 +166,22 @@ Sub main()
     End If
     Set tgtFeat = tgtSketch
     Set xf = tgtSketch.ModelToSketchTransform
+
+    ' ni izbrane ploskve/skice -> poisci ploskev plosce na ravnini skice (ali tik ob njej)
+    If gSrc = 1 Then
+        Set srcFace = FindFaceOnPlane(swModel, xf)
+        If Not srcFace Is Nothing Then
+            gSrc = 2: gSrcName = "ploskev na izbrani ravnini"
+        Else
+            If MsgBox("Ni izbrane ploskve ali skice plosce, na ravnini skice pa ni nobene ploskve." & vbCrLf & vbCrLf & _
+                      "Za plosco poljubne oblike klikni celno ploskev plosce in pozeni znova." & vbCrLf & vbCrLf & _
+                      "Da = nadaljuj z vpisanimi merami (pravokotnik centriran v izhodiscu)" & vbCrLf & _
+                      "Ne = prekini", vbYesNo + vbQuestion, "Random reze") = vbNo Then
+                AbortSketch swModel, skMgr, tgtFeat
+                Exit Sub
+            End If
+        End If
+    End If
 
     ' ---------- 3. preberi obris ----------
     ResetRegion
@@ -1272,6 +1291,71 @@ Private Sub SkToSk(ByVal x As Double, ByVal y As Double, inv As SldWorks.MathTra
     v = mp.ArrayData
     ox = v(0) * 1000#: oy = v(1) * 1000#
 End Sub
+
+' najvecja ravna ploskev telesa, ki lezi v ravnini skice ali vzporedno tik ob njej
+' (do FACE_MAX_OFFSET, npr. druga stran plocevine)
+Private Function FindFaceOnPlane(swModel As SldWorks.ModelDoc2, xf As SldWorks.MathTransform) As SldWorks.Face2
+    Dim pd As SldWorks.PartDoc, bodies As Variant, faces As Variant
+    Dim bd As SldWorks.Body2, fc As SldWorks.Face2
+    Dim i As Long, j As Long, best As Double, ar As Double, z As Double, bestZ As Double
+    On Error Resume Next
+    Set pd = swModel
+    bodies = pd.GetBodies2(0, True)          ' swSolidBody, samo vidna telesa
+    If IsEmpty(bodies) Then Exit Function
+    bestZ = 1E+30
+    For i = 0 To UBound(bodies)
+        Set bd = bodies(i)
+        faces = bd.GetFaces
+        If Not IsEmpty(faces) Then
+            For j = 0 To UBound(faces)
+                Set fc = faces(j)
+                If fc.GetSurface.IsPlane Then
+                    If FaceParallelZ(fc, xf, z) Then
+                        If Abs(z) <= FACE_MAX_OFFSET Then
+                            ar = fc.GetArea
+                            ' najvecja ploskev; pri enaki velikosti tista, ki je blizje ravnini
+                            If ar > best * 1.001 Or (ar > best * 0.999 And Abs(z) < bestZ) Then
+                                best = ar: bestZ = Abs(z)
+                                Set FindFaceOnPlane = fc
+                            End If
+                        End If
+                    End If
+                End If
+            Next j
+        End If
+    Next i
+End Function
+
+' True, ce vsa krajisca robov ploskve lezijo na isti visini z nad ravnino skice [mm]
+Private Function FaceParallelZ(fc As SldWorks.Face2, xf As SldWorks.MathTransform, ByRef z As Double) As Boolean
+    Dim edges As Variant, i As Long, k As Long, ed As SldWorks.Edge, prm As Variant, zz As Double
+    edges = fc.GetEdges
+    If IsEmpty(edges) Then Exit Function
+    For i = 0 To UBound(edges)
+        Set ed = edges(i)
+        prm = ed.GetCurveParams2
+        For k = 0 To 1
+            zz = ModelZ(prm(3 * k), prm(3 * k + 1), prm(3 * k + 2), xf)
+            If i = 0 And k = 0 Then
+                z = zz
+            ElseIf Abs(zz - z) > 0.01 Then
+                Exit Function
+            End If
+        Next k
+    Next i
+    FaceParallelZ = True
+End Function
+
+' visina tocke (model) nad ravnino skice [mm]
+Private Function ModelZ(ByVal x As Double, ByVal y As Double, ByVal z As Double, xf As SldWorks.MathTransform) As Double
+    Dim d(2) As Double, v As Variant, mp As SldWorks.MathPoint
+    d(0) = x: d(1) = y: d(2) = z
+    v = d
+    Set mp = gMath.CreatePoint(v)
+    Set mp = mp.MultiplyTransform(xf)
+    v = mp.ArrayData
+    ModelZ = v(2) * 1000#
+End Function
 
 Private Function HasBody(swModel As SldWorks.ModelDoc2) As Boolean
     Dim pd As SldWorks.PartDoc, v As Variant
